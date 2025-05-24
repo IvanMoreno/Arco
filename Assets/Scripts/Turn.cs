@@ -1,16 +1,40 @@
+using System.Threading.Tasks;
+using Unity.VisualScripting;
 using UnityEngine;
 
-public class Turn : MonoBehaviour
+internal class Turn : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    async void Start()
+    {
+        await CosasAntesDelPrimerTurno();
+        while (!destroyCancellationToken.IsCancellationRequested)
+            await OneTurn();
+    }
+
+    async Task CosasAntesDelPrimerTurno()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
+    async Task OneTurn()
     {
+        await EnseñarLasPredicciones();
+        await ChooseAction();
+        await EsconderLasPredicciones();
         
+        await EjecutarLasAccionesPendientes();
+    }
+
+    async Task EsconderLasPredicciones() { }
+    async Task EnseñarLasPredicciones() { }
+
+    async Task ChooseAction()
+    {
+        await FindAnyObjectByType<TargetCursor>().SelectTarget();
+    }
+
+    async Task EjecutarLasAccionesPendientes()
+    {
+        await FindAnyObjectByType<Character>().HacerLoQueTengaPendiente();
     }
 }
