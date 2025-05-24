@@ -9,7 +9,8 @@ internal class TargetCursor : MonoBehaviour
         {
             await Task.Yield();
         }
-        
-        FindAnyObjectByType<Character>().GetComponent<Movimiento>().Hacia(transform.position + Vector3.right * 5f);
+
+        var character = FindAnyObjectByType<Character>().GetComponent<Movimiento>();
+        character.Hacia(character.transform.position + Vector3.right);
     }
 }
