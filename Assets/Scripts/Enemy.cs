@@ -23,13 +23,12 @@ internal class Enemy : MonoBehaviour
     public async Task DecidirSiguienteAccion()
     {
         willAttackInThisTurn = Random.value >= 0.5f;
-        targetPosition = (Vector2)transform.position + Random.insideUnitCircle * 3;
+        var movementPosition = (Vector2)transform.position + Random.insideUnitCircle * 3;
+        targetPosition = willAttackInThisTurn ? RandomCharacterPosition() : movementPosition;
         if (!willAttackInThisTurn)
             GetComponent<Movimiento>().Towards(targetPosition);
         else
-        {
-            GetComponent<Disparo>().Towards(RandomCharacterPosition());
-        }
+            GetComponent<Disparo>().Towards(targetPosition);
     }
 
     static Vector3 RandomCharacterPosition()
