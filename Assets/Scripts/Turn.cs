@@ -76,7 +76,7 @@ internal class Turn : MonoBehaviour
     static async Task PlanearAccionesDeLosPersonajes()
     {
         foreach (var character in FindObjectsByType<Character>(None))
-            await FindAnyObjectByType<Choose>().WaitForChoose(character);
+            await FindAnyObjectByType<Choose>().WaitForChoose(character.GetComponent<Somebody>());
     }
 
     Task EjecutarLasAccionesPendientes()

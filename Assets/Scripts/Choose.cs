@@ -7,7 +7,7 @@ internal class Choose : MonoBehaviour
 {
     string selectedChoice;
     
-    public async Task WaitForChoose(Character character)
+    public async Task WaitForChoose(Somebody character)
     {
         SwitchTo("move");
         
