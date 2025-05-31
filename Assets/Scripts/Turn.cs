@@ -36,7 +36,7 @@ internal class Turn : MonoBehaviour
     {
         foreach (var enemy in FindObjectsByType<Enemy>(None))
         {
-            await FindAnyObjectByType<AI>().ChooseFor(enemy);
+            await FindAnyObjectByType<AI>().ChooseFor(enemy.GetComponent<AlgoComunEntreCharacterYEnemy>());
         }
     }
 
@@ -95,6 +95,7 @@ internal class Turn : MonoBehaviour
     static Task Enemies()
     {
         var tasks = FindObjectsByType<Enemy>(None)
+            .Select(character => character.GetComponent<AlgoComunEntreCharacterYEnemy>())
             .Select(enemy => enemy.HacerLoQueTengaPendiente());
         return Task.WhenAll(tasks);
     }

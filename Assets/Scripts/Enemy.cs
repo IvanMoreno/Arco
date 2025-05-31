@@ -8,27 +8,9 @@ internal class Enemy : MonoBehaviour
     [SerializeField] GameObject attackPrediction;
     [SerializeField] GameObject movementPrediction;
 
-    Color ActionColor => willAttackInThisTurn ? Color.red : Color.yellow;
+    Color ActionColor => GetComponent<AlgoComunEntreCharacterYEnemy>().WillAttack ? Color.red : Color.yellow;
 
     #region Algo que todavía no tenemos claro pero que se repite en character
-
-    bool willAttackInThisTurn;
-    public Task HacerLoQueTengaPendiente()
-    {
-        return GetComponent<AlgoComunEntreCharacterYEnemy>().HacerLoQueTengaPendiente();
-    }
-    
-    public void ProgramarMovimiento(Vector3 target)
-    {
-        GetComponent<AlgoComunEntreCharacterYEnemy>().ProgramarMovimiento(target);
-        willAttackInThisTurn = false;
-    }
-    
-    public void ProgramarDisparo(Vector3 target)
-    {
-        willAttackInThisTurn = true;
-        GetComponent<AlgoComunEntreCharacterYEnemy>().ProgramarDisparo(target);
-    }
 
     public void RecibirImpacto()
     {
@@ -39,8 +21,8 @@ internal class Enemy : MonoBehaviour
 
     public async Task ShowPrediction()
     {
-        attackPrediction.SetActive(willAttackInThisTurn);
-        movementPrediction.SetActive(!willAttackInThisTurn);
+        attackPrediction.SetActive(GetComponent<AlgoComunEntreCharacterYEnemy>().WillAttack);
+        movementPrediction.SetActive(!GetComponent<AlgoComunEntreCharacterYEnemy>().WillAttack);
     }
 
     public async Task HidePrediction()
@@ -63,7 +45,7 @@ internal class Enemy : MonoBehaviour
 
     Vector2 TargetOfThePreview()
     {
-        return willAttackInThisTurn
+        return GetComponent<AlgoComunEntreCharacterYEnemy>().WillAttack
             ? GetComponent<Disparo>().Target
             : GetComponent<Movimiento>().Destination;
     }

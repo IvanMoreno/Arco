@@ -4,6 +4,8 @@ using UnityEngine;
 internal class AlgoComunEntreCharacterYEnemy : MonoBehaviour
 {
     Intent intent;
+    
+    public bool WillAttack => intent is Disparo;
 
     public Task HacerLoQueTengaPendiente()
     {
