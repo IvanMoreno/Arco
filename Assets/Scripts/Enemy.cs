@@ -8,7 +8,6 @@ internal class Enemy : MonoBehaviour
     [SerializeField] GameObject attackPrediction;
     [SerializeField] GameObject movementPrediction;
 
-    Vector2 targetPosition;
     Color ActionColor => willAttackInThisTurn ? Color.red : Color.yellow;
 
     #region Algo que todavía no tenemos claro pero que se repite en character
@@ -25,14 +24,12 @@ internal class Enemy : MonoBehaviour
     public void ProgramarMovimiento(Vector3 target)
     {
         willAttackInThisTurn = false;
-        targetPosition = target;
         GetComponent<Movimiento>().Towards(target);
     }
     
     public void ProgramarDisparo(Vector3 target)
     {
         willAttackInThisTurn = true;
-        targetPosition = target;
         GetComponent<Disparo>().Towards(target);
     }
 
@@ -72,7 +69,7 @@ internal class Enemy : MonoBehaviour
     Vector2 TargetOfThePreview()
     {
         return willAttackInThisTurn
-            ? targetPosition
+            ? GetComponent<Disparo>().Target
             : GetComponent<Movimiento>().Destination;
     }
 

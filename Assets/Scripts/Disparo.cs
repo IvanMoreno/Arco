@@ -5,13 +5,13 @@ internal class Disparo : MonoBehaviour
 {
     [SerializeField] GameObject projectilePrefab;
 
-    Vector3 target;
+    public Vector3 Target { get; private set; }
 
     public async Task Hacerse()
     {
         var projectile = Instantiate(projectilePrefab, transform.position, Quaternion.identity);
-        projectile.GetComponent<Projectile>().Towards(target);
+        projectile.GetComponent<Projectile>().Towards(Target);
     }
     
-    public void Towards(Vector3 target) => this.target = target;
+    public void Towards(Vector3 target) => this.Target = target;
 }
