@@ -13,31 +13,26 @@ internal class Enemy : MonoBehaviour
     #region Algo que todavía no tenemos claro pero que se repite en character
 
     bool willAttackInThisTurn;
-
     public Task HacerLoQueTengaPendiente()
     {
-        return willAttackInThisTurn
-            ? GetComponent<Disparo>().Hacerse()
-            : GetComponent<Movimiento>().Hacerse();
+        return GetComponent<AlgoComunEntreCharacterYEnemy>().HacerLoQueTengaPendiente();
     }
     
     public void ProgramarMovimiento(Vector3 target)
     {
+        GetComponent<AlgoComunEntreCharacterYEnemy>().ProgramarMovimiento(target);
         willAttackInThisTurn = false;
-        GetComponent<Movimiento>().Towards(target);
     }
     
     public void ProgramarDisparo(Vector3 target)
     {
         willAttackInThisTurn = true;
-        GetComponent<Disparo>().Towards(target);
+        GetComponent<AlgoComunEntreCharacterYEnemy>().ProgramarDisparo(target);
     }
 
     public void RecibirImpacto()
     {
-        GetComponent<Vida>().UnaMenos();
-        if (GetComponent<Vida>().EstaMuerto())
-            Destroy(gameObject);
+        GetComponent<AlgoComunEntreCharacterYEnemy>().RecibirImpacto();
     }
 
     #endregion
