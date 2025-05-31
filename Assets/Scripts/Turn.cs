@@ -1,26 +1,15 @@
 using System.Threading.Tasks;
-using Unity.VisualScripting;
 using UnityEngine;
 
 internal class Turn : MonoBehaviour
 {
+    int turn;
+
     async void Start()
     {
         await CosasAntesDelPrimerTurno();
-        int turn = 0;
         while (!destroyCancellationToken.IsCancellationRequested)
-        {
-            await SpawnEnemies(turn++);
             await OneTurn();
-        }
-    }
-
-    async Task SpawnEnemies(int turn)
-    {
-        foreach (var spawner in FindObjectsByType<Spawner>((FindObjectsSortMode)FindObjectsInactive.Exclude))
-        {
-            await spawner.ApareceSiEsElTurno(turn);
-        }
     }
 
     async Task CosasAntesDelPrimerTurno()
@@ -37,6 +26,7 @@ internal class Turn : MonoBehaviour
     }
 
     async Task EsconderLasPredicciones() { }
+
     async Task EnseñarLasPredicciones() { }
 
     async Task ChooseAction()
@@ -46,7 +36,16 @@ internal class Turn : MonoBehaviour
 
     async Task EjecutarLasAccionesPendientes()
     {
+        await SpawnEnemies(++turn);
         await FindAnyObjectByType<Character>().HacerLoQueTengaPendiente();
         await FindAnyObjectByType<Enemy>().HacerLoQueTengaPendiente();
+    }
+
+    async Task SpawnEnemies(int turn)
+    {
+        foreach (var spawner in FindObjectsByType<Spawner>((FindObjectsSortMode)FindObjectsInactive.Exclude))
+        {
+            await spawner.ApareceSiEsElTurno(turn);
+        }
     }
 }
