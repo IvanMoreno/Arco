@@ -1,19 +1,18 @@
-﻿using System;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using NUnit.Framework;
 using UnityEngine;
 
-internal class Choose : MonoBehaviour
+internal class HumanPlayer : MonoBehaviour, Brain
 {
     string selectedChoice;
     
-    public async Task WaitForChoose(Somebody character)
+    public async Task Think()
     {
         SwitchTo("move");
         
-        character.GetComponentInChildren<SelectionMark>().Show();
-        await ChooseFor(character.GetComponent<Somebody>());
-        character.GetComponentInChildren<SelectionMark>().Hide();
+        GetComponent<Somebody>().GetComponentInChildren<SelectionMark>().Show();
+        await ChooseFor(GetComponent<Somebody>().GetComponent<Somebody>());
+        GetComponent<Somebody>().GetComponentInChildren<SelectionMark>().Hide();
     }
 
     async Task ChooseFor(Somebody character)

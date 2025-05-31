@@ -34,9 +34,9 @@ internal class Turn : MonoBehaviour
 
     async Task EsperarAQueEnemigosDecidan()
     {
-        foreach (var enemy in FindObjectsByType<Enemy>(None))
+        foreach (var enemy in FindObjectsByType<Somebody>(None).Where(x => x.IsEnemy))
         {
-            await FindAnyObjectByType<AI>().ChooseFor(enemy.GetComponent<Somebody>());
+            await enemy.Choose();
         }
     }
 
@@ -76,7 +76,7 @@ internal class Turn : MonoBehaviour
     static async Task PlanearAccionesDeLosPersonajes()
     {
         foreach (var character in AllCharacters())
-            await FindAnyObjectByType<Choose>().WaitForChoose(character);
+            await character.Choose();
     }
 
     static IEnumerable<Somebody> AllCharacters()

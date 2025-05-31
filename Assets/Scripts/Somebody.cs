@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Threading.Tasks;
 using UnityEngine;
 
 internal class Somebody : MonoBehaviour
@@ -8,6 +9,14 @@ internal class Somebody : MonoBehaviour
     Intent intent;
     
     public bool WillAttack => intent is Disparo;
+
+    void Awake()
+    {
+        if (!IsEnemy)
+            gameObject.AddComponent<HumanPlayer>();
+        else
+            gameObject.AddComponent<AI>();
+    }
 
     public Task HacerLoQueTengaPendiente()
     {
@@ -31,5 +40,10 @@ internal class Somebody : MonoBehaviour
         GetComponent<Vida>().UnaMenos();
         if (GetComponent<Vida>().EstaMuerto())
             Destroy(gameObject);
+    }
+
+    public Task Choose()
+    {
+        return GetComponent<Brain>().Think();
     }
 }
