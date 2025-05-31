@@ -14,8 +14,9 @@ internal class Enemy : MonoBehaviour
     {
         var posPersonaje = FindAnyObjectByType<Character>().transform.position;
 
+        //instantiate a projectile and move it towards the character
         var projectile = Instantiate(projectilePrefab, transform.position, Quaternion.identity);
-        projectile.transform.up = (posPersonaje - transform.position).normalized;
+        projectile.GetComponent<Projectile>().Towards(posPersonaje);
     }
 
     Task Moverse()
