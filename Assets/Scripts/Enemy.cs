@@ -14,7 +14,8 @@ internal class Enemy : MonoBehaviour
 
     bool willAttackInThisTurn;
     Vector2 targetPosition;
-    
+    Color ActionColor => willAttackInThisTurn ? Color.red : Color.yellow;
+
     public Task HacerLoQueTengaPendiente()
     {
         return willAttackInThisTurn ? DispararHaciaElPersonaje() : Moverse();
@@ -55,12 +56,9 @@ internal class Enemy : MonoBehaviour
 
     void OnMouseEnter()
     {
-        if (willAttackInThisTurn)
-        {
-            return;
-        }
-        
         GetComponentInChildren<LineRenderer>().enabled = true;
+        GetComponentInChildren<LineRenderer>().startColor = ActionColor;
+        GetComponentInChildren<LineRenderer>().endColor = ActionColor;
         GetComponentInChildren<LineRenderer>().SetPositions(new List<Vector3>()
         {
             transform.position,
