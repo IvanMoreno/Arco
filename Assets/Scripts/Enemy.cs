@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using UnityEngine;
 using Random = UnityEngine.Random;
@@ -46,5 +47,26 @@ internal class Enemy : MonoBehaviour
     {
         attackPrediction.SetActive(false);
         movementPrediction.SetActive(false);
+    }
+
+    void OnMouseEnter()
+    {
+        if (willAttackInThisTurn)
+        {
+            return;
+        }
+        
+        GetComponentInChildren<LineRenderer>().enabled = true;
+        GetComponentInChildren<LineRenderer>().SetPositions(new List<Vector3>()
+        {
+            transform.position,
+            targetPosition
+        }.ToArray());
+    }
+
+    void OnMouseExit()
+    {
+        GetComponentInChildren<LineRenderer>().SetPositions(Array.Empty<Vector3>());
+        GetComponentInChildren<LineRenderer>().enabled = false;
     }
 }
