@@ -10,9 +10,16 @@ internal class Choose : MonoBehaviour
     public async Task WaitForChoose(Character character)
     {
         SwitchTo("move");
-
-        var targetPosition = await FindAnyObjectByType<TargetCursor>().SelectTargetPosition();
         
+        character.MarkAsSelected();
+        await ChooseFor(character);
+        character.UnMarkAsSelected();
+    }
+
+    async Task ChooseFor(Character character)
+    {
+        var targetPosition = await FindAnyObjectByType<TargetCursor>().SelectTargetPosition();
+
         if(selectedChoice == "move")
             character.ProgramarMovimiento(targetPosition);
         else if(selectedChoice == "attack")
