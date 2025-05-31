@@ -7,27 +7,20 @@ internal class TargetCursor : MonoBehaviour
     {
         while (!Input.GetMouseButtonDown(0))
         {
-            UpdatePositionToFollowCursor();
+            transform.position = WhereThePlayerIsPointingTo();
             await Task.Yield();
         }
 
-        var character = FindAnyObjectByType<Character>().GetComponent<Movimiento>();
-        character.Hacia(Donde(character));
+        FindAnyObjectByType<Character>()
+            .GetComponent<Movimiento>()
+            .Towards(WhereThePlayerIsPointingTo());
     }
 
-    void UpdatePositionToFollowCursor()
+    static Vector3 WhereThePlayerIsPointingTo()
     {
         var mousePosition = Input.mousePosition;
         var positionInWorld = Camera.main.ScreenToWorldPoint(mousePosition);
         positionInWorld.z = 0;
-        transform.position = positionInWorld;
-    }
-
-    static Vector3 Donde(Movimiento character)
-    {
-        var mousePosition = Input.mousePosition;
-        var positionInWorld = Camera.main.ScreenToWorldPoint(mousePosition);
-        positionInWorld.z = character.transform.position.z;
         return positionInWorld;
     }
 }

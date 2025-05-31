@@ -9,7 +9,7 @@ internal class Movimiento : MonoBehaviour
 
     TaskCompletionSource<bool> tcs;
 
-    public void Hacia(Vector2 dónde)
+    public void Towards(Vector2 dónde)
     {
         Assert.IsNull(tcs, "Ya hay una tarea pendiente de movimiento");
         destination = dónde;

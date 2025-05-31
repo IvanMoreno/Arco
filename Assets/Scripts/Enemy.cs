@@ -21,7 +21,7 @@ internal class Enemy : MonoBehaviour
 
     Task Moverse()
     {
-        GetComponent<Movimiento>().Hacia((Vector2)transform.position + Random.insideUnitCircle);
+        GetComponent<Movimiento>().Towards((Vector2)transform.position + Random.insideUnitCircle);
         return GetComponent<Movimiento>().Hacerse();
     }
 }
