@@ -4,12 +4,13 @@ using UnityEngine.EventSystems;
 
 internal class TargetCursor : MonoBehaviour
 {
-    public async Task<Vector3> SelectTargetPosition()
+    public async Task<Vector3> SelectTargetPosition(MovementPrediction prediction)
     {
         ShowCursor();
         while (!ChoseLocation())
         {
             transform.position = WhereThePlayerIsPointingTo();
+            prediction.LinkTowards(transform.position);
             await Task.Yield();
         }
         HideCursor();

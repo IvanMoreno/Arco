@@ -17,7 +17,7 @@ internal class HumanPlayer : MonoBehaviour, Brain
 
     async Task ChooseFor(Somebody character)
     {
-        var targetPosition = await FindAnyObjectByType<TargetCursor>().SelectTargetPosition();
+        var targetPosition = await FindAnyObjectByType<TargetCursor>().SelectTargetPosition(GetComponent<MovementPrediction>());
 
         if(selectedChoice == "move")
             character.ProgramarMovimiento(targetPosition);

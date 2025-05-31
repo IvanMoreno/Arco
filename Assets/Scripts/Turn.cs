@@ -47,6 +47,11 @@ internal class Turn : MonoBehaviour
         {
             await prediction.Hide();
         }
+        
+        foreach (var movement in FindObjectsByType<MovementPrediction>(None))
+        {
+            await movement.Hide();
+        }
     }
 
     async Task ShowPredictions()
