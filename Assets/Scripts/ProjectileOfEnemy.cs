@@ -1,7 +1,7 @@
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using UnityEngine;
 
-internal class ProjectileOfCharacter : MonoBehaviour, Projectile
+internal class ProjectileOfEnemy : MonoBehaviour, Projectile
 {
     [SerializeField] float distancePerTurn = 2;
     [SerializeField] float speed = 10;
@@ -28,10 +28,10 @@ internal class ProjectileOfCharacter : MonoBehaviour, Projectile
     {
         transform.up = (target - transform.position).normalized;
     }
-    
+
     void OnTriggerEnter2D(Collider2D other)
     {
-        other.GetComponent<Enemy>()?.RecibirImpacto();
+        other.GetComponent<Character>()?.RecibirImpacto();
         DestroyMe();
     }
 
