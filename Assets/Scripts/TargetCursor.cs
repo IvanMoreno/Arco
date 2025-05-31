@@ -1,12 +1,13 @@
 ﻿using System.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 internal class TargetCursor : MonoBehaviour
 {
     public async Task SelectTarget()
     {
         ShowCursor();
-        while (!Input.GetMouseButtonDown(0))
+        while (!ChoseLocation())
         {
             transform.position = WhereThePlayerIsPointingTo();
             await Task.Yield();
@@ -17,6 +18,8 @@ internal class TargetCursor : MonoBehaviour
             .GetComponent<Movimiento>()
             .Towards(WhereThePlayerIsPointingTo());
     }
+
+    static bool ChoseLocation() => Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject();
 
     void ShowCursor()
     {
