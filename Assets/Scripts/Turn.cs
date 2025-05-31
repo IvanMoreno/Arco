@@ -30,10 +30,15 @@ internal class Turn : MonoBehaviour
 
     async Task WaitForEnemiesChoose()
     {
-        foreach (var enemy in FindObjectsByType<Somebody>(None).Where(x => x.IsEnemy))
+        foreach (var enemy in AllEnemies())
         {
             await enemy.Choose();
         }
+    }
+
+    static IEnumerable<Somebody> AllEnemies()
+    {
+        return FindObjectsByType<Somebody>(None).Where(x => x.IsEnemy);
     }
 
     async Task HidePredictions()
@@ -98,7 +103,7 @@ internal class Turn : MonoBehaviour
 
     static Task Enemies()
     {
-        var tasks = FindObjectsByType<Somebody>(None).Where(x => x.IsEnemy).Select(enemy => enemy.HacerLoQueTengaPendiente());
+        var tasks = AllEnemies().Select(enemy => enemy.HacerLoQueTengaPendiente());
         return Task.WhenAll(tasks);
     }
 
