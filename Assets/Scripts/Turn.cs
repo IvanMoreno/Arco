@@ -24,11 +24,20 @@ internal class Turn : MonoBehaviour
     async Task OneTurn()
     {
         turn++;
+        await EsperarAQueEnemigosDecidan();
         await ShowPredictions();
         await EsperarAQueElJugadorHagaLoQueQuiera();
         await HidePredictions();
         
         await EjecutarLasAccionesPendientes();
+    }
+
+    async Task EsperarAQueEnemigosDecidan()
+    {
+        foreach (var enemy in FindObjectsByType<Enemy>(None))
+        {
+            await enemy.DecidirSiguienteAccion();
+        }
     }
 
     async Task HidePredictions()

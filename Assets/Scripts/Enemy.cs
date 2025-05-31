@@ -35,10 +35,14 @@ internal class Enemy : MonoBehaviour
         return GetComponent<Movimiento>().Hacerse();
     }
 
-    public async Task ShowPrediction()
+    public async Task DecidirSiguienteAccion()
     {
         willAttackInThisTurn = Random.value >= 0.5f;
         targetPosition = (Vector2)transform.position + Random.insideUnitCircle * 3;
+    }
+
+    public async Task ShowPrediction()
+    {
         attackPrediction.SetActive(willAttackInThisTurn);
         movementPrediction.SetActive(!willAttackInThisTurn);
     }
