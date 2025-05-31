@@ -92,7 +92,7 @@ internal class Turn : MonoBehaviour
     static Task Projectiles()
     {
         var tasks = FindObjectsByType<Projectile>(None).Select(projectile => projectile.HacerLoQueTengaPendiente());
-        tasks = tasks.Concat(FindObjectsByType<ProjectileTemporal>(None).Select(projectile => projectile.HacerLoQueTengaPendiente()));
+        tasks = tasks.Concat(FindObjectsByType<ProjectileOfCharacter>(None).Select(projectile => projectile.HacerLoQueTengaPendiente()));
         return Task.WhenAll(tasks);
     }
 

@@ -73,4 +73,11 @@ internal class Enemy : MonoBehaviour
         GetComponentInChildren<LineRenderer>().SetPositions(Array.Empty<Vector3>());
         GetComponentInChildren<LineRenderer>().enabled = false;
     }
+
+    public void RecibirImpacto()
+    {
+        GetComponent<Vida>().UnaMenos();
+        if (GetComponent<Vida>().EstaMuerto())
+            Destroy(gameObject);
+    }
 }

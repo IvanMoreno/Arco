@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
 using UnityEngine;
 
-internal class ProjectileTemporal : MonoBehaviour
+internal class ProjectileOfCharacter : MonoBehaviour
 {
     [SerializeField] float distancePerTurn = 2;
     [SerializeField] float speed = 10;
@@ -27,5 +27,16 @@ internal class ProjectileTemporal : MonoBehaviour
     public void Towards(Vector3 target)
     {
         transform.up = (target - transform.position).normalized;
+    }
+    
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        other.GetComponent<Enemy>()?.RecibirImpacto();
+        DestroyMe();
+    }
+
+    void DestroyMe()
+    {
+        //Todavía no lo hacemos porque da una MissingException si se destruye.
     }
 }
