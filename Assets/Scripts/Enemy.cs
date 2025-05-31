@@ -18,7 +18,9 @@ internal class Enemy : MonoBehaviour
 
     public Task HacerLoQueTengaPendiente()
     {
-        return willAttackInThisTurn ? DispararHaciaElPersonaje() : Moverse();
+        return willAttackInThisTurn
+            ? DispararHaciaElPersonaje()
+            : GetComponent<Movimiento>().Hacerse();
     }
 
     async Task DispararHaciaElPersonaje()
@@ -30,16 +32,12 @@ internal class Enemy : MonoBehaviour
         projectile.GetComponent<Projectile>().Towards(posPersonaje);
     }
 
-    Task Moverse()
-    {
-        GetComponent<Movimiento>().Towards(targetPosition);
-        return GetComponent<Movimiento>().Hacerse();
-    }
-
     public async Task DecidirSiguienteAccion()
     {
         willAttackInThisTurn = Random.value >= 0.5f;
         targetPosition = (Vector2)transform.position + Random.insideUnitCircle * 3;
+        if (!willAttackInThisTurn)
+            GetComponent<Movimiento>().Towards(targetPosition);
     }
 
     public async Task ShowPrediction()

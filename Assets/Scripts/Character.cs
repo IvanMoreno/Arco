@@ -7,7 +7,9 @@ internal class Character : MonoBehaviour
     
     public Task HacerLoQueTengaPendiente()
     {
-        return willAttackInThisTurn ? GetComponent<Disparo>().Hacerse() : GetComponent<Movimiento>().Hacerse();
+        return willAttackInThisTurn
+            ? GetComponent<Disparo>().Hacerse()
+            : GetComponent<Movimiento>().Hacerse();
     }
 
     public void ProgramarMovimiento(Vector3 target)
