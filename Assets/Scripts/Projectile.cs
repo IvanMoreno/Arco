@@ -31,9 +31,7 @@ internal class Projectile : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.TryGetComponent(typeof(Character), out _))
-        {
-            Destroy(other.gameObject);
-        }
+        other.GetComponent<Character>()?.RecibirImpacto();
+        
     }
 }

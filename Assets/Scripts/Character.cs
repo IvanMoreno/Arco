@@ -7,4 +7,9 @@ internal class Character : MonoBehaviour
     {
         return GetComponent<Movimiento>().Hacerse();
     }
+    
+    public void RecibirImpacto()
+    {
+        Destroy(gameObject);
+    }
 }
