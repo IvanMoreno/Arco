@@ -11,9 +11,9 @@ internal class Choose : MonoBehaviour
     {
         SwitchTo("move");
         
-        character.MarkAsSelected();
+        character.GetComponentInChildren<SelectionMark>().Show();
         await ChooseFor(character.GetComponent<AlgoComunEntreCharacterYEnemy>());
-        character.UnMarkAsSelected();
+        character.GetComponentInChildren<SelectionMark>().Hide();
     }
 
     async Task ChooseFor(AlgoComunEntreCharacterYEnemy character)
