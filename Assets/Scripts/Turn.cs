@@ -86,13 +86,16 @@ internal class Turn : MonoBehaviour
 
     static async Task Characters()
     {
-        var tasks = FindObjectsByType<Character>(None).Select(character => character.HacerLoQueTengaPendiente());
+        var tasks = FindObjectsByType<Character>(None)
+            .Select(character => character.GetComponent<AlgoComunEntreCharacterYEnemy>())
+            .Select(x => x.HacerLoQueTengaPendiente());
         await Task.WhenAll(tasks);
     }
 
     static Task Enemies()
     {
-        var tasks = FindObjectsByType<Enemy>(None).Select(enemy => enemy.HacerLoQueTengaPendiente());
+        var tasks = FindObjectsByType<Enemy>(None)
+            .Select(enemy => enemy.HacerLoQueTengaPendiente());
         return Task.WhenAll(tasks);
     }
 
