@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3780860539238515444}
   - component: {fileID: 3285611628687710172}
   - component: {fileID: -1800400314734452927}
+  - component: {fileID: 6869873202627278412}
   - component: {fileID: 4312605208504617787}
   - component: {fileID: 7938676186272272832}
   - component: {fileID: 5019562117108939195}
@@ -74,6 +75,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 3711885972589117000, guid: 37e1bfb0eb5a32b4e8b46327a0065a2f, type: 3}
+--- !u!114 &6869873202627278412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3116825933311209523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7795d2f928a74989a65823d98febe664, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puntos: 3
 --- !u!212 &4312605208504617787
 SpriteRenderer:
   m_ObjectHideFlags: 0
