@@ -4,7 +4,7 @@ using UnityEngine.EventSystems;
 
 internal class TargetCursor : MonoBehaviour
 {
-    public async Task SelectTarget()
+    public async Task<Vector3> SelectTargetPosition()
     {
         ShowCursor();
         while (!ChoseLocation())
@@ -14,9 +14,7 @@ internal class TargetCursor : MonoBehaviour
         }
         HideCursor();
 
-        FindAnyObjectByType<Character>()
-            .GetComponent<Movimiento>()
-            .Towards(WhereThePlayerIsPointingTo());
+        return WhereThePlayerIsPointingTo();
     }
 
     static bool ChoseLocation() => Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject();

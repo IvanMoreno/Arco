@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Threading.Tasks;
 using NUnit.Framework;
 using UnityEngine;
 
@@ -6,11 +7,18 @@ internal class PlayerActionChoices : MonoBehaviour
 {
     string selectedChoice;
     
-    public Task WaitForChoose()
+    public async Task WaitForChoose()
     {
         SwitchTo("move");
-        var cursor = FindAnyObjectByType<TargetCursor>();
-        return cursor.SelectTarget();
+
+        var targetPosition = await FindAnyObjectByType<TargetCursor>().SelectTargetPosition();
+        
+        if(selectedChoice == "move")
+            FindAnyObjectByType<Character>()
+                .GetComponent<Movimiento>()
+                .Towards(targetPosition);
+        else if(selectedChoice == "attack")
+            Debug.LogError("doing an attack is not implemented yet");
     }
 
     public void SwitchTo(string what)
