@@ -1,27 +1,11 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Threading.Tasks;
 using UnityEngine;
 
-internal class Enemy : MonoBehaviour
+internal class PredictIntentOnHover : MonoBehaviour
 {
-    [SerializeField] GameObject attackPrediction;
-    [SerializeField] GameObject movementPrediction;
-
     Color ActionColor => GetComponent<Somebody>().WillAttack ? Color.red : Color.yellow;
-
-    public async Task ShowPrediction()
-    {
-        attackPrediction.SetActive(GetComponent<Somebody>().WillAttack);
-        movementPrediction.SetActive(!GetComponent<Somebody>().WillAttack);
-    }
-
-    public async Task HidePrediction()
-    {
-        attackPrediction.SetActive(false);
-        movementPrediction.SetActive(false);
-    }
-
+    
     void OnMouseEnter()
     {
         GetComponentInChildren<LineRenderer>().enabled = true;

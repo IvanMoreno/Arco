@@ -47,9 +47,9 @@ internal class Turn : MonoBehaviour
             await spawner.HidePrediction();
         }
         
-        foreach (var enemy in FindObjectsByType<Enemy>(None))
+        foreach (var prediction in FindObjectsByType<Prediction>(None))
         {
-            await enemy.HidePrediction();
+            await prediction.Hide();
         }
     }
 
@@ -60,9 +60,9 @@ internal class Turn : MonoBehaviour
             await spawner.ShowPrediction(turn);
         }
         
-        foreach (var enemy in FindObjectsByType<Enemy>(None))
+        foreach (var prediction in FindObjectsByType<Prediction>(None))
         {
-            await enemy.ShowPrediction();
+            await prediction.Show();
         }
     }
 
