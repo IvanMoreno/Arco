@@ -27,7 +27,13 @@ internal class Turn : MonoBehaviour
 
     async Task EsconderLasPredicciones() { }
 
-    async Task EnseñarLasPredicciones() { }
+    async Task EnseñarLasPredicciones()
+    {
+        foreach (var spawner in FindObjectsByType<Spawner>((FindObjectsSortMode)FindObjectsInactive.Exclude))
+        {
+            await spawner.TogglePreview(turn);
+        }
+    }
 
     async Task ChooseAction()
     {

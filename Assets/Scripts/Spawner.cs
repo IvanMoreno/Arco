@@ -1,4 +1,5 @@
 using System.Threading.Tasks;
+using Unity.VisualScripting;
 using UnityEngine;
 
 internal class Spawner : MonoBehaviour
@@ -12,5 +13,10 @@ internal class Spawner : MonoBehaviour
         {
             Instantiate(enemyPrefab, transform);
         }
+    }
+
+    public async Task TogglePreview(int turn)
+    {
+        GetComponentInChildren<SpriteRenderer>(true).GameObject().SetActive(turn == this.turn - 1);
     }
 }
