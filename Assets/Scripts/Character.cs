@@ -10,6 +10,8 @@ internal class Character : MonoBehaviour
     
     public void RecibirImpacto()
     {
-        Destroy(gameObject);
+        GetComponent<Vida>().UnaMenos();
+        if (GetComponent<Vida>().EstaMuerto())
+            Destroy(gameObject);
     }
 }
