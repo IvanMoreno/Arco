@@ -18,6 +18,7 @@ internal class Turn : MonoBehaviour
 
     async Task CosasAntesDelPrimerTurno()
     {
+        FindAnyObjectByType<Canvas>().enabled = false;
     }
 
     async Task OneTurn()
@@ -48,7 +49,14 @@ internal class Turn : MonoBehaviour
 
     async Task EsperarAQueElJugadorHagaLoQueQuiera()
     {
-        await FindAnyObjectByType<TargetCursor>().SelectTarget();
+        FindAnyObjectByType<Canvas>().enabled = true;
+        await UntilPlayerChooseOneAction();
+        FindAnyObjectByType<Canvas>().enabled = false;
+    }
+
+    static Task UntilPlayerChooseOneAction()
+    {
+        return FindAnyObjectByType<TargetCursor>().SelectTarget();
     }
 
     Task EjecutarLasAccionesPendientes()
