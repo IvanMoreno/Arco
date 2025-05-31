@@ -10,7 +10,7 @@ internal class Spawner : MonoBehaviour
     {
         if (this.turn == turn)
         {
-            await InstantiateAsync(enemyPrefab, transform);
+            Instantiate(enemyPrefab, transform);
         }
     }
 
