@@ -6,9 +6,6 @@ using Random = UnityEngine.Random;
 
 internal class Enemy : MonoBehaviour
 {
-    [SerializeField] GameObject projectilePrefab;
-
-    [Header("Predictions")] 
     [SerializeField] GameObject attackPrediction;
     [SerializeField] GameObject movementPrediction;
 
@@ -19,17 +16,8 @@ internal class Enemy : MonoBehaviour
     public Task HacerLoQueTengaPendiente()
     {
         return willAttackInThisTurn
-            ? DispararHaciaElPersonaje()
+            ? GetComponent<Disparo>().Hacerse()
             : GetComponent<Movimiento>().Hacerse();
-    }
-
-    async Task DispararHaciaElPersonaje()
-    {
-        var posPersonaje = FindAnyObjectByType<Character>().transform.position;
-
-        //instantiate a projectile and move it towards the character
-        var projectile = Instantiate(projectilePrefab, transform.position, Quaternion.identity);
-        projectile.GetComponent<Projectile>().Towards(posPersonaje);
     }
 
     public async Task DecidirSiguienteAccion()
@@ -38,6 +26,11 @@ internal class Enemy : MonoBehaviour
         targetPosition = (Vector2)transform.position + Random.insideUnitCircle * 3;
         if (!willAttackInThisTurn)
             GetComponent<Movimiento>().Towards(targetPosition);
+        else
+        {
+            var posPersonaje = FindAnyObjectByType<Character>().transform.position;
+            GetComponent<Disparo>().Towards(posPersonaje);
+        }
     }
 
     public async Task ShowPrediction()

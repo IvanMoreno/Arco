@@ -10,7 +10,7 @@ internal class Disparo : MonoBehaviour
     public async Task Hacerse()
     {
         var projectile = Instantiate(projectilePrefab, transform.position, Quaternion.identity);
-        projectile.GetComponent<ProjectileOfCharacter>().Towards(target);
+        projectile.GetComponent<Projectile>().Towards(target);
     }
     
     public void Towards(Vector3 target) => this.target = target;
