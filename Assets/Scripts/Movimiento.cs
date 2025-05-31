@@ -34,6 +34,6 @@ internal class Movimiento : MonoBehaviour, Intent
 
     void OnDestroy()
     {
-        tcs.TrySetResult(true);
+        tcs?.TrySetResult(true);
     }
 }
