@@ -1,0 +1,2847 @@
+fileFormatVersion: 2
+guid: 755432cee9263ee41bade2b42a57fbb9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6962549405551270267
+    second: sharpshooter_0
+  - first:
+      213: 2616652460757038792
+    second: sharpshooter_1
+  - first:
+      213: -4548899769083652811
+    second: sharpshooter_2
+  - first:
+      213: 9149093816782598569
+    second: sharpshooter_3
+  - first:
+      213: 2820281129272546116
+    second: sharpshooter_4
+  - first:
+      213: -7828977618092537403
+    second: sharpshooter_5
+  - first:
+      213: -4123422507162307450
+    second: sharpshooter_6
+  - first:
+      213: -6719796494986905
+    second: sharpshooter_7
+  - first:
+      213: -6625170107950671155
+    second: sharpshooter_8
+  - first:
+      213: -6315893464949059943
+    second: sharpshooter_9
+  - first:
+      213: 588697323823031961
+    second: sharpshooter_10
+  - first:
+      213: -7230771899108656889
+    second: sharpshooter_11
+  - first:
+      213: -5161234944504750599
+    second: sharpshooter_12
+  - first:
+      213: 6103989589816990427
+    second: sharpshooter_13
+  - first:
+      213: 7365769926433598796
+    second: sharpshooter_14
+  - first:
+      213: 560653255570954785
+    second: sharpshooter_15
+  - first:
+      213: 1331578175748009474
+    second: sharpshooter_16
+  - first:
+      213: -4824860055514247938
+    second: sharpshooter_17
+  - first:
+      213: -7181466781992504045
+    second: sharpshooter_18
+  - first:
+      213: -2005458858290701919
+    second: sharpshooter_19
+  - first:
+      213: -2047127477560693249
+    second: sharpshooter_20
+  - first:
+      213: -3580076202765984856
+    second: sharpshooter_21
+  - first:
+      213: -8767334724985264903
+    second: sharpshooter_22
+  - first:
+      213: 4837977807045970478
+    second: sharpshooter_23
+  - first:
+      213: 6770345710685106691
+    second: sharpshooter_24
+  - first:
+      213: -1395908941072992750
+    second: sharpshooter_25
+  - first:
+      213: 8174241560838962497
+    second: sharpshooter_26
+  - first:
+      213: 789064679312247818
+    second: sharpshooter_27
+  - first:
+      213: 5980137575584599376
+    second: sharpshooter_28
+  - first:
+      213: -1857175121257251642
+    second: sharpshooter_29
+  - first:
+      213: 1188724726437417031
+    second: sharpshooter_30
+  - first:
+      213: -2545874863808772459
+    second: sharpshooter_31
+  - first:
+      213: 3331053761965185363
+    second: sharpshooter_32
+  - first:
+      213: 3277432498216446681
+    second: sharpshooter_33
+  - first:
+      213: -5610437974097099047
+    second: sharpshooter_34
+  - first:
+      213: 2236575691663945519
+    second: sharpshooter_35
+  - first:
+      213: 8926962632153707913
+    second: sharpshooter_36
+  - first:
+      213: 895205821078456467
+    second: sharpshooter_37
+  - first:
+      213: 6271544895017473879
+    second: sharpshooter_38
+  - first:
+      213: 1615729057066253017
+    second: sharpshooter_39
+  - first:
+      213: -386790250748103176
+    second: sharpshooter_40
+  - first:
+      213: -7182397675519796573
+    second: sharpshooter_41
+  - first:
+      213: -4580179395428670517
+    second: sharpshooter_42
+  - first:
+      213: -5352924989267617322
+    second: sharpshooter_43
+  - first:
+      213: -5677537278903265883
+    second: sharpshooter_44
+  - first:
+      213: -4274898845473195237
+    second: sharpshooter_45
+  - first:
+      213: 3101289520709665012
+    second: sharpshooter_46
+  - first:
+      213: -5814498685140079242
+    second: sharpshooter_47
+  - first:
+      213: 364376251413413299
+    second: sharpshooter_48
+  - first:
+      213: -3789584421659077090
+    second: sharpshooter_49
+  - first:
+      213: -1408179675869667786
+    second: sharpshooter_50
+  - first:
+      213: 3133129141491396122
+    second: sharpshooter_51
+  - first:
+      213: -7678813714534319717
+    second: sharpshooter_52
+  - first:
+      213: -1484751452636245828
+    second: sharpshooter_53
+  - first:
+      213: -302002930856604646
+    second: sharpshooter_54
+  - first:
+      213: -2077888897862420459
+    second: sharpshooter_55
+  - first:
+      213: 1353233440823521664
+    second: sharpshooter_56
+  - first:
+      213: -8898734861666680051
+    second: sharpshooter_57
+  - first:
+      213: -129547002604673743
+    second: sharpshooter_58
+  - first:
+      213: -8124225238735733222
+    second: sharpshooter_59
+  - first:
+      213: -8507067821182215770
+    second: sharpshooter_60
+  - first:
+      213: -4031739641444072482
+    second: sharpshooter_61
+  - first:
+      213: 5290724696466771714
+    second: sharpshooter_62
+  - first:
+      213: -6317341671492420286
+    second: sharpshooter_63
+  - first:
+      213: 8116583904270919147
+    second: sharpshooter_64
+  - first:
+      213: -5656324303239876552
+    second: sharpshooter_65
+  - first:
+      213: -8011148562876060313
+    second: sharpshooter_66
+  - first:
+      213: -1678535097452380813
+    second: sharpshooter_67
+  - first:
+      213: 2604853269664612227
+    second: sharpshooter_68
+  - first:
+      213: -6429123877022419577
+    second: sharpshooter_69
+  - first:
+      213: -5100777187339497603
+    second: sharpshooter_70
+  - first:
+      213: 7787565259699049561
+    second: sharpshooter_71
+  - first:
+      213: -6435363921536044102
+    second: sharpshooter_72
+  - first:
+      213: 458838694918208859
+    second: sharpshooter_73
+  - first:
+      213: 2063828784430127796
+    second: sharpshooter_74
+  - first:
+      213: -4305469813790488159
+    second: sharpshooter_75
+  - first:
+      213: -1532709365197308619
+    second: sharpshooter_76
+  - first:
+      213: -8123342809444678521
+    second: sharpshooter_77
+  - first:
+      213: 5437127034782461436
+    second: sharpshooter_78
+  - first:
+      213: 3019343763315801241
+    second: sharpshooter_79
+  - first:
+      213: -7323899678157061222
+    second: sharpshooter_80
+  - first:
+      213: -2065808033979032461
+    second: sharpshooter_81
+  - first:
+      213: 2195104437005621865
+    second: sharpshooter_82
+  - first:
+      213: 7074241602562678891
+    second: sharpshooter_83
+  - first:
+      213: -5549515968204604542
+    second: sharpshooter_84
+  - first:
+      213: -6087983182193827088
+    second: sharpshooter_85
+  - first:
+      213: 8001978841264502932
+    second: sharpshooter_86
+  - first:
+      213: 5549968162171015069
+    second: sharpshooter_87
+  - first:
+      213: -7022375694051379735
+    second: sharpshooter_88
+  - first:
+      213: -1655733393040284979
+    second: sharpshooter_89
+  - first:
+      213: -7516980690980124832
+    second: sharpshooter_90
+  - first:
+      213: 41872165939372776
+    second: sharpshooter_91
+  - first:
+      213: 2818371032397703972
+    second: sharpshooter_92
+  - first:
+      213: 5339523312982685893
+    second: sharpshooter_93
+  - first:
+      213: 9054114799247758643
+    second: sharpshooter_94
+  - first:
+      213: 1778832543875709024
+    second: sharpshooter_95
+  - first:
+      213: -7068453872585304177
+    second: sharpshooter_96
+  - first:
+      213: -6391888914071760111
+    second: sharpshooter_97
+  - first:
+      213: 8742723967872641868
+    second: sharpshooter_98
+  - first:
+      213: -8904616779579696105
+    second: sharpshooter_99
+  - first:
+      213: 4064981870660038205
+    second: sharpshooter_100
+  - first:
+      213: 1285412813087281140
+    second: sharpshooter_101
+  - first:
+      213: 2552272560519128016
+    second: sharpshooter_102
+  - first:
+      213: -7259291898449924513
+    second: sharpshooter_103
+  - first:
+      213: 7775688223800068007
+    second: sharpshooter_104
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 18
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sharpshooter_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 858
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 586620f643e006f90800000000000000
+      internalID: -6962549405551270267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 857
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c63318ac87305420800000000000000
+      internalID: 2616652460757038792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_2
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 857
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53599e8d2cf0fd0c0800000000000000
+      internalID: -4548899769083652811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_3
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 857
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a1bc063a5c18fe70800000000000000
+      internalID: 9149093816782598569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_4
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 858
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 443170d9eb6a32720800000000000000
+      internalID: 2820281129272546116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_5
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 796
+        width: 16
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c94c170652e95390800000000000000
+      internalID: -7828977618092537403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_6
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 794
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6847db99319a6c6c0800000000000000
+      internalID: -4123422507162307450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_7
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 796
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76114f4716028eff0800000000000000
+      internalID: -6719796494986905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_8
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 795
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dca501373eaae04a0800000000000000
+      internalID: -6625170107950671155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_9
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 794
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99e008e4b507958a0800000000000000
+      internalID: -6315893464949059943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_10
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 794
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 996e1b2d8197b2800800000000000000
+      internalID: 588697323823031961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_11
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 795
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70970cd944327ab90800000000000000
+      internalID: -7230771899108656889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_12
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 794
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fd1672d92c9f58b0800000000000000
+      internalID: -5161234944504750599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_13
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 732
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda59bd013ab5b450800000000000000
+      internalID: 6103989589816990427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_14
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 732
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4d645af8b8783660800000000000000
+      internalID: 7365769926433598796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_15
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 731
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12a197c5a27d7c700800000000000000
+      internalID: 560653255570954785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_16
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 730
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20e6f1cbb47ba7210800000000000000
+      internalID: 1331578175748009474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_17
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 731
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efc0a1cb757aa0db0800000000000000
+      internalID: -4824860055514247938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_18
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 732
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 315b115c20e465c90800000000000000
+      internalID: -7181466781992504045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_19
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 732
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a91ce33bcd2b24e0800000000000000
+      internalID: -2005458858290701919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_20
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 731
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffdad02c7642793e0800000000000000
+      internalID: -2047127477560693249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_21
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 666
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8abdd4169a3015ec0800000000000000
+      internalID: -3580076202765984856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_22
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 666
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f46e4ad48b245680800000000000000
+      internalID: -8767334724985264903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_23
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 666
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2ac23cce23f32340800000000000000
+      internalID: 4837977807045970478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_24
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 666
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 302b9f39d8915fd50800000000000000
+      internalID: 6770345710685106691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_25
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 667
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2167d84c63cb0ace0800000000000000
+      internalID: -1395908941072992750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_26
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 667
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14d7a0ef36db07170800000000000000
+      internalID: 8174241560838962497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_27
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 667
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0cc63b252253fa00800000000000000
+      internalID: 789064679312247818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_28
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 667
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05d8facd077bdf250800000000000000
+      internalID: 5980137575584599376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_29
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 602
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ccb4c3211df936e0800000000000000
+      internalID: -1857175121257251642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_30
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 603
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 740960f27d23f7010800000000000000
+      internalID: 1188724726437417031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_31
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 604
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 596051ccc4c3bacd0800000000000000
+      internalID: -2545874863808772459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_32
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 604
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 359d9a17fb74a3e20800000000000000
+      internalID: 3331053761965185363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_33
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 604
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da23871e77cb7d20800000000000000
+      internalID: 3277432498216446681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_34
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 605
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d6849f4368b322b0800000000000000
+      internalID: -5610437974097099047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_35
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 604
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2f27eeddb9e90f10800000000000000
+      internalID: 2236575691663945519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_36
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 604
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98535b48731f2eb70800000000000000
+      internalID: 8926962632153707913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_37
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 538
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3984e3683f86c6c00800000000000000
+      internalID: 895205821078456467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_38
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 539
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7575e6c9ad0090750800000000000000
+      internalID: 6271544895017473879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_39
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 539
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9daf5b354093c6610800000000000000
+      internalID: 1615729057066253017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_40
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 539
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f53395f058d1aaf0800000000000000
+      internalID: -386790250748103176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_41
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 538
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa1d0b3e5ff25c90800000000000000
+      internalID: -7182397675519796573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_42
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 539
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc329ef4b1fef60c0800000000000000
+      internalID: -4580179395428670517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_43
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 539
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d95461551796b5b0800000000000000
+      internalID: -5352924989267617322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_44
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 539
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a5deebfce55531b0800000000000000
+      internalID: -5677537278903265883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_45
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 474
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1bb7d046228ca4c0800000000000000
+      internalID: -4274898845473195237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_46
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 473
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f08a83436ef90b20800000000000000
+      internalID: 3101289520709665012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_47
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 474
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67def3d9040ce4fa0800000000000000
+      internalID: -5814498685140079242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_48
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 473
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bdb51625468e0500800000000000000
+      internalID: 364376251413413299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_49
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 473
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1618aceb01b86bc0800000000000000
+      internalID: -3789584421659077090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_50
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 410
+        width: 9
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63e1ddfab04257ce0800000000000000
+      internalID: -1408179675869667786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_51
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 432
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ee40aaa5c1b7b20800000000000000
+      internalID: 3133129141491396122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_52
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 437
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b99b8c85c9f5f6590800000000000000
+      internalID: -7678813714534319717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_53
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 410
+        width: 9
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb01fdd9b6a156be0800000000000000
+      internalID: -1484751452636245828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_54
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 410
+        width: 9
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c4a293fe11fcbf0800000000000000
+      internalID: -302002930856604646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_55
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 410
+        width: 8
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 518be287e0bd923e0800000000000000
+      internalID: -2077888897862420459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_56
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 410
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 081377a05a6a7c210800000000000000
+      internalID: 1353233440823521664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_57
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 410
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0309f37ac7518480800000000000000
+      internalID: -8898734861666680051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_58
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 410
+        width: 8
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 135280000b1c33ef0800000000000000
+      internalID: -129547002604673743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_59
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 345
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1eb4e97034f04f80800000000000000
+      internalID: -8124225238735733222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_60
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 362
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a9174693e2d0f980800000000000000
+      internalID: -8507067821182215770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_61
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 345
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed38ddc38226c08c0800000000000000
+      internalID: -4031739641444072482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_62
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 366
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20fc949741e6c6940800000000000000
+      internalID: 5290724696466771714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_63
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 345
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24dfbe1783b4458a0800000000000000
+      internalID: -6317341671492420286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_64
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 366
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be5a8b3be06e3a070800000000000000
+      internalID: 8116583904270919147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_65
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 345
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8307af2c303b081b0800000000000000
+      internalID: -5656324303239876552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_66
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 345
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76d24e2b3dea2d090800000000000000
+      internalID: -8011148562876060313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_67
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 345
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37d335dd835a4b8e0800000000000000
+      internalID: -1678535097452380813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_68
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 345
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38fbf566f3c462420800000000000000
+      internalID: 2604853269664612227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_69
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 282
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 785b81595e927c6a0800000000000000
+      internalID: -6429123877022419577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_70
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 292
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7f86365c266639b0800000000000000
+      internalID: -5100777187339497603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_71
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 282
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 954d889e75df21c60800000000000000
+      internalID: 7787565259699049561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_72
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 293
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab3ba700c9ef0b6a0800000000000000
+      internalID: -6435363921536044102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_73
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 282
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5dbdcbac5f1e5600800000000000000
+      internalID: 458838694918208859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_74
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 292
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba1f25485134ac10800000000000000
+      internalID: 2063828784430127796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_75
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 282
+        width: 36
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a9c9d50406ef34c0800000000000000
+      internalID: -4305469813790488159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_76
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 282
+        width: 35
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53dff77f3f8babae0800000000000000
+      internalID: -1532709365197308619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_77
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 282
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 784835e01c6144f80800000000000000
+      internalID: -8123342809444678521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_78
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 282
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfda1e22b3e847b40800000000000000
+      internalID: 5437127034782461436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_79
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 217
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99cba33d72dd6e920800000000000000
+      internalID: 3019343763315801241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_80
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 221
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a93c9d0eb084c5a90800000000000000
+      internalID: -7323899678157061222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_81
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 217
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37c1888c986c453e0800000000000000
+      internalID: -2065808033979032461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_82
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 220
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96a9a94fad3967e10800000000000000
+      internalID: 2195104437005621865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_83
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 217
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b60e900b141cc2260800000000000000
+      internalID: 7074241602562678891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_84
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 218
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28b7ec721a82cf2b0800000000000000
+      internalID: -5549515968204604542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_85
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 217
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2e8c22d83238ba0800000000000000
+      internalID: -6087983182193827088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_86
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 217
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49833cd1c5dbc0f60800000000000000
+      internalID: 8001978841264502932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_87
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 217
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9f4ee473a2750d40800000000000000
+      internalID: 5549968162171015069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_88
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 217
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e5fabc23828b8e90800000000000000
+      internalID: -7022375694051379735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_89
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 151
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc2e4116047a509e0800000000000000
+      internalID: -1655733393040284979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_90
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 153
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 067c8a263e15ea790800000000000000
+      internalID: -7516980690980124832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_91
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 147
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e2eac85382c49000800000000000000
+      internalID: 41872165939372776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_92
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 153
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42be057858ddc1720800000000000000
+      internalID: 2818371032397703972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_93
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 143
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c8ff34c92cc91a40800000000000000
+      internalID: 5339523312982685893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_94
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 144
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33515cc607da6ad70800000000000000
+      internalID: 9054114799247758643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_95
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 144
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 068bd9426ceafa810800000000000000
+      internalID: 1778832543875709024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_96
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 153
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f87915537aec7ed90800000000000000
+      internalID: -7068453872585304177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_97
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 144
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 113def8f5e27b47a0800000000000000
+      internalID: -6391888914071760111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_98
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 90
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4ba75ab025645970800000000000000
+      internalID: 8742723967872641868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_99
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 90
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c5b28b7327c6480800000000000000
+      internalID: -8904616779579696105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_100
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 23
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3e28136977b96830800000000000000
+      internalID: 4064981870660038205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_101
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 23
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ff8dc1a424b6d110800000000000000
+      internalID: 1285412813087281140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_102
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 25
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d328bb0f5e7b6320800000000000000
+      internalID: 2552272560519128016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_103
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 24
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e6500da70d14b90800000000000000
+      internalID: -7259291898449924513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpshooter_104
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 23
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a78acffd3bc8eb60800000000000000
+      internalID: 7775688223800068007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sharpshooter_0: -6962549405551270267
+      sharpshooter_1: 2616652460757038792
+      sharpshooter_10: 588697323823031961
+      sharpshooter_100: 4064981870660038205
+      sharpshooter_101: 1285412813087281140
+      sharpshooter_102: 2552272560519128016
+      sharpshooter_103: -7259291898449924513
+      sharpshooter_104: 7775688223800068007
+      sharpshooter_11: -7230771899108656889
+      sharpshooter_12: -5161234944504750599
+      sharpshooter_13: 6103989589816990427
+      sharpshooter_14: 7365769926433598796
+      sharpshooter_15: 560653255570954785
+      sharpshooter_16: 1331578175748009474
+      sharpshooter_17: -4824860055514247938
+      sharpshooter_18: -7181466781992504045
+      sharpshooter_19: -2005458858290701919
+      sharpshooter_2: -4548899769083652811
+      sharpshooter_20: -2047127477560693249
+      sharpshooter_21: -3580076202765984856
+      sharpshooter_22: -8767334724985264903
+      sharpshooter_23: 4837977807045970478
+      sharpshooter_24: 6770345710685106691
+      sharpshooter_25: -1395908941072992750
+      sharpshooter_26: 8174241560838962497
+      sharpshooter_27: 789064679312247818
+      sharpshooter_28: 5980137575584599376
+      sharpshooter_29: -1857175121257251642
+      sharpshooter_3: 9149093816782598569
+      sharpshooter_30: 1188724726437417031
+      sharpshooter_31: -2545874863808772459
+      sharpshooter_32: 3331053761965185363
+      sharpshooter_33: 3277432498216446681
+      sharpshooter_34: -5610437974097099047
+      sharpshooter_35: 2236575691663945519
+      sharpshooter_36: 8926962632153707913
+      sharpshooter_37: 895205821078456467
+      sharpshooter_38: 6271544895017473879
+      sharpshooter_39: 1615729057066253017
+      sharpshooter_4: 2820281129272546116
+      sharpshooter_40: -386790250748103176
+      sharpshooter_41: -7182397675519796573
+      sharpshooter_42: -4580179395428670517
+      sharpshooter_43: -5352924989267617322
+      sharpshooter_44: -5677537278903265883
+      sharpshooter_45: -4274898845473195237
+      sharpshooter_46: 3101289520709665012
+      sharpshooter_47: -5814498685140079242
+      sharpshooter_48: 364376251413413299
+      sharpshooter_49: -3789584421659077090
+      sharpshooter_5: -7828977618092537403
+      sharpshooter_50: -1408179675869667786
+      sharpshooter_51: 3133129141491396122
+      sharpshooter_52: -7678813714534319717
+      sharpshooter_53: -1484751452636245828
+      sharpshooter_54: -302002930856604646
+      sharpshooter_55: -2077888897862420459
+      sharpshooter_56: 1353233440823521664
+      sharpshooter_57: -8898734861666680051
+      sharpshooter_58: -129547002604673743
+      sharpshooter_59: -8124225238735733222
+      sharpshooter_6: -4123422507162307450
+      sharpshooter_60: -8507067821182215770
+      sharpshooter_61: -4031739641444072482
+      sharpshooter_62: 5290724696466771714
+      sharpshooter_63: -6317341671492420286
+      sharpshooter_64: 8116583904270919147
+      sharpshooter_65: -5656324303239876552
+      sharpshooter_66: -8011148562876060313
+      sharpshooter_67: -1678535097452380813
+      sharpshooter_68: 2604853269664612227
+      sharpshooter_69: -6429123877022419577
+      sharpshooter_7: -6719796494986905
+      sharpshooter_70: -5100777187339497603
+      sharpshooter_71: 7787565259699049561
+      sharpshooter_72: -6435363921536044102
+      sharpshooter_73: 458838694918208859
+      sharpshooter_74: 2063828784430127796
+      sharpshooter_75: -4305469813790488159
+      sharpshooter_76: -1532709365197308619
+      sharpshooter_77: -8123342809444678521
+      sharpshooter_78: 5437127034782461436
+      sharpshooter_79: 3019343763315801241
+      sharpshooter_8: -6625170107950671155
+      sharpshooter_80: -7323899678157061222
+      sharpshooter_81: -2065808033979032461
+      sharpshooter_82: 2195104437005621865
+      sharpshooter_83: 7074241602562678891
+      sharpshooter_84: -5549515968204604542
+      sharpshooter_85: -6087983182193827088
+      sharpshooter_86: 8001978841264502932
+      sharpshooter_87: 5549968162171015069
+      sharpshooter_88: -7022375694051379735
+      sharpshooter_89: -1655733393040284979
+      sharpshooter_9: -6315893464949059943
+      sharpshooter_90: -7516980690980124832
+      sharpshooter_91: 41872165939372776
+      sharpshooter_92: 2818371032397703972
+      sharpshooter_93: 5339523312982685893
+      sharpshooter_94: 9054114799247758643
+      sharpshooter_95: 1778832543875709024
+      sharpshooter_96: -7068453872585304177
+      sharpshooter_97: -6391888914071760111
+      sharpshooter_98: 8742723967872641868
+      sharpshooter_99: -8904616779579696105
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
