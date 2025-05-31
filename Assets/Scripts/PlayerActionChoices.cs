@@ -4,6 +4,8 @@ using UnityEngine;
 
 internal class PlayerActionChoices : MonoBehaviour
 {
+    string selectedChoice;
+    
     public Task WaitForChoose()
     {
         SwitchTo("move");
@@ -14,15 +16,20 @@ internal class PlayerActionChoices : MonoBehaviour
     public void SwitchTo(string what)
     {
         Assert.IsTrue(what is "attack" or "move");
-        var cursor = FindAnyObjectByType<TargetCursor>();
-        switch (what)
+        
+        FindAnyObjectByType<TargetCursor>().DyeCursor(ColorOf(what));
+        selectedChoice = what;
+        
+        Assert.IsFalse(string.IsNullOrEmpty(selectedChoice));
+    }
+
+    static Color ColorOf(string action)
+    {
+        return action switch
         {
-            case "attack":
-                cursor.DyeCursor(Color.red);
-                break;
-            case "move":
-                cursor.DyeCursor(Color.blue);
-                break;
-        }
+            "move" => Color.blue,
+            "attack" => Color.red,
+            _ => throw new System.ArgumentException($"Unknown action: {action}")
+        };
     }
 }
