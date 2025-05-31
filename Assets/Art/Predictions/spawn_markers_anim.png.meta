@@ -1,0 +1,1131 @@
+fileFormatVersion: 2
+guid: 3af8043d1bc683d4b833040fd87177de
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8992254800364933796
+    second: spawn_markers_anim_0
+  - first:
+      213: 8350494121521685903
+    second: spawn_markers_anim_1
+  - first:
+      213: -3580994133937551338
+    second: spawn_markers_anim_2
+  - first:
+      213: 2750249842896516147
+    second: spawn_markers_anim_3
+  - first:
+      213: -8686319267021006797
+    second: spawn_markers_anim_4
+  - first:
+      213: -7134533727424333408
+    second: spawn_markers_anim_5
+  - first:
+      213: -2334220420363027974
+    second: spawn_markers_anim_6
+  - first:
+      213: -4937249113382586523
+    second: spawn_markers_anim_7
+  - first:
+      213: -6947828264986859382
+    second: spawn_markers_anim_8
+  - first:
+      213: -7164294548642444349
+    second: spawn_markers_anim_9
+  - first:
+      213: -6327444138103430122
+    second: spawn_markers_anim_10
+  - first:
+      213: -3549966574651334964
+    second: spawn_markers_anim_11
+  - first:
+      213: 4863821396875053059
+    second: spawn_markers_anim_12
+  - first:
+      213: 4633507607223573263
+    second: spawn_markers_anim_13
+  - first:
+      213: -197771170700975595
+    second: spawn_markers_anim_14
+  - first:
+      213: 2176079239034756243
+    second: spawn_markers_anim_15
+  - first:
+      213: -1519267861968121493
+    second: spawn_markers_anim_16
+  - first:
+      213: 3476574593399401238
+    second: spawn_markers_anim_17
+  - first:
+      213: -9057130048181949032
+    second: spawn_markers_anim_18
+  - first:
+      213: 155538496713437940
+    second: spawn_markers_anim_19
+  - first:
+      213: 2560299799669057956
+    second: spawn_markers_anim_20
+  - first:
+      213: -5500222048965146998
+    second: spawn_markers_anim_21
+  - first:
+      213: -2401471384962143001
+    second: spawn_markers_anim_22
+  - first:
+      213: 5893742304268368279
+    second: spawn_markers_anim_23
+  - first:
+      213: 4855788511252983159
+    second: spawn_markers_anim_24
+  - first:
+      213: 920894592787547959
+    second: spawn_markers_anim_25
+  - first:
+      213: 3940990084476082879
+    second: spawn_markers_anim_26
+  - first:
+      213: -8805358544927600029
+    second: spawn_markers_anim_27
+  - first:
+      213: 728048933317437490
+    second: spawn_markers_anim_28
+  - first:
+      213: 7189828462062089751
+    second: spawn_markers_anim_29
+  - first:
+      213: -5583370289368881962
+    second: spawn_markers_anim_30
+  - first:
+      213: 6395045419579111033
+    second: spawn_markers_anim_31
+  - first:
+      213: -1185988150871135591
+    second: spawn_markers_anim_32
+  - first:
+      213: -7056692520004080187
+    second: spawn_markers_anim_33
+  - first:
+      213: 96725037491446506
+    second: spawn_markers_anim_34
+  - first:
+      213: -89741587274426992
+    second: spawn_markers_anim_35
+  - first:
+      213: 4709144218778313859
+    second: spawn_markers_anim_36
+  - first:
+      213: -533005933315851632
+    second: spawn_markers_anim_37
+  - first:
+      213: -1337856224571448349
+    second: spawn_markers_anim_38
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spawn_markers_anim_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 180
+        width: 8
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d627ee6e7153380800000000000000
+      internalID: -8992254800364933796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawn_markers_anim_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 221
+        width: 11
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f85a944292ae2e370800000000000000
+      internalID: 8350494121521685903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawn_markers_anim_2
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 220
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61805efdec0cd4ec0800000000000000
+      internalID: -3580994133937551338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawn_markers_anim_3
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 153
+        width: 21
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334bb6129a9da2620800000000000000
+      internalID: 2750249842896516147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawn_markers_anim_4
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 219
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 338d49316aef37780800000000000000
+      internalID: -8686319267021006797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawn_markers_anim_5
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 219
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a934d2106b0dfc90800000000000000
+      internalID: -7134533727424333408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawn_markers_anim_6
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 219
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af97cc815ee2b9fd0800000000000000
+      internalID: -2334220420363027974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawn_markers_anim_7
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 219
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 567f73d071e5b7bb0800000000000000
+      internalID: -4937249113382586523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawn_markers_anim_8
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 154
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a882a01110b549f90800000000000000
+      internalID: -6947828264986859382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawn_markers_anim_9
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 154
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cb46e9e010539c90800000000000000
+      internalID: -7164294548642444349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawn_markers_anim_10
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 155
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 614a734a4176038a0800000000000000
+      internalID: -6327444138103430122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawn_markers_anim_11
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 154
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce9569753cfbbec0800000000000000
+      internalID: -3549966574651334964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawn_markers_anim_12
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 153
+        width: 15
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3088ea37ac3cf7340800000000000000
+      internalID: 4863821396875053059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawn_markers_anim_13
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 91
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0b91a09e968d4040800000000000000
+      internalID: 4633507607223573263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawn_markers_anim_14
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 91
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5122e870b20614df0800000000000000
+      internalID: -197771170700975595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawn_markers_anim_15
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 91
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39cd4cdd98cf23e10800000000000000
+      internalID: 2176079239034756243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawn_markers_anim_16
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 91
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6119b0dde97aeae0800000000000000
+      internalID: -1519267861968121493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawn_markers_anim_17
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 91
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61b28ba4c264f3030800000000000000
+      internalID: 3476574593399401238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawn_markers_anim_18
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 91
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89d2999353c9e4280800000000000000
+      internalID: -9057130048181949032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawn_markers_anim_19
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 91
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f2b08d4075982200800000000000000
+      internalID: 155538496713437940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawn_markers_anim_20
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 91
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a927cd4a13088320800000000000000
+      internalID: 2560299799669057956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawn_markers_anim_21
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 91
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8649a910394ba3b0800000000000000
+      internalID: -5500222048965146998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawn_markers_anim_22
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 91
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ece019bf724caed0800000000000000
+      internalID: -2401471384962143001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawn_markers_anim_23
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 91
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 799bb9b3667cac150800000000000000
+      internalID: 5893742304268368279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawn_markers_anim_24
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 91
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d28a58ce9336340800000000000000
+      internalID: 4855788511252983159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawn_markers_anim_25
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 91
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7370ea6c0cca7cc00800000000000000
+      internalID: 920894592787547959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawn_markers_anim_26
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 91
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fba98800a9531b630800000000000000
+      internalID: 3940990084476082879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawn_markers_anim_27
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 91
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 362d3a16e051dc580800000000000000
+      internalID: -8805358544927600029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawn_markers_anim_28
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 91
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 238ec71c5ac8a1a00800000000000000
+      internalID: 728048933317437490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawn_markers_anim_29
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 53
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 716343594e667c360800000000000000
+      internalID: 7189828462062089751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawn_markers_anim_30
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 52
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d4a2b4cd42e382b0800000000000000
+      internalID: -5583370289368881962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawn_markers_anim_31
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 52
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 976708c3de3cfb850800000000000000
+      internalID: 6395045419579111033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawn_markers_anim_32
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 52
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ae0877f068a8fe0800000000000000
+      internalID: -1185988150871135591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawn_markers_anim_33
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 27
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cd20008a87911e90800000000000000
+      internalID: -7056692520004080187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawn_markers_anim_34
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 28
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae2609cb8e2a75100800000000000000
+      internalID: 96725037491446506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawn_markers_anim_35
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 25
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0959de8708c21cef0800000000000000
+      internalID: -89741587274426992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawn_markers_anim_36
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 25
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 384ad5487bd3a5140800000000000000
+      internalID: 4709144218778313859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawn_markers_anim_37
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 25
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09a78897de16a98f0800000000000000
+      internalID: -533005933315851632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawn_markers_anim_38
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 26
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e3afdd1adafe6de0800000000000000
+      internalID: -1337856224571448349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spawn_markers_anim_0: -8992254800364933796
+      spawn_markers_anim_1: 8350494121521685903
+      spawn_markers_anim_10: -6327444138103430122
+      spawn_markers_anim_11: -3549966574651334964
+      spawn_markers_anim_12: 4863821396875053059
+      spawn_markers_anim_13: 4633507607223573263
+      spawn_markers_anim_14: -197771170700975595
+      spawn_markers_anim_15: 2176079239034756243
+      spawn_markers_anim_16: -1519267861968121493
+      spawn_markers_anim_17: 3476574593399401238
+      spawn_markers_anim_18: -9057130048181949032
+      spawn_markers_anim_19: 155538496713437940
+      spawn_markers_anim_2: -3580994133937551338
+      spawn_markers_anim_20: 2560299799669057956
+      spawn_markers_anim_21: -5500222048965146998
+      spawn_markers_anim_22: -2401471384962143001
+      spawn_markers_anim_23: 5893742304268368279
+      spawn_markers_anim_24: 4855788511252983159
+      spawn_markers_anim_25: 920894592787547959
+      spawn_markers_anim_26: 3940990084476082879
+      spawn_markers_anim_27: -8805358544927600029
+      spawn_markers_anim_28: 728048933317437490
+      spawn_markers_anim_29: 7189828462062089751
+      spawn_markers_anim_3: 2750249842896516147
+      spawn_markers_anim_30: -5583370289368881962
+      spawn_markers_anim_31: 6395045419579111033
+      spawn_markers_anim_32: -1185988150871135591
+      spawn_markers_anim_33: -7056692520004080187
+      spawn_markers_anim_34: 96725037491446506
+      spawn_markers_anim_35: -89741587274426992
+      spawn_markers_anim_36: 4709144218778313859
+      spawn_markers_anim_37: -533005933315851632
+      spawn_markers_anim_38: -1337856224571448349
+      spawn_markers_anim_4: -8686319267021006797
+      spawn_markers_anim_5: -7134533727424333408
+      spawn_markers_anim_6: -2334220420363027974
+      spawn_markers_anim_7: -4937249113382586523
+      spawn_markers_anim_8: -6947828264986859382
+      spawn_markers_anim_9: -7164294548642444349
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
