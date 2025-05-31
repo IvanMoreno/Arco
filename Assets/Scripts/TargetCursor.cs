@@ -4,7 +4,7 @@ using UnityEngine.EventSystems;
 
 internal class TargetCursor : MonoBehaviour
 {
-    public async Task<Vector3> SelectTargetPosition(MovementPrediction prediction)
+    public async Task<Vector3> SelectTargetPosition(CharacterPrediction prediction)
     {
         ShowCursor();
         while (!ChoseLocation())

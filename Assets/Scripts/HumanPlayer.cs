@@ -17,7 +17,7 @@ internal class HumanPlayer : MonoBehaviour, Brain
 
     async Task ChooseFor(Somebody character)
     {
-        var targetPosition = await FindAnyObjectByType<TargetCursor>().SelectTargetPosition(GetComponent<MovementPrediction>());
+        var targetPosition = await FindAnyObjectByType<TargetCursor>().SelectTargetPosition(GetComponent<CharacterPrediction>());
 
         if(selectedChoice == "move")
             character.ProgramarMovimiento(targetPosition);
@@ -28,7 +28,8 @@ internal class HumanPlayer : MonoBehaviour, Brain
     public void SwitchTo(string what)
     {
         Assert.IsTrue(what is "attack" or "move");
-        
+
+        GetComponent<CharacterPrediction>().DyePrediction(ColorOf(what));
         FindAnyObjectByType<TargetCursor>().DyeCursor(ColorOf(what));
         selectedChoice = what;
         
