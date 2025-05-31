@@ -37,7 +37,7 @@ internal class Enemy : MonoBehaviour
     public async Task ShowPrediction()
     {
         willAttackInThisTurn = Random.value >= 0.5f;
-        targetPosition = (Vector2)transform.position + Random.insideUnitCircle;
+        targetPosition = (Vector2)transform.position + Random.insideUnitCircle * 3;
         attackPrediction.SetActive(willAttackInThisTurn);
         movementPrediction.SetActive(!willAttackInThisTurn);
     }
