@@ -28,9 +28,14 @@ internal class Enemy : MonoBehaviour
             GetComponent<Movimiento>().Towards(targetPosition);
         else
         {
-            var posPersonaje = FindAnyObjectByType<Character>().transform.position;
-            GetComponent<Disparo>().Towards(posPersonaje);
+            GetComponent<Disparo>().Towards(RandomCharacterPosition());
         }
+    }
+
+    static Vector3 RandomCharacterPosition()
+    {
+        var allCharacters = FindObjectsByType<Character>(FindObjectsSortMode.None);
+        return allCharacters[Random.Range(0, allCharacters.Length)].transform.position;
     }
 
     public async Task ShowPrediction()
