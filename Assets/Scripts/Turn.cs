@@ -83,12 +83,10 @@ internal class Turn : MonoBehaviour
         await FindAnyObjectByType<Character>().HacerLoQueTengaPendiente();
     }
 
-    static async Task Enemies()
+    static Task Enemies()
     {
-        foreach (var enemy in FindObjectsByType<Enemy>(None))
-        {
-            await enemy.HacerLoQueTengaPendiente();
-        }
+        var tasks = FindObjectsByType<Enemy>(None).Select(enemy => enemy.HacerLoQueTengaPendiente());
+        return Task.WhenAll(tasks);
     }
 
     static Task Projectiles()
