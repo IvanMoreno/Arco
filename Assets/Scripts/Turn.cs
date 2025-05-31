@@ -75,8 +75,13 @@ internal class Turn : MonoBehaviour
 
     static async Task PlanearAccionesDeLosPersonajes()
     {
-        foreach (var character in FindObjectsByType<Character>(None))
-            await FindAnyObjectByType<Choose>().WaitForChoose(character.GetComponent<Somebody>());
+        foreach (var character in AllCharacters())
+            await FindAnyObjectByType<Choose>().WaitForChoose(character);
+    }
+
+    static IEnumerable<Somebody> AllCharacters()
+    {
+        return FindObjectsByType<Somebody>(None).Where(somebody => !somebody.IsAutomatic);
     }
 
     Task EjecutarLasAccionesPendientes()
@@ -86,9 +91,7 @@ internal class Turn : MonoBehaviour
 
     static async Task Characters()
     {
-        var tasks = FindObjectsByType<Character>(None)
-            .Select(character => character.GetComponent<Somebody>())
-            .Select(x => x.HacerLoQueTengaPendiente());
+        var tasks = AllCharacters().Select(x => x.HacerLoQueTengaPendiente());
         await Task.WhenAll(tasks);
     }
 
