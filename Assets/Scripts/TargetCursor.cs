@@ -7,11 +7,20 @@ internal class TargetCursor : MonoBehaviour
     {
         while (!Input.GetMouseButtonDown(0))
         {
+            UpdatePositionToFollowCursor();
             await Task.Yield();
         }
 
         var character = FindAnyObjectByType<Character>().GetComponent<Movimiento>();
         character.Hacia(Donde(character));
+    }
+
+    void UpdatePositionToFollowCursor()
+    {
+        var mousePosition = Input.mousePosition;
+        var positionInWorld = Camera.main.ScreenToWorldPoint(mousePosition);
+        positionInWorld.z = 0;
+        transform.position = positionInWorld;
     }
 
     static Vector3 Donde(Movimiento character)
