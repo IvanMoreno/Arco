@@ -7,13 +7,24 @@ internal class Turn : MonoBehaviour
     async void Start()
     {
         await CosasAntesDelPrimerTurno();
+        int turn = 0;
         while (!destroyCancellationToken.IsCancellationRequested)
+        {
+            await SpawnEnemies(turn++);
             await OneTurn();
+        }
+    }
+
+    async Task SpawnEnemies(int turn)
+    {
+        foreach (var spawner in FindObjectsByType<Spawner>((FindObjectsSortMode)FindObjectsInactive.Exclude))
+        {
+            await spawner.ApareceSiEsElTurno(turn);
+        }
     }
 
     async Task CosasAntesDelPrimerTurno()
     {
-        
     }
 
     async Task OneTurn()
