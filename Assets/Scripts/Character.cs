@@ -3,8 +3,10 @@ using UnityEngine;
 
 internal class Character : MonoBehaviour
 {
+    #region Algo que todavía no tenemos claro pero que se repite en enemy
+
     bool willAttackInThisTurn;
-    
+
     public Task HacerLoQueTengaPendiente()
     {
         return willAttackInThisTurn
@@ -23,13 +25,15 @@ internal class Character : MonoBehaviour
         willAttackInThisTurn = true;
         GetComponent<Disparo>().Towards(target);
     }
-    
+
     public void RecibirImpacto()
     {
         GetComponent<Vida>().UnaMenos();
         if (GetComponent<Vida>().EstaMuerto())
             Destroy(gameObject);
     }
+
+    #endregion
 
     public void MarkAsSelected()
     {

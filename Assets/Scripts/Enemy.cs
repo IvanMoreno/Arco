@@ -8,9 +8,12 @@ internal class Enemy : MonoBehaviour
     [SerializeField] GameObject attackPrediction;
     [SerializeField] GameObject movementPrediction;
 
-    bool willAttackInThisTurn;
     Vector2 targetPosition;
     Color ActionColor => willAttackInThisTurn ? Color.red : Color.yellow;
+
+    #region Algo que todavía no tenemos claro pero que se repite en character
+
+    bool willAttackInThisTurn;
 
     public Task HacerLoQueTengaPendiente()
     {
@@ -32,6 +35,15 @@ internal class Enemy : MonoBehaviour
         targetPosition = target;
         GetComponent<Disparo>().Towards(target);
     }
+
+    public void RecibirImpacto()
+    {
+        GetComponent<Vida>().UnaMenos();
+        if (GetComponent<Vida>().EstaMuerto())
+            Destroy(gameObject);
+    }
+
+    #endregion
 
     public async Task ShowPrediction()
     {
@@ -61,12 +73,5 @@ internal class Enemy : MonoBehaviour
     {
         GetComponentInChildren<LineRenderer>().SetPositions(Array.Empty<Vector3>());
         GetComponentInChildren<LineRenderer>().enabled = false;
-    }
-
-    public void RecibirImpacto()
-    {
-        GetComponent<Vida>().UnaMenos();
-        if (GetComponent<Vida>().EstaMuerto())
-            Destroy(gameObject);
     }
 }
