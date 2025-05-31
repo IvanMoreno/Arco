@@ -10,15 +10,6 @@ internal class Enemy : MonoBehaviour
 
     Color ActionColor => GetComponent<AlgoComunEntreCharacterYEnemy>().WillAttack ? Color.red : Color.yellow;
 
-    #region Algo que todavía no tenemos claro pero que se repite en character
-
-    public void RecibirImpacto()
-    {
-        GetComponent<AlgoComunEntreCharacterYEnemy>().RecibirImpacto();
-    }
-
-    #endregion
-
     public async Task ShowPrediction()
     {
         attackPrediction.SetActive(GetComponent<AlgoComunEntreCharacterYEnemy>().WillAttack);
