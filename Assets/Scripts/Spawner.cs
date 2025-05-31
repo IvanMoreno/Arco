@@ -15,8 +15,13 @@ internal class Spawner : MonoBehaviour
         }
     }
 
-    public async Task TogglePreview(int turn)
+    public async Task ShowPrediction(int turn)
     {
         GetComponentInChildren<SpriteRenderer>(true).GameObject().SetActive(turn == this.turn - 1);
+    }
+
+    public async Task HidePrediction()
+    {
+        GetComponentInChildren<SpriteRenderer>(true).GameObject().SetActive(false);
     }
 }
