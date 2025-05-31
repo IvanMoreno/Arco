@@ -32,7 +32,7 @@ internal class ProjectileOfCharacter : MonoBehaviour, Projectile
     void OnTriggerEnter2D(Collider2D other)
     {
         var candidateEnemy = other.GetComponent<Somebody>();
-        if (candidateEnemy is { IsAutomatic: false })
+        if (candidateEnemy is { IsEnemy: false })
             return;
 
         candidateEnemy.RecibirImpacto();

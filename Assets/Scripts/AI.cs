@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System.Linq;
+using System.Threading.Tasks;
 using UnityEngine;
 
 internal class AI : MonoBehaviour
@@ -18,7 +19,7 @@ internal class AI : MonoBehaviour
     
     static Vector2 RandomCharacterPosition()
     {
-        var allCharacters = FindObjectsByType<Character>(FindObjectsSortMode.None);
+        var allCharacters = FindObjectsByType<Somebody>(FindObjectsSortMode.None).Where(x => !x.IsEnemy).ToArray();
         return allCharacters[Random.Range(0, allCharacters.Length)].transform.position;
     }
 }

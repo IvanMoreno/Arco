@@ -3,7 +3,7 @@ using UnityEngine;
 
 internal class Somebody : MonoBehaviour
 {
-    [field: SerializeField] public bool IsAutomatic { get; private set; }
+    [field: SerializeField] public bool IsEnemy { get; private set; }
 
     Intent intent;
     

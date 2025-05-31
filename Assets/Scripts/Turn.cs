@@ -81,7 +81,7 @@ internal class Turn : MonoBehaviour
 
     static IEnumerable<Somebody> AllCharacters()
     {
-        return FindObjectsByType<Somebody>(None).Where(somebody => !somebody.IsAutomatic);
+        return FindObjectsByType<Somebody>(None).Where(somebody => !somebody.IsEnemy);
     }
 
     Task EjecutarLasAccionesPendientes()
