@@ -3,7 +3,7 @@ using UnityEngine;
 
 internal class AI : MonoBehaviour
 {
-    public Task ChooseFor(AlgoComunEntreCharacterYEnemy enemy)
+    public Task ChooseFor(Somebody enemy)
     {
         var willAttackInThisTurn = Random.value >= 0.5f;
         var movementPosition = (Vector2)enemy.transform.position + Random.insideUnitCircle * 3;

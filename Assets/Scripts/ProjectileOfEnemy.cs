@@ -31,7 +31,7 @@ internal class ProjectileOfEnemy : MonoBehaviour, Projectile
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        other.GetComponent<Character>()?.GetComponent<AlgoComunEntreCharacterYEnemy>().RecibirImpacto();
+        other.GetComponent<Character>()?.GetComponent<Somebody>().RecibirImpacto();
         DestroyMe();
     }
 

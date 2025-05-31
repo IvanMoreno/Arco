@@ -36,7 +36,7 @@ internal class Turn : MonoBehaviour
     {
         foreach (var enemy in FindObjectsByType<Enemy>(None))
         {
-            await FindAnyObjectByType<AI>().ChooseFor(enemy.GetComponent<AlgoComunEntreCharacterYEnemy>());
+            await FindAnyObjectByType<AI>().ChooseFor(enemy.GetComponent<Somebody>());
         }
     }
 
@@ -87,7 +87,7 @@ internal class Turn : MonoBehaviour
     static async Task Characters()
     {
         var tasks = FindObjectsByType<Character>(None)
-            .Select(character => character.GetComponent<AlgoComunEntreCharacterYEnemy>())
+            .Select(character => character.GetComponent<Somebody>())
             .Select(x => x.HacerLoQueTengaPendiente());
         await Task.WhenAll(tasks);
     }
@@ -95,7 +95,7 @@ internal class Turn : MonoBehaviour
     static Task Enemies()
     {
         var tasks = FindObjectsByType<Enemy>(None)
-            .Select(character => character.GetComponent<AlgoComunEntreCharacterYEnemy>())
+            .Select(character => character.GetComponent<Somebody>())
             .Select(enemy => enemy.HacerLoQueTengaPendiente());
         return Task.WhenAll(tasks);
     }

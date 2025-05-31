@@ -12,11 +12,11 @@ internal class Choose : MonoBehaviour
         SwitchTo("move");
         
         character.GetComponentInChildren<SelectionMark>().Show();
-        await ChooseFor(character.GetComponent<AlgoComunEntreCharacterYEnemy>());
+        await ChooseFor(character.GetComponent<Somebody>());
         character.GetComponentInChildren<SelectionMark>().Hide();
     }
 
-    async Task ChooseFor(AlgoComunEntreCharacterYEnemy character)
+    async Task ChooseFor(Somebody character)
     {
         var targetPosition = await FindAnyObjectByType<TargetCursor>().SelectTargetPosition();
 

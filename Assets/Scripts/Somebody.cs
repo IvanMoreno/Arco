@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using UnityEngine;
 
-internal class AlgoComunEntreCharacterYEnemy : MonoBehaviour
+internal class Somebody : MonoBehaviour
 {
     Intent intent;
     

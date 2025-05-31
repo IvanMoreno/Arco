@@ -8,12 +8,12 @@ internal class Enemy : MonoBehaviour
     [SerializeField] GameObject attackPrediction;
     [SerializeField] GameObject movementPrediction;
 
-    Color ActionColor => GetComponent<AlgoComunEntreCharacterYEnemy>().WillAttack ? Color.red : Color.yellow;
+    Color ActionColor => GetComponent<Somebody>().WillAttack ? Color.red : Color.yellow;
 
     public async Task ShowPrediction()
     {
-        attackPrediction.SetActive(GetComponent<AlgoComunEntreCharacterYEnemy>().WillAttack);
-        movementPrediction.SetActive(!GetComponent<AlgoComunEntreCharacterYEnemy>().WillAttack);
+        attackPrediction.SetActive(GetComponent<Somebody>().WillAttack);
+        movementPrediction.SetActive(!GetComponent<Somebody>().WillAttack);
     }
 
     public async Task HidePrediction()
@@ -30,13 +30,13 @@ internal class Enemy : MonoBehaviour
         GetComponentInChildren<LineRenderer>().SetPositions(new List<Vector3>()
         {
             transform.position,
-            TargetOfThePreview()
+            TargetOfThePrediction()
         }.ToArray());
     }
 
-    Vector2 TargetOfThePreview()
+    Vector2 TargetOfThePrediction()
     {
-        return GetComponent<AlgoComunEntreCharacterYEnemy>().WillAttack
+        return GetComponent<Somebody>().WillAttack
             ? GetComponent<Disparo>().Target
             : GetComponent<Movimiento>().Destination;
     }
