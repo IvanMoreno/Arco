@@ -36,5 +36,6 @@ internal class Turn : MonoBehaviour
     async Task EjecutarLasAccionesPendientes()
     {
         await FindAnyObjectByType<Character>().HacerLoQueTengaPendiente();
+        await FindAnyObjectByType<Enemy>().HacerLoQueTengaPendiente();
     }
 }
