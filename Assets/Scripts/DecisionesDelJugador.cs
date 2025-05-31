@@ -14,11 +14,9 @@ internal class DecisionesDelJugador : MonoBehaviour
         var targetPosition = await FindAnyObjectByType<TargetCursor>().SelectTargetPosition();
         
         if(selectedChoice == "move")
-            FindAnyObjectByType<Character>()
-                .GetComponent<Movimiento>()
-                .Towards(targetPosition);
+            FindAnyObjectByType<Character>().ProgramarMovimiento(targetPosition);
         else if(selectedChoice == "attack")
-            Debug.LogError("doing an attack is not implemented yet");
+            FindAnyObjectByType<Character>().ProgramarDisparo(targetPosition);
     }
 
     public void SwitchTo(string what)
