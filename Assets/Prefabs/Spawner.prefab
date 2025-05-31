@@ -133,4 +133,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turn: 1
-  enemyPrefab: {fileID: 6761058850000427232, guid: a1f052ed9ff4d0d4f905f6b09a1dbde5, type: 3}
+  enemyPrefab: {fileID: 6538045105303320261, guid: a1f052ed9ff4d0d4f905f6b09a1dbde5, type: 3}

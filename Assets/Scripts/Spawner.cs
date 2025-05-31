@@ -1,15 +1,17 @@
 using System.Threading.Tasks;
+using NUnit.Framework;
 using UnityEngine;
 
 internal class Spawner : MonoBehaviour
 {
     [SerializeField] int turn;
-    [SerializeField] Enemy enemyPrefab;
+    [SerializeField] Somebody enemyPrefab;
 
     public async Task SpawnIfIn(int turn)
     {
         if (this.turn == turn)
         {
+            Assert.IsTrue(enemyPrefab.IsEnemy);
             Instantiate(enemyPrefab, transform);
         }
     }
