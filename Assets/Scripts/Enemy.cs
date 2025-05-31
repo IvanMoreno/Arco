@@ -1,13 +1,22 @@
+using System;
 using System.Threading.Tasks;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 internal class Enemy : MonoBehaviour
 {
     [SerializeField] GameObject projectilePrefab;
+
+    [Header("Predictions")] 
+    [SerializeField] GameObject attackPrediction;
+    [SerializeField] GameObject movementPrediction;
+
+    bool willAttackInThisTurn;
+    Vector2 targetPosition;
     
     public Task HacerLoQueTengaPendiente()
     {
-        return Random.value < 0.5f ? Moverse() : DispararHaciaElPersonaje();
+        return willAttackInThisTurn ? DispararHaciaElPersonaje() : Moverse();
     }
 
     async Task DispararHaciaElPersonaje()
@@ -21,7 +30,21 @@ internal class Enemy : MonoBehaviour
 
     Task Moverse()
     {
-        GetComponent<Movimiento>().Towards((Vector2)transform.position + Random.insideUnitCircle);
+        GetComponent<Movimiento>().Towards(targetPosition);
         return GetComponent<Movimiento>().Hacerse();
+    }
+
+    public async Task ShowPrediction()
+    {
+        willAttackInThisTurn = Random.value >= 0.5f;
+        targetPosition = (Vector2)transform.position + Random.insideUnitCircle;
+        attackPrediction.SetActive(willAttackInThisTurn);
+        movementPrediction.SetActive(!willAttackInThisTurn);
+    }
+
+    public async Task HidePrediction()
+    {
+        attackPrediction.SetActive(false);
+        movementPrediction.SetActive(false);
     }
 }

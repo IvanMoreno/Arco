@@ -37,6 +37,11 @@ internal class Turn : MonoBehaviour
         {
             await spawner.HidePrediction();
         }
+        
+        foreach (var enemy in FindObjectsByType<Enemy>(None))
+        {
+            await enemy.HidePrediction();
+        }
     }
 
     async Task ShowPredictions()
@@ -44,6 +49,11 @@ internal class Turn : MonoBehaviour
         foreach (var spawner in FindObjectsByType<Spawner>(None))
         {
             await spawner.ShowPrediction(turn);
+        }
+        
+        foreach (var enemy in FindObjectsByType<Enemy>(None))
+        {
+            await enemy.ShowPrediction();
         }
     }
 
