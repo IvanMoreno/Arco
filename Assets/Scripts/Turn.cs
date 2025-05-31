@@ -38,7 +38,10 @@ internal class Turn : MonoBehaviour
     {
         await SpawnEnemies(++turn);
         await FindAnyObjectByType<Character>().HacerLoQueTengaPendiente();
-        await FindAnyObjectByType<Enemy>().HacerLoQueTengaPendiente();
+        foreach (var enemy in FindObjectsByType<Enemy>((FindObjectsSortMode)FindObjectsInactive.Exclude))
+        {
+            await enemy.HacerLoQueTengaPendiente();
+        }
     }
 
     async Task SpawnEnemies(int turn)
