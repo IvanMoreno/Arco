@@ -11,6 +11,14 @@ internal class TargetCursor : MonoBehaviour
         }
 
         var character = FindAnyObjectByType<Character>().GetComponent<Movimiento>();
-        character.Hacia(character.transform.position + Vector3.right);
+        character.Hacia(Donde(character));
+    }
+
+    static Vector3 Donde(Movimiento character)
+    {
+        var mousePosition = Input.mousePosition;
+        var positionInWorld = Camera.main.ScreenToWorldPoint(mousePosition);
+        positionInWorld.z = character.transform.position.z;
+        return positionInWorld;
     }
 }
