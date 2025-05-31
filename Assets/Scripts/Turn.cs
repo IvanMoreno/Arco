@@ -47,14 +47,26 @@ internal class Turn : MonoBehaviour
         await FindAnyObjectByType<TargetCursor>().SelectTarget();
     }
 
-    async Task EjecutarLasAccionesPendientes()
+    Task EjecutarLasAccionesPendientes()
     {
-        await SpawnEnemies();
+        return Task.WhenAll(ComportamientoPersonaje(), ComportamientoEnemigos(), MoveProjectiles(), SpawnEnemies());
+    }
+
+    static async Task ComportamientoPersonaje()
+    {
         await FindAnyObjectByType<Character>().HacerLoQueTengaPendiente();
+    }
+
+    static async Task ComportamientoEnemigos()
+    {
         foreach (var enemy in FindObjectsByType<Enemy>(FindObjectsSortMode.None))
         {
             await enemy.HacerLoQueTengaPendiente();
         }
+    }
+
+    static async Task MoveProjectiles()
+    {
         foreach (var projectile in FindObjectsByType<Projectile>(FindObjectsSortMode.None))
         {
             await projectile.HacerLoQueTengaPendiente();
