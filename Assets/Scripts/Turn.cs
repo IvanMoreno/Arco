@@ -36,7 +36,7 @@ internal class Turn : MonoBehaviour
     {
         foreach (var enemy in FindObjectsByType<Enemy>(None))
         {
-            await enemy.DecidirSiguienteAccion();
+            await FindAnyObjectByType<AI>().ChooseFor(enemy);
         }
     }
 

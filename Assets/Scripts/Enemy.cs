@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using UnityEngine;
-using Random = UnityEngine.Random;
 
 internal class Enemy : MonoBehaviour
 {
@@ -19,22 +18,19 @@ internal class Enemy : MonoBehaviour
             ? GetComponent<Disparo>().Hacerse()
             : GetComponent<Movimiento>().Hacerse();
     }
-
-    public async Task DecidirSiguienteAccion()
+    
+    public void ProgramarMovimiento(Vector3 target)
     {
-        willAttackInThisTurn = Random.value >= 0.5f;
-        var movementPosition = (Vector2)transform.position + Random.insideUnitCircle * 3;
-        targetPosition = willAttackInThisTurn ? RandomCharacterPosition() : movementPosition;
-        if (!willAttackInThisTurn)
-            GetComponent<Movimiento>().Towards(targetPosition);
-        else
-            GetComponent<Disparo>().Towards(targetPosition);
+        willAttackInThisTurn = false;
+        targetPosition = target;
+        GetComponent<Movimiento>().Towards(target);
     }
-
-    static Vector3 RandomCharacterPosition()
+    
+    public void ProgramarDisparo(Vector3 target)
     {
-        var allCharacters = FindObjectsByType<Character>(FindObjectsSortMode.None);
-        return allCharacters[Random.Range(0, allCharacters.Length)].transform.position;
+        willAttackInThisTurn = true;
+        targetPosition = target;
+        GetComponent<Disparo>().Towards(target);
     }
 
     public async Task ShowPrediction()
