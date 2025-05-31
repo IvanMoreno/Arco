@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.Assertions;
 
-internal class Movimiento : MonoBehaviour
+internal class Movimiento : MonoBehaviour, Intent
 {
     public Vector3 Destination { get; private set; }
 

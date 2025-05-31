@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
 using UnityEngine;
 
-internal class Disparo : MonoBehaviour
+internal class Disparo : MonoBehaviour, Intent
 {
     [SerializeField] GameObject projectilePrefab;
 
