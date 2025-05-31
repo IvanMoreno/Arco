@@ -97,9 +97,7 @@ internal class Turn : MonoBehaviour
 
     static Task Enemies()
     {
-        var tasks = FindObjectsByType<Enemy>(None)
-            .Select(character => character.GetComponent<Somebody>())
-            .Select(enemy => enemy.HacerLoQueTengaPendiente());
+        var tasks = FindObjectsByType<Somebody>(None).Where(x => x.IsEnemy).Select(enemy => enemy.HacerLoQueTengaPendiente());
         return Task.WhenAll(tasks);
     }
 
