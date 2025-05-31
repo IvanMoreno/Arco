@@ -86,7 +86,8 @@ internal class Turn : MonoBehaviour
 
     static async Task Characters()
     {
-        await FindAnyObjectByType<Character>().HacerLoQueTengaPendiente();
+        foreach (var character in FindObjectsByType<Character>(None))
+            await character.HacerLoQueTengaPendiente();
     }
 
     static Task Enemies()
