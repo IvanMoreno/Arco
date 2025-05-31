@@ -65,8 +65,15 @@ internal class Enemy : MonoBehaviour
         GetComponentInChildren<LineRenderer>().SetPositions(new List<Vector3>()
         {
             transform.position,
-            targetPosition
+            TargetOfThePreview()
         }.ToArray());
+    }
+
+    Vector2 TargetOfThePreview()
+    {
+        return willAttackInThisTurn
+            ? targetPosition
+            : GetComponent<Movimiento>().Destination;
     }
 
     void OnMouseExit()

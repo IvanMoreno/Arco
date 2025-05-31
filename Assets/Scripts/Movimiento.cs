@@ -5,14 +5,14 @@ using UnityEngine.Assertions;
 
 internal class Movimiento : MonoBehaviour
 {
-    Vector3 destination;
+    public Vector3 Destination { get; private set; }
 
     TaskCompletionSource<bool> tcs;
 
     public void Towards(Vector2 dónde)
     {
         Assert.IsNull(tcs, "Ya hay una tarea pendiente de movimiento");
-        destination = dónde;
+        Destination = dónde;
     }
     
     public async Task Hacerse()
@@ -27,8 +27,8 @@ internal class Movimiento : MonoBehaviour
         if (tcs == null)
             return;
         
-        transform.position = Vector3.MoveTowards(transform.position, destination, Time.deltaTime * 5f);
-        if (Vector3.Distance(transform.position, destination) < 0.1f)
+        transform.position = Vector3.MoveTowards(transform.position, Destination, Time.deltaTime * 5f);
+        if (Vector3.Distance(transform.position, Destination) < 0.1f)
             tcs.SetResult(true);
     }
 
