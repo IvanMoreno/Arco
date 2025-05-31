@@ -31,4 +31,9 @@ internal class Movimiento : MonoBehaviour
         if (Vector3.Distance(transform.position, destination) < 0.1f)
             tcs.SetResult(true);
     }
+
+    void OnDestroy()
+    {
+        tcs.TrySetResult(true);
+    }
 }
