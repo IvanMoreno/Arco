@@ -7,16 +7,16 @@ internal class Choose : MonoBehaviour
 {
     string selectedChoice;
     
-    public async Task WaitForChoose()
+    public async Task WaitForChoose(Character character)
     {
         SwitchTo("move");
 
         var targetPosition = await FindAnyObjectByType<TargetCursor>().SelectTargetPosition();
         
         if(selectedChoice == "move")
-            FindAnyObjectByType<Character>().ProgramarMovimiento(targetPosition);
+            character.ProgramarMovimiento(targetPosition);
         else if(selectedChoice == "attack")
-            FindAnyObjectByType<Character>().ProgramarDisparo(targetPosition);
+            character.ProgramarDisparo(targetPosition);
     }
 
     public void SwitchTo(string what)
