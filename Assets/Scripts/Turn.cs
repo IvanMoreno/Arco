@@ -36,7 +36,7 @@ internal class Turn : MonoBehaviour
 
     async Task EjecutarLasAccionesPendientes()
     {
-        await SpawnEnemies(++turn);
+        await SpawnEnemies();
         await FindAnyObjectByType<Character>().HacerLoQueTengaPendiente();
         foreach (var enemy in FindObjectsByType<Enemy>((FindObjectsSortMode)FindObjectsInactive.Exclude))
         {
@@ -44,11 +44,11 @@ internal class Turn : MonoBehaviour
         }
     }
 
-    async Task SpawnEnemies(int turn)
+    async Task SpawnEnemies()
     {
         foreach (var spawner in FindObjectsByType<Spawner>((FindObjectsSortMode)FindObjectsInactive.Exclude))
         {
-            await spawner.ApareceSiEsElTurno(turn);
+            await spawner.ApareceSiEsElTurno(++turn);
         }
     }
 }
