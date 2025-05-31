@@ -1,26 +1,24 @@
 ﻿using System.Threading.Tasks;
 using UnityEngine;
 
-internal class AlgoComunEntreCharacaterYEnemy : MonoBehaviour
+internal class AlgoComunEntreCharacterYEnemy : MonoBehaviour
 {
-    bool willAttackInThisTurn;
+    Intent intent;
 
     public Task HacerLoQueTengaPendiente()
     {
-        return willAttackInThisTurn
-            ? GetComponent<Disparo>().Hacerse()
-            : GetComponent<Movimiento>().Hacerse();
+        return intent.Hacerse();
     }
 
     public void ProgramarMovimiento(Vector3 target)
     {
-        willAttackInThisTurn = false;
         GetComponent<Movimiento>().Towards(target);
+        intent = GetComponent<Movimiento>();
     }
     
     public void ProgramarDisparo(Vector3 target)
     {
-        willAttackInThisTurn = true;
+        intent = GetComponent<Disparo>();
         GetComponent<Disparo>().Towards(target);
     }
 

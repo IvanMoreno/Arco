@@ -8,7 +8,6 @@ internal class Enemy : MonoBehaviour
     [SerializeField] GameObject attackPrediction;
     [SerializeField] GameObject movementPrediction;
 
-    Intent intent;
     Color ActionColor => willAttackInThisTurn ? Color.red : Color.yellow;
 
     #region Algo que todavía no tenemos claro pero que se repite en character
