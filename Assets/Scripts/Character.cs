@@ -3,22 +3,22 @@ using UnityEngine;
 
 internal class Character : MonoBehaviour
 {
-    bool willAttackInThisTurn;
+    bool whetherAttackOrMove;
     
     public Task HacerLoQueTengaPendiente()
     {
-        return willAttackInThisTurn ? GetComponent<Disparo>().Hacerse() : GetComponent<Movimiento>().Hacerse();
+        return whetherAttackOrMove ? GetComponent<Disparo>().Hacerse() : GetComponent<Movimiento>().Hacerse();
     }
 
     public void ProgramarMovimiento(Vector3 target)
     {
-        willAttackInThisTurn = false;
+        whetherAttackOrMove = false;
         GetComponent<Movimiento>().Towards(target);
     }
     
     public void ProgramarDisparo(Vector3 target)
     {
-        willAttackInThisTurn = true;
+        whetherAttackOrMove = true;
         GetComponent<Disparo>().Towards(target);
     }
     
