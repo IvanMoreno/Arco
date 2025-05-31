@@ -3,6 +3,8 @@ using UnityEngine;
 
 internal class Somebody : MonoBehaviour
 {
+    [field: SerializeField] public bool IsAutomatic { get; private set; }
+
     Intent intent;
     
     public bool WillAttack => intent is Disparo;
