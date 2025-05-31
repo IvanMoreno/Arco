@@ -1,5 +1,9 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using UnityEngine;
+using static UnityEngine.FindObjectsSortMode;
 
 internal class Turn : MonoBehaviour
 {
@@ -59,18 +63,16 @@ internal class Turn : MonoBehaviour
 
     static async Task ComportamientoEnemigos()
     {
-        foreach (var enemy in FindObjectsByType<Enemy>(FindObjectsSortMode.None))
+        foreach (var enemy in FindObjectsByType<Enemy>(None))
         {
             await enemy.HacerLoQueTengaPendiente();
         }
     }
 
-    static async Task MoveProjectiles()
+    static Task MoveProjectiles()
     {
-        foreach (var projectile in FindObjectsByType<Projectile>(FindObjectsSortMode.None))
-        {
-            await projectile.HacerLoQueTengaPendiente();
-        }
+        var tasks = FindObjectsByType<Projectile>(None).Select(projectile => projectile.HacerLoQueTengaPendiente());
+        return Task.WhenAll(tasks);
     }
 
     async Task SpawnEnemies()
