@@ -17,7 +17,7 @@ internal class Spawner : MonoBehaviour
 
     public async Task ShowPrediction(int turn)
     {
-        GetComponentInChildren<SpriteRenderer>(true).GameObject().SetActive(turn == this.turn - 1);
+        GetComponentInChildren<SpriteRenderer>(true).GameObject().SetActive(turn == this.turn);
     }
 
     public async Task HidePrediction()

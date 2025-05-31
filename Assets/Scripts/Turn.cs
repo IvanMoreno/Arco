@@ -18,6 +18,7 @@ internal class Turn : MonoBehaviour
 
     async Task OneTurn()
     {
+        turn++;
         await EnseñarLasPredicciones();
         await ChooseAction();
         await EsconderLasPredicciones();
@@ -60,7 +61,7 @@ internal class Turn : MonoBehaviour
     {
         foreach (var spawner in FindObjectsByType<Spawner>((FindObjectsSortMode)FindObjectsInactive.Exclude))
         {
-            await spawner.ApareceSiEsElTurno(++turn);
+            await spawner.ApareceSiEsElTurno(turn);
         }
     }
 }
