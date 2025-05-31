@@ -9,10 +9,13 @@ internal class HumanPlayer : MonoBehaviour, Brain
     public async Task Think()
     {
         SwitchTo("move");
+        FindAnyObjectByType<SelectedCharacterIntent>().onChoiceSelected += SwitchTo;
         
         GetComponent<Somebody>().GetComponentInChildren<SelectionMark>().Show();
         await ChooseFor(GetComponent<Somebody>().GetComponent<Somebody>());
         GetComponent<Somebody>().GetComponentInChildren<SelectionMark>().Hide();
+        
+        FindAnyObjectByType<SelectedCharacterIntent>().onChoiceSelected -= SwitchTo;
     }
 
     async Task ChooseFor(Somebody character)

@@ -6,8 +6,6 @@ using Vector3 = UnityEngine.Vector3;
 
 internal class CharacterPrediction : MonoBehaviour
 {
-    Color ActionColor => GetComponent<Somebody>().WillAttack ? Color.red : Color.blue;
-    
     public void LinkTowards(Vector3 destination)
     {
         LineRenderer().enabled = true;
