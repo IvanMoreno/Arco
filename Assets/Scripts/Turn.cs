@@ -24,7 +24,7 @@ internal class Turn : MonoBehaviour
     {
         turn++;
         await ShowPredictions();
-        await ChooseAction();
+        await EsperarAQueElJugadorHagaLoQueQuiera();
         await HidePredictions();
         
         await EjecutarLasAccionesPendientes();
@@ -32,7 +32,7 @@ internal class Turn : MonoBehaviour
 
     async Task HidePredictions()
     {
-        foreach (var spawner in FindObjectsByType<Spawner>((FindObjectsSortMode)FindObjectsInactive.Exclude))
+        foreach (var spawner in FindObjectsByType<Spawner>(None))
         {
             await spawner.HidePrediction();
         }
@@ -40,28 +40,28 @@ internal class Turn : MonoBehaviour
 
     async Task ShowPredictions()
     {
-        foreach (var spawner in FindObjectsByType<Spawner>((FindObjectsSortMode)FindObjectsInactive.Exclude))
+        foreach (var spawner in FindObjectsByType<Spawner>(None))
         {
             await spawner.ShowPrediction(turn);
         }
     }
 
-    async Task ChooseAction()
+    async Task EsperarAQueElJugadorHagaLoQueQuiera()
     {
         await FindAnyObjectByType<TargetCursor>().SelectTarget();
     }
 
     Task EjecutarLasAccionesPendientes()
     {
-        return Task.WhenAll(ComportamientoPersonaje(), ComportamientoEnemigos(), MoveProjectiles(), SpawnEnemies());
+        return Task.WhenAll(Characters(), Enemies(), Projectiles(), Spawners());
     }
 
-    static async Task ComportamientoPersonaje()
+    static async Task Characters()
     {
         await FindAnyObjectByType<Character>().HacerLoQueTengaPendiente();
     }
 
-    static async Task ComportamientoEnemigos()
+    static async Task Enemies()
     {
         foreach (var enemy in FindObjectsByType<Enemy>(None))
         {
@@ -69,15 +69,15 @@ internal class Turn : MonoBehaviour
         }
     }
 
-    static Task MoveProjectiles()
+    static Task Projectiles()
     {
         var tasks = FindObjectsByType<Projectile>(None).Select(projectile => projectile.HacerLoQueTengaPendiente());
         return Task.WhenAll(tasks);
     }
 
-    async Task SpawnEnemies()
+    async Task Spawners()
     {
-        foreach (var spawner in FindObjectsByType<Spawner>((FindObjectsSortMode)FindObjectsInactive.Exclude))
+        foreach (var spawner in FindObjectsByType<Spawner>(None))
         {
             await spawner.SpawnIfIn(turn);
         }
