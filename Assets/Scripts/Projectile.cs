@@ -32,6 +32,11 @@ internal class Projectile : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         other.GetComponent<Character>()?.RecibirImpacto();
-        Destroy(gameObject);
+        DestroyMe();
+    }
+
+    void DestroyMe()
+    {
+        //Todavía no lo hacemos porque da una MissingException si se destruye.
     }
 }
