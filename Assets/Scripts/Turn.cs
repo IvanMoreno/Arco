@@ -11,28 +11,24 @@ internal class Turn : MonoBehaviour
 
     async void Start()
     {
-        await CosasAntesDelPrimerTurno();
+        FindAnyObjectByType<Canvas>().enabled = false;
+        
         while (!destroyCancellationToken.IsCancellationRequested)
             await OneTurn();
-    }
-
-    async Task CosasAntesDelPrimerTurno()
-    {
-        FindAnyObjectByType<Canvas>().enabled = false;
     }
 
     async Task OneTurn()
     {
         turn++;
-        await EsperarAQueEnemigosDecidan();
-        await ShowPredictions();
-        await EsperarAQueElJugadorHagaLoQueQuiera();
-        await HidePredictions();
         
-        await EjecutarLasAccionesPendientes();
+        await WaitForEnemiesChoose();
+        await ShowPredictions();
+        await WaitForCharactersChoose();
+        await HidePredictions();
+        await PassTime();
     }
 
-    async Task EsperarAQueEnemigosDecidan()
+    async Task WaitForEnemiesChoose()
     {
         foreach (var enemy in FindObjectsByType<Somebody>(None).Where(x => x.IsEnemy))
         {
@@ -66,7 +62,7 @@ internal class Turn : MonoBehaviour
         }
     }
 
-    async Task EsperarAQueElJugadorHagaLoQueQuiera()
+    async Task WaitForCharactersChoose()
     {
         FindAnyObjectByType<Canvas>().enabled = true;
         await PlanearAccionesDeLosPersonajes();
@@ -84,7 +80,7 @@ internal class Turn : MonoBehaviour
         return FindObjectsByType<Somebody>(None).Where(somebody => !somebody.IsEnemy);
     }
 
-    Task EjecutarLasAccionesPendientes()
+    Task PassTime()
     {
         return Task.WhenAll(Characters(), Enemies(), Projectiles(), Spawners());
     }
