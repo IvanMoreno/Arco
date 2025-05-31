@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 using UnityEngine;
 
-internal class DecisionesDelJugador : MonoBehaviour
+internal class Choose : MonoBehaviour
 {
     string selectedChoice;
     
