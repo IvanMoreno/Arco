@@ -28,4 +28,14 @@ internal class Character : MonoBehaviour
         if (GetComponent<Vida>().EstaMuerto())
             Destroy(gameObject);
     }
+
+    public void MarkAsSelected()
+    {
+        GetComponentInChildren<SelectionMark>().Show();
+    }
+
+    public void UnMarkAsSelected()
+    {
+        GetComponentInChildren<SelectionMark>().Hide();
+    }
 }
