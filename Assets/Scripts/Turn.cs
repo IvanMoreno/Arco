@@ -60,13 +60,8 @@ internal class Turn : MonoBehaviour
     async Task EsperarAQueElJugadorHagaLoQueQuiera()
     {
         FindAnyObjectByType<Canvas>().enabled = true;
-        await UntilPlayerChooseOneAction();
+        await FindAnyObjectByType<PlayerActionChoices>().WaitForChoose();
         FindAnyObjectByType<Canvas>().enabled = false;
-    }
-
-    static Task UntilPlayerChooseOneAction()
-    {
-        return FindAnyObjectByType<TargetCursor>().SelectTarget();
     }
 
     Task EjecutarLasAccionesPendientes()

@@ -21,11 +21,16 @@ internal class TargetCursor : MonoBehaviour
 
     static bool ChoseLocation() => Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject();
 
+    public void DyeCursor(Color color)
+    {
+        GetComponentInChildren<SpriteRenderer>().color = color;
+    }
+
     void ShowCursor()
     {
         GetComponentInChildren<SpriteRenderer>().enabled = true;
     }
-    
+
     void HideCursor()
     {
         GetComponentInChildren<SpriteRenderer>().enabled = false;
