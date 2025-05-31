@@ -1,0 +1,1157 @@
+fileFormatVersion: 2
+guid: d01a9141af8424f488fe8b02ca8a8616
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7292654526324843005
+    second: danger_icons_0
+  - first:
+      213: -4533396739433651329
+    second: danger_icons_1
+  - first:
+      213: -2336267808980720084
+    second: danger_icons_2
+  - first:
+      213: 3216380644514054742
+    second: danger_icons_3
+  - first:
+      213: 3815248080705929045
+    second: danger_icons_4
+  - first:
+      213: 3153202881121531917
+    second: danger_icons_5
+  - first:
+      213: -2008135590151233060
+    second: danger_icons_6
+  - first:
+      213: 2349985116955711239
+    second: danger_icons_7
+  - first:
+      213: 8371566699663640764
+    second: danger_icons_8
+  - first:
+      213: 8011877523375501390
+    second: danger_icons_9
+  - first:
+      213: 9032313393526781651
+    second: danger_icons_10
+  - first:
+      213: -3268558623068949857
+    second: danger_icons_11
+  - first:
+      213: 6081094452629442926
+    second: danger_icons_12
+  - first:
+      213: 1101722520505703689
+    second: danger_icons_13
+  - first:
+      213: -1984615953804065623
+    second: danger_icons_14
+  - first:
+      213: -3377008544674570568
+    second: danger_icons_15
+  - first:
+      213: 7416816426142083242
+    second: danger_icons_16
+  - first:
+      213: 1650873805321032535
+    second: danger_icons_17
+  - first:
+      213: -696581313071112332
+    second: danger_icons_18
+  - first:
+      213: -2812607870407784863
+    second: danger_icons_19
+  - first:
+      213: -2498341159906720348
+    second: danger_icons_20
+  - first:
+      213: -297017113912821312
+    second: danger_icons_21
+  - first:
+      213: 6393431167975841261
+    second: danger_icons_22
+  - first:
+      213: 1474615092402150816
+    second: danger_icons_23
+  - first:
+      213: 8707115160355845367
+    second: danger_icons_24
+  - first:
+      213: 7612118982270749842
+    second: danger_icons_25
+  - first:
+      213: -1922994692657614513
+    second: danger_icons_26
+  - first:
+      213: -560259109581213307
+    second: danger_icons_27
+  - first:
+      213: -6197166313953406500
+    second: danger_icons_28
+  - first:
+      213: 1890255755615737216
+    second: danger_icons_29
+  - first:
+      213: 1390671912724743033
+    second: danger_icons_30
+  - first:
+      213: -3166973325463023817
+    second: danger_icons_31
+  - first:
+      213: -960419443921648309
+    second: danger_icons_32
+  - first:
+      213: -4417746994805182970
+    second: danger_icons_33
+  - first:
+      213: 6861632868254436579
+    second: danger_icons_34
+  - first:
+      213: 7674355171167412868
+    second: danger_icons_35
+  - first:
+      213: 3101751277047961591
+    second: danger_icons_36
+  - first:
+      213: 7553027347097334404
+    second: danger_icons_37
+  - first:
+      213: -3463899837656378484
+    second: danger_icons_38
+  - first:
+      213: -42004715091201802
+    second: danger_icons_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: danger_icons_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 304
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df1ac3f47a6b43560800000000000000
+      internalID: 7292654526324843005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danger_icons_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 304
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f73a4283fa32611c0800000000000000
+      internalID: -4533396739433651329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danger_icons_2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 304
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2626894ec8e39fd0800000000000000
+      internalID: -2336267808980720084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danger_icons_3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 288
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 652c3b2b721e2ac20800000000000000
+      internalID: 3216380644514054742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danger_icons_4
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 288
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55fb7745aeb72f430800000000000000
+      internalID: 3815248080705929045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danger_icons_5
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 288
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d08bcf1605d62cb20800000000000000
+      internalID: 3153202881121531917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danger_icons_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 272
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd16730025ba124e0800000000000000
+      internalID: -2008135590151233060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danger_icons_7
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 272
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 707999b5303dc9020800000000000000
+      internalID: 2349985116955711239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danger_icons_8
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 272
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb8c0f21f87cd2470800000000000000
+      internalID: 8371566699663640764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danger_icons_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 256
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e40bbb4a828ef2f60800000000000000
+      internalID: 8011877523375501390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danger_icons_10
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 256
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d6ba291d29395d70800000000000000
+      internalID: 9032313393526781651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danger_icons_11
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 256
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f927f68ff3fb3a2d0800000000000000
+      internalID: -3268558623068949857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danger_icons_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 240
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6193968f23646450800000000000000
+      internalID: 6081094452629442926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danger_icons_13
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 240
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90d5ac39bca1a4f00800000000000000
+      internalID: 1101722520505703689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danger_icons_14
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 240
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a48fe11e4a3574e0800000000000000
+      internalID: -1984615953804065623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danger_icons_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 224
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be963bee947221d0800000000000000
+      internalID: -3377008544674570568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danger_icons_16
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 224
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa82b7c5e33dde660800000000000000
+      internalID: 7416816426142083242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danger_icons_17
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 224
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 753582faaf419e610800000000000000
+      internalID: 1650873805321032535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danger_icons_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 208
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47f98358cfe3556f0800000000000000
+      internalID: -696581313071112332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danger_icons_19
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 208
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16640ef2b0c97f8d0800000000000000
+      internalID: -2812607870407784863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danger_icons_20
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 208
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a5c50ca3fb145dd0800000000000000
+      internalID: -2498341159906720348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danger_icons_21
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 193
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c9b3013288c0ebf0800000000000000
+      internalID: -297017113912821312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danger_icons_22
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 192
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ded5c1ff5c70ab850800000000000000
+      internalID: 6393431167975841261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danger_icons_23
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 176
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ad5f0b1d92e67410800000000000000
+      internalID: 1474615092402150816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danger_icons_24
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 176
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f4bd672b13e5d870800000000000000
+      internalID: 8707115160355845367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danger_icons_25
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 160
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c814632eda3a960800000000000000
+      internalID: 7612118982270749842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danger_icons_26
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 160
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f417e27f3862055e0800000000000000
+      internalID: -1922994692657614513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danger_icons_27
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 144
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5813c37ee4f8938f0800000000000000
+      internalID: -560259109581213307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danger_icons_28
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 144
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd15aca421e3ff9a0800000000000000
+      internalID: -6197166313953406500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danger_icons_29
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 128
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0851d1048998b3a10800000000000000
+      internalID: 1890255755615737216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danger_icons_30
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 128
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 973421d8cb8ac4310800000000000000
+      internalID: 1390671912724743033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danger_icons_31
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 112
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73f83a23a86ac04d0800000000000000
+      internalID: -3166973325463023817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danger_icons_32
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 112
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b450ca1ba97eba2f0800000000000000
+      internalID: -960419443921648309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danger_icons_33
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 96
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60e6613b38201b2c0800000000000000
+      internalID: -4417746994805182970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danger_icons_34
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 81
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ec437b3dba693f50800000000000000
+      internalID: 6861632868254436579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danger_icons_35
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 64
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 482ad912e59c08a60800000000000000
+      internalID: 7674355171167412868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danger_icons_36
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 48
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f7de0a4a52ab0b20800000000000000
+      internalID: 3101751277047961591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danger_icons_37
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 32
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4823c82ca5eb1d860800000000000000
+      internalID: 7553027347097334404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danger_icons_38
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 16
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8355fe3371cdefc0800000000000000
+      internalID: -3463899837656378484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danger_icons_39
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 0
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f0f8162fe4ca6ff0800000000000000
+      internalID: -42004715091201802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      danger_icons_0: 7292654526324843005
+      danger_icons_1: -4533396739433651329
+      danger_icons_10: 9032313393526781651
+      danger_icons_11: -3268558623068949857
+      danger_icons_12: 6081094452629442926
+      danger_icons_13: 1101722520505703689
+      danger_icons_14: -1984615953804065623
+      danger_icons_15: -3377008544674570568
+      danger_icons_16: 7416816426142083242
+      danger_icons_17: 1650873805321032535
+      danger_icons_18: -696581313071112332
+      danger_icons_19: -2812607870407784863
+      danger_icons_2: -2336267808980720084
+      danger_icons_20: -2498341159906720348
+      danger_icons_21: -297017113912821312
+      danger_icons_22: 6393431167975841261
+      danger_icons_23: 1474615092402150816
+      danger_icons_24: 8707115160355845367
+      danger_icons_25: 7612118982270749842
+      danger_icons_26: -1922994692657614513
+      danger_icons_27: -560259109581213307
+      danger_icons_28: -6197166313953406500
+      danger_icons_29: 1890255755615737216
+      danger_icons_3: 3216380644514054742
+      danger_icons_30: 1390671912724743033
+      danger_icons_31: -3166973325463023817
+      danger_icons_32: -960419443921648309
+      danger_icons_33: -4417746994805182970
+      danger_icons_34: 6861632868254436579
+      danger_icons_35: 7674355171167412868
+      danger_icons_36: 3101751277047961591
+      danger_icons_37: 7553027347097334404
+      danger_icons_38: -3463899837656378484
+      danger_icons_39: -42004715091201802
+      danger_icons_4: 3815248080705929045
+      danger_icons_5: 3153202881121531917
+      danger_icons_6: -2008135590151233060
+      danger_icons_7: 2349985116955711239
+      danger_icons_8: 8371566699663640764
+      danger_icons_9: 8011877523375501390
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
