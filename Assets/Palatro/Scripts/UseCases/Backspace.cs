@@ -22,7 +22,6 @@ namespace Palatro.UseCases
             Task.WhenAll(new List<Task>
             {
                 FindAnyObjectByType<AttemptPanel>().GetLastLetter().RemoveFromAttempt(),
-                FindAnyObjectByType<AttemptPanel>().RemoveLastLetter()
             });
         }
     }

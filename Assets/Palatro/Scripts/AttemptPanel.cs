@@ -30,11 +30,11 @@ namespace Palatro
 
         static bool CanPlace(TileOfAttempt where) => where.IsEmpty;
 
-        public Task RemoveLastLetter()
+        public Task Remove(TileToPlay placedTile)
         {
-            Assert.IsFalse(IsEmpty);
+            Assert.IsTrue(PlacedTiles.Any(tile => tile.FilledWith.Equals(placedTile)));
 
-            return AllLetterOfAttempts.Last(IsOccupied).Clear();
+            return PlacedTiles.Single(tile => tile.FilledWith.Equals(placedTile)).Clear();
         }
 
         static bool IsOccupied(TileOfAttempt where) => !where.IsEmpty;

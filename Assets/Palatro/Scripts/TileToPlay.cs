@@ -50,6 +50,7 @@ namespace Palatro
 
         public Task RemoveFromAttempt()
         {
+            FindAnyObjectByType<AttemptPanel>().Remove(this);
             GetComponentInChildren<Button>().interactable = true;
             return Task.CompletedTask;
         }
