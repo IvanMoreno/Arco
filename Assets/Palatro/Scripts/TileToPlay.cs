@@ -11,11 +11,11 @@ namespace Palatro
         public Letter ActualLetter { get; private set; }
         
         public bool IsEmpty => ActualLetter == null;
-        public bool IsProposed => !GetComponent<Button>().interactable;
+        public bool IsProposed => !GetComponentInChildren<Button>().interactable;
 
         void Awake()
         {
-            GetComponent<Button>().onClick.AddListener(PlaceInAttempt);
+            GetComponentInChildren<Button>().onClick.AddListener(PlaceInAttempt);
         }
 
         public Task Resemble(Letter randomLetter)
@@ -24,7 +24,7 @@ namespace Palatro
 
             GetComponentInChildren<TileWithPoints>().Resemble(randomLetter);
             
-            GetComponent<Button>().interactable = true;
+            GetComponentInChildren<Button>().interactable = true;
             return Task.CompletedTask;
         }
 
@@ -44,13 +44,13 @@ namespace Palatro
 
         Task Disappear()
         {
-            GetComponent<Button>().interactable = false;
+            GetComponentInChildren<Button>().interactable = false;
             return Task.CompletedTask;
         }
 
         public Task RemoveFromAttempt()
         {
-            GetComponent<Button>().interactable = true;
+            GetComponentInChildren<Button>().interactable = true;
             return Task.CompletedTask;
         }
     }
