@@ -1,3 +1,5 @@
+using System;
+using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Assertions;
@@ -15,7 +17,13 @@ namespace Palatro
             ExtraPointsAre(ExtraPointsFromPosition(transform.GetSiblingIndex()));
         }
 
-        public void Put(LetterToPlay letter)
+        void Start()
+        {
+            if(transform.GetSiblingIndex() == 6)
+                Place(FindObjectsByType<LetterToPlay>(FindObjectsSortMode.None).Last());
+        }
+
+        public void Place(LetterToPlay letter)
         {
             Assert.IsNotNull(letter);
             Assert.IsNull(filledWith);
