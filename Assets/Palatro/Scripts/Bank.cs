@@ -19,11 +19,13 @@ namespace Palatro
             return Populate(FindObjectsByType<TileToPlay>(None).ToList());
         }
 
-        public void Reorder()
+        public Task Reorder()
         {
             var allTiles = FindObjectsByType<TileToPlay>(None).ToList();
             foreach (var tile in allTiles)
                 tile.transform.SetSiblingIndex(Random.Range(0, allTiles.Count));
+
+            return Task.CompletedTask;
         }
 
         void PopulateEmptyTiles()
