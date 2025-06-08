@@ -8,7 +8,7 @@ namespace Palatro
     public class TileOfAttempt : MonoBehaviour
     {
         public int ExtraPoints { get; private set; }
-        public bool IsEmpty => transform.Find("WhenIsEmpty").gameObject.activeInHierarchy;
+        public bool IsEmpty => !transform.Find("WhenIsFilledWithLetter").gameObject.activeInHierarchy;
         
         public TileToPlay FilledWith { get; private set; }
         
@@ -47,7 +47,6 @@ namespace Palatro
 
         Task ToggleIsEmpty(bool isEmpty)
         {
-            transform.Find("WhenIsEmpty").gameObject.SetActive(isEmpty);
             transform.Find("WhenIsFilledWithLetter").gameObject.SetActive(!isEmpty);
 
             if (!isEmpty)
