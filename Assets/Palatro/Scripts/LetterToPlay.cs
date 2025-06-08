@@ -5,6 +5,8 @@ namespace Palatro
 {
     public class LetterToPlay : MonoBehaviour
     {
+        public string Letter { get; private set; }
+        
         void Awake()
         {
             GetComponent<Button>().onClick.AddListener(Play);
