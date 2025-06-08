@@ -11,6 +11,6 @@ namespace Palatro
             GetComponent<Button>().onClick.AddListener(ReorderBank);
         }
 
-        void ReorderBank() => FindAnyObjectByType<Bank>().Reorder();
+        async void ReorderBank() => await FindAnyObjectByType<Bank>().Reorder();
     }
 }
