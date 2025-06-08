@@ -10,6 +10,10 @@ namespace Palatro.UseCases
             GetComponent<Button>().onClick.AddListener(Execute);
         }
 
-        async void Execute() => await FindAnyObjectByType<Bank>().ReRoll();
+        async void Execute()
+        {
+            await FindAnyObjectByType<AttemptPanel>().Clear();
+            await FindAnyObjectByType<Bank>().ReRoll();
+        }
     }
 }
