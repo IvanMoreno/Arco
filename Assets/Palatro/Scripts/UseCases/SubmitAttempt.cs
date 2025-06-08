@@ -14,6 +14,7 @@ namespace Palatro.UseCases
         async void Execute()
         {
             var word = FindAnyObjectByType<AttemptPanel>().SpeltWord;
+            
             if (!FindAnyObjectByType<ValidWords>().Whether(word))
                 await ShowError();
             else
@@ -25,11 +26,12 @@ namespace Palatro.UseCases
             await FindAnyObjectByType<TextualPoints>().Show(word.Points);
             await FindAnyObjectByType<AttemptPanel>().Clear();
             await FindAnyObjectByType<Bank>().PopulateProposedTiles();
+            await FindAnyObjectByType<PlaysBar>().DownByOne();
         }
 
         static Task ShowError()
         {
-            _ = FindAnyObjectByType<TextualPoints>().ShowError();
+            return FindAnyObjectByType<TextualPoints>().ShowError();
         }
     }
 }
