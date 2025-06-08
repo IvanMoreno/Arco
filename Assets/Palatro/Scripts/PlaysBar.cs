@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Assertions;
 using UnityEngine.UI;
@@ -38,7 +39,7 @@ namespace Palatro
             var fill = transform.Find("Fill").GetComponent<Image>();
             fill.fillAmount = ProportionOfAttemptsLeft;
             
-            var text = transform.Find("RemainingPlays").GetComponent<Text>();
+            var text = transform.Find("RemainingPlays").GetComponent<TMP_Text>();
             text.text = attemptsLeft.ToString();
             
             return Task.CompletedTask;
