@@ -9,6 +9,8 @@ namespace Palatro
     public class AttemptPanel : MonoBehaviour
     {
         public bool IsEmpty => AllLetterOfAttempts.All(CanPlace);
+        public Word SpeltWord => Word.From(PlacedTiles.Select(x => x.FilledWith.ActualLetter));
+        static IEnumerable<TileOfAttempt> PlacedTiles => AllLetterOfAttempts.Where(IsOccupied);
 
         static IEnumerable<TileOfAttempt> AllLetterOfAttempts
             => FindObjectsByType<TileOfAttempt>(None)
@@ -31,16 +33,16 @@ namespace Palatro
         {
             Assert.IsFalse(IsEmpty);
 
-            AllLetterOfAttempts.Last(CannotPlace).Clear();
+            AllLetterOfAttempts.Last(IsOccupied).Clear();
         }
 
-        static bool CannotPlace(TileOfAttempt where) => !where.IsEmpty;
+        static bool IsOccupied(TileOfAttempt where) => !where.IsEmpty;
 
         public TileToPlay GetLastLetter()
         {
             Assert.IsFalse(IsEmpty);
             
-            return AllLetterOfAttempts.Last(CannotPlace).FilledWith;
+            return AllLetterOfAttempts.Last(IsOccupied).FilledWith;
         }
     }
 }
