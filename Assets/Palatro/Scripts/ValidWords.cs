@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.Assertions;
 
@@ -6,14 +8,23 @@ namespace Palatro
 {
     public class ValidWords : MonoBehaviour
     {
-        string[] validWords;
+        IReadOnlyList<string> validWordsAllUppercase;
     
         void Start()
         {
             var validWordsText = Resources.Load<TextAsset>("ValidWords");
             Assert.IsNotNull(validWordsText);
         
-            validWords = validWordsText.text.Split(new[] { '\n' }, StringSplitOptions.RemoveEmptyEntries);
+            validWordsAllUppercase = validWordsText.text.Split(new[] { '\n' }, StringSplitOptions.RemoveEmptyEntries);
+        }
+
+        public bool Whether(string attempt)
+        {
+            Assert.IsNotNull(validWordsAllUppercase);
+            Assert.IsNotNull(attempt, "Esto no lo tengo muy claro...");
+            
+            var normalizedAttempt = attempt.ToUpperInvariant();
+            return validWordsAllUppercase.Contains(normalizedAttempt);
         }
     }
 }
