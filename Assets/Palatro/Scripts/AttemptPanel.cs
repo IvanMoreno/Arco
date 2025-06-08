@@ -6,7 +6,7 @@ namespace Palatro
     {
         public bool IsEmpty { get; }
 
-        public void Play(LetterToPlay letter)
+        public void Place(LetterToPlay letter)
         {
             
         }
