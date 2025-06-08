@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,6 +11,13 @@ namespace Palatro
         
         void Awake()
         {
+            var randomLetter = Alphabet.Random();
+            Letter = randomLetter.Shape;
+            Points = randomLetter.Points;
+
+            transform.Find("Letter").GetComponent<TMP_Text>().text = Letter;
+            transform.Find("Points").GetComponent<TMP_Text>().text = Points.ToString();
+            
             GetComponent<Button>().onClick.AddListener(Play);
         }
 
