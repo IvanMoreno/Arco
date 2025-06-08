@@ -3,14 +3,14 @@ using UnityEngine.UI;
 
 namespace Palatro
 {
-    public class Letter : MonoBehaviour
+    public class LetterToPlay : MonoBehaviour
     {
         void Awake()
         {
-            GetComponent<Button>().onClick.AddListener(Place);
+            GetComponent<Button>().onClick.AddListener(Play);
         }
 
-        void Place()
+        void Play()
         {
             GetComponent<Button>().interactable = false;
         }
