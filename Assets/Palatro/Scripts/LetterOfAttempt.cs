@@ -17,12 +17,6 @@ namespace Palatro
             ExtraPointsAre(ExtraPointsFromPosition(transform.GetSiblingIndex()));
         }
 
-        void Start()
-        {
-            if(transform.GetSiblingIndex() == 6)
-                Place(FindObjectsByType<LetterToPlay>(FindObjectsSortMode.None).Last());
-        }
-
         public void Place(LetterToPlay letter)
         {
             Assert.IsNotNull(letter);
