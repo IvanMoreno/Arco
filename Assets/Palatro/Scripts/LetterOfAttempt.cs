@@ -1,5 +1,3 @@
-using System;
-using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Assertions;
@@ -9,6 +7,7 @@ namespace Palatro
     public class LetterOfAttempt : MonoBehaviour
     {
         public int ExtraPoints { get; private set; }
+        
         LetterToPlay filledWith;
         
         void Awake()
@@ -42,7 +41,7 @@ namespace Palatro
             transform.Find("WhenIsFilledWithLetter").gameObject.SetActive(!isEmpty);
 
             if (!isEmpty)
-                GetComponentInChildren<LetterWithPoints>().Resemble(filledWith.Letter, filledWith.Points);
+                GetComponentInChildren<LetterWithPoints>().Resemble(filledWith.ActualLetter);
         }
 
         static int ExtraPointsFromPosition(int i)
