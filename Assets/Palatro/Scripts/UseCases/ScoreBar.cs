@@ -6,9 +6,9 @@ namespace Palatro.UseCases
 {
     public class ScoreBar : MonoBehaviour
     {
-        public Task FillUpTo(float percentage)
+        public Task FillUpTo(float proportion)
         {
-            GetComponent<Image>().fillAmount = percentage;
+            GetComponent<Image>().fillAmount = proportion;
             return Task.CompletedTask;
         }
     }
