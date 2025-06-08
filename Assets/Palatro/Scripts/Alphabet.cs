@@ -8,13 +8,10 @@ namespace Palatro
     {
         public static Letter Random()
         {
-            var randomLetter = (char)('A' + new Random().Next(0, 26));
-            var randomPoints = new Random().Next(1, 5);
-
-            return new(randomLetter.ToString(), randomPoints);
+            return RandomByFreq();
         }
 
-        public static Letter RandomByFreq()
+        static Letter RandomByFreq()
         {
             var distribution = new Dictionary<char, double>()
             {
