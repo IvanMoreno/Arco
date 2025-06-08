@@ -15,7 +15,7 @@ namespace Palatro
         
         void Start()
         {
-            ToggleIsEmpty(true);
+            _ = ToggleIsEmpty(true);
             ExtraPointsAre(Word.ExtraPointsFromPosition(transform.GetSiblingIndex()));
         }
 
