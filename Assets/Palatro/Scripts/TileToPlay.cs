@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using DG.Tweening;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Assertions;
@@ -25,7 +26,12 @@ namespace Palatro
             ActualLetter = randomLetter;
 
             GetComponentInChildren<TileWithPoints>().Resemble(randomLetter);
-            return Appear();
+            return Task.WhenAll(Appear(), FromDown());
+        }
+
+        Task FromDown()
+        {
+            return GetComponent<RectTransform>().DOAnchorPosY(-200, 0.3f).From().AsyncWaitForCompletion();
         }
 
         void PlaceInAttempt()

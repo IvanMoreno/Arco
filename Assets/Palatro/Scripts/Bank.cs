@@ -38,12 +38,14 @@ namespace Palatro
             return Populate(FindObjectsByType<TileToPlay>(None).Where(x => x.IsProposed).ToList());
         }
 
-        static Task Populate(IReadOnlyList<TileToPlay> tiles)
+        static async Task Populate(IReadOnlyList<TileToPlay> tiles)
         {
             var letters = FindAnyObjectByType<Bag>().Pick(tiles.Count);
             Assert.AreEqual(tiles.Count, letters.Count);
 
-            return Task.WhenAll(tiles.Select((tile, i) => tile.Resemble(letters[i])).ToList());
+            var tilesResemble = tiles.Select((tile, i) => tile.Resemble(letters[i])).ToList();
+            foreach (var resembleTask in tilesResemble)
+                await resembleTask;
         }
     }
 }
