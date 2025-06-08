@@ -15,6 +15,11 @@ namespace Palatro
         
         float ProportionOfAttemptsLeft => (float)attemptsLeft / maxAttempts;
 
+        void Awake()
+        {
+            transform.Find("Badge").gameObject.SetActive(false);
+        }
+
         void Start()
         {
             BeginWith(11);
