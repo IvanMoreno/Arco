@@ -4,7 +4,7 @@ using UnityEngine.Assertions;
 
 namespace Palatro
 {
-    public class LetterWithPoints : MonoBehaviour
+    public class TileWithPoints : MonoBehaviour
     {
         public string Letter { get; private set; }
         public int Points { get; private set; }

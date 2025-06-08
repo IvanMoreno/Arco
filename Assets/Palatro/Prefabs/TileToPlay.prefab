@@ -430,7 +430,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7013217782986662827}
   m_Layer: 5
-  m_Name: LetterToPlay
+  m_Name: TileToPlay
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

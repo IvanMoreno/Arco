@@ -10,23 +10,23 @@ namespace Palatro
     {
         public bool IsEmpty { get; }
 
-        static IEnumerable<LetterOfAttempt> AllLetterOfAttempts => FindObjectsByType<LetterOfAttempt>(None);
+        static IEnumerable<TileOfAttempt> AllLetterOfAttempts => FindObjectsByType<TileOfAttempt>(None);
 
-        public void Place(LetterToPlay letter)
+        public void Place(TileToPlay tile)
         {
             Assert.IsTrue(AllLetterOfAttempts.Any(CanPlace));
             
-            AllLetterOfAttempts.First(CanPlace).Place(letter);
+            AllLetterOfAttempts.First(CanPlace).Place(tile);
         }
 
-        static bool CanPlace(LetterOfAttempt where) => where.IsEmpty;
+        static bool CanPlace(TileOfAttempt where) => where.IsEmpty;
 
         public void RemoveLastLetter()
         {
             
         }
 
-        public LetterToPlay GetLastLetter()
+        public TileToPlay GetLastLetter()
         {
             return null;
         }

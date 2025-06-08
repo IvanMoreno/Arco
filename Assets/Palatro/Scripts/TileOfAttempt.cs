@@ -4,12 +4,12 @@ using UnityEngine.Assertions;
 
 namespace Palatro
 {
-    public class LetterOfAttempt : MonoBehaviour
+    public class TileOfAttempt : MonoBehaviour
     {
         public int ExtraPoints { get; private set; }
         public bool IsEmpty => transform.Find("WhenIsEmpty").gameObject.activeInHierarchy;
         
-        LetterToPlay filledWith;
+        TileToPlay filledWith;
         
         void Awake()
         {
@@ -17,12 +17,12 @@ namespace Palatro
             ExtraPointsAre(ExtraPointsFromPosition(transform.GetSiblingIndex()));
         }
 
-        public void Place(LetterToPlay letter)
+        public void Place(TileToPlay tile)
         {
-            Assert.IsNotNull(letter);
+            Assert.IsNotNull(tile);
             Assert.IsNull(filledWith);
             
-            filledWith = letter;
+            filledWith = tile;
             ToggleIsEmpty(false);
         }
 
@@ -42,7 +42,7 @@ namespace Palatro
             transform.Find("WhenIsFilledWithLetter").gameObject.SetActive(!isEmpty);
 
             if (!isEmpty)
-                GetComponentInChildren<LetterWithPoints>().Resemble(filledWith.ActualLetter);
+                GetComponentInChildren<TileWithPoints>().Resemble(filledWith.ActualLetter);
         }
 
         static int ExtraPointsFromPosition(int i)

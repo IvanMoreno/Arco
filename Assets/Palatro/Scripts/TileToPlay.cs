@@ -1,10 +1,9 @@
-using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 namespace Palatro
 {
-    public class LetterToPlay : MonoBehaviour
+    public class TileToPlay : MonoBehaviour
     {
         public string Letter => ActualLetter.Shape;
         public int Points => ActualLetter.Points;
@@ -16,7 +15,7 @@ namespace Palatro
             var randomLetter = Alphabet.Random();
             ActualLetter = randomLetter;
 
-            GetComponentInChildren<LetterWithPoints>().Resemble(randomLetter);
+            GetComponentInChildren<TileWithPoints>().Resemble(randomLetter);
             GetComponent<Button>().onClick.AddListener(Play);
         }
 
