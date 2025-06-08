@@ -27,6 +27,7 @@ namespace Palatro.UseCases
             await FindAnyObjectByType<AttemptPanel>().Clear();
             await FindAnyObjectByType<Bank>().PopulateProposedTiles();
             await FindAnyObjectByType<PlaysBar>().DownByOne();
+            await FindAnyObjectByType<Score>().IncreaseBy(word.Points);
         }
 
         static Task ShowError()

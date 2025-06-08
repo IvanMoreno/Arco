@@ -147,6 +147,7 @@ GameObject:
   - component: {fileID: 6463527550034508155}
   - component: {fileID: 2145233291056331943}
   - component: {fileID: 3473253845848118436}
+  - component: {fileID: 6815866180416476601}
   m_Layer: 5
   m_Name: ScoreBar
   m_TagString: Untagged
@@ -206,11 +207,23 @@ MonoBehaviour:
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 0
-  m_FillAmount: 0.225
+  m_FillAmount: 0
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &6815866180416476601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3121345160637037025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 607d816b98574efea9aff67cb0e6d908, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3435915604674644636
 GameObject:
   m_ObjectHideFlags: 0
@@ -220,6 +233,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5442892976683993019}
+  - component: {fileID: 2006320209975809821}
   m_Layer: 5
   m_Name: Score
   m_TagString: Untagged
@@ -251,6 +265,20 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -63.515015}
   m_SizeDelta: {x: 1920, y: 63.515015}
   m_Pivot: {x: 0.5, y: 0}
+--- !u!114 &2006320209975809821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3435915604674644636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed8b473d89eb46c390f34a3152926082, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointsLabel: {fileID: 586399366035576441}
+  roundLabel: {fileID: 4641306325197981621}
 --- !u!1 &3911567472453786510
 GameObject:
   m_ObjectHideFlags: 0
@@ -474,7 +502,7 @@ GameObject:
   - component: {fileID: 8061893054824697563}
   - component: {fileID: 586399366035576441}
   m_Layer: 5
-  m_Name: RoundPointsLabel
+  m_Name: PointsLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
