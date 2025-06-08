@@ -13,6 +13,11 @@ namespace Palatro
             PopulateEmptyTiles();
         }
 
+        public void ReRoll()
+        {
+            Populate(FindObjectsByType<TileToPlay>(None).ToList());
+        }
+
         void PopulateEmptyTiles()
         {
             Populate(FindObjectsByType<TileToPlay>(None).Where(x => x.IsEmpty).ToList());

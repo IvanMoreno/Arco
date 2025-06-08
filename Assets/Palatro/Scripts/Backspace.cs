@@ -5,7 +5,7 @@ namespace Palatro
 {
     public class Backspace : MonoBehaviour
     {
-        void Awake()
+        void Start()
         {
             GetComponent<Button>().onClick.AddListener(RemoveLastLetter);
         }
