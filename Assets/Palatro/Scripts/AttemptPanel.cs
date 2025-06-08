@@ -1,4 +1,6 @@
+using System.Linq;
 using UnityEngine;
+using static UnityEngine.FindObjectsSortMode;
 
 namespace Palatro
 {
@@ -8,8 +10,10 @@ namespace Palatro
 
         public void Place(LetterToPlay letter)
         {
-            
+            FindObjectsByType<LetterOfAttempt>(None).First(CanPlace).Place(letter);
         }
+
+        static bool CanPlace(LetterOfAttempt where) => where.IsEmpty;
 
         public void RemoveLastLetter()
         {

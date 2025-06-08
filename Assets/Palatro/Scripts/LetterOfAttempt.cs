@@ -7,6 +7,7 @@ namespace Palatro
     public class LetterOfAttempt : MonoBehaviour
     {
         public int ExtraPoints { get; private set; }
+        public bool IsEmpty => transform.Find("WhenIsEmpty").gameObject.activeInHierarchy;
         
         LetterToPlay filledWith;
         
