@@ -18,9 +18,12 @@ namespace Palatro
 
         void PlaceInAttempt()
         {
+            var attemptPanel = FindAnyObjectByType<AttemptPanel>();
+            if (!attemptPanel.ThereIsSpace())
+                return;
+
+            attemptPanel.Place(this);
             GetComponent<Button>().interactable = false;
-            
-            FindAnyObjectByType<AttemptPanel>().Place(this);
         }
     }
 }

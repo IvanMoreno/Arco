@@ -16,9 +16,13 @@ namespace Palatro
 
         public void Place(TileToPlay tile)
         {
-            Assert.IsTrue(AllLetterOfAttempts.Any(CanPlace));
-            
+            Assert.IsTrue(ThereIsSpace());
             AllLetterOfAttempts.First(CanPlace).Place(tile);
+        }
+
+        public bool ThereIsSpace()
+        {
+            return AllLetterOfAttempts.Any(CanPlace);
         }
 
         static bool CanPlace(TileOfAttempt where) => where.IsEmpty;
