@@ -19,10 +19,7 @@ namespace Palatro.UseCases
 
         static void RemoveLastLetter()
         {
-            Task.WhenAll(new List<Task>
-            {
-                FindAnyObjectByType<AttemptPanel>().GetLastLetter().RemoveFromAttempt(),
-            });
+            _ = FindAnyObjectByType<AttemptPanel>().GetLastLetter().RemoveFromAttempt();
         }
     }
 }
