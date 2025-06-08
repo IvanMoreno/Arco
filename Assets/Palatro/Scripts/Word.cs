@@ -21,7 +21,7 @@ namespace Palatro
             }
         }
 
-        Word(IEnumerable<Letter> letters) => this.letters = letters;
+        Word(IEnumerable<Letter> letters) => this.letters = letters.ToList();
 
         public static Word From(IEnumerable<Letter> letters) => new(letters);
         
