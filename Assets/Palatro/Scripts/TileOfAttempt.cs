@@ -18,13 +18,13 @@ namespace Palatro
             ExtraPointsAre(Word.ExtraPointsFromPosition(transform.GetSiblingIndex()));
         }
 
-        public void Place(TileToPlay tile)
+        public Task Place(TileToPlay tile)
         {
             Assert.IsNotNull(tile);
             Assert.IsNull(FilledWith);
             
             FilledWith = tile;
-            ToggleIsEmpty(false);
+            return ToggleIsEmpty(false);
         }
 
         void ExtraPointsAre(int howMany)

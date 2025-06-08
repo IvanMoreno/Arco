@@ -17,10 +17,10 @@ namespace Palatro
             => FindObjectsByType<TileOfAttempt>(None)
                 .OrderBy(tile => tile.transform.GetSiblingIndex());
 
-        public void Place(TileToPlay tile)
+        public Task Place(TileToPlay tile)
         {
             Assert.IsTrue(ThereIsSpace());
-            AllLetterOfAttempts.First(CanPlace).Place(tile);
+            return AllLetterOfAttempts.First(CanPlace).Place(tile);
         }
 
         public bool ThereIsSpace()

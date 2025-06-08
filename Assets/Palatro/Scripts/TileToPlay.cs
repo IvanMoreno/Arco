@@ -1,4 +1,4 @@
-using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.Assertions;
@@ -32,11 +32,19 @@ namespace Palatro
             Assert.IsFalse(IsEmpty);
             
             var attemptPanel = FindAnyObjectByType<AttemptPanel>();
-            if (!attemptPanel.ThereIsSpace())
-                return;
+            if (!attemptPanel.ThereIsSpace()) return;
 
-            attemptPanel.Place(this);
+            Task.WhenAll(new List<Task>
+            {
+                Disappear(),
+                attemptPanel.Place(this)
+            });
+        }
+
+        Task Disappear()
+        {
             GetComponent<Button>().interactable = false;
+            return Task.CompletedTask;
         }
 
         public Task RemoveFromAttempt()
