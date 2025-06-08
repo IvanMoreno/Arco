@@ -1,4 +1,5 @@
 using System.Threading.Tasks;
+using NUnit.Framework;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -28,6 +29,8 @@ namespace Palatro.UseCases
 
         public async Task IncreaseBy(int points)
         {
+            Assert.IsTrue(points > 0);
+            
             currentPoints += points;
             pointsLabel.text = $"{currentPoints} / {targetPoints}";
             await GetComponentInChildren<ScoreBar>().FillUpTo((float)currentPoints / targetPoints);

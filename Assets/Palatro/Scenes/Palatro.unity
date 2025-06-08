@@ -1162,10 +1162,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Score
       objectReference: {fileID: 0}
-    - target: {fileID: 3473253845848118436, guid: 062b447d37db96548b13a37ccc4cfd69, type: 3}
-      propertyPath: m_FillAmount
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5442892976683993019, guid: 062b447d37db96548b13a37ccc4cfd69, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
