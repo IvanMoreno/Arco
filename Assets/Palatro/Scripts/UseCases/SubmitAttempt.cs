@@ -23,11 +23,11 @@ namespace Palatro.UseCases
 
         static async Task Submit(Word word)
         {
+            await FindAnyObjectByType<PlaysBar>().DownByOne();
             await FindAnyObjectByType<TextualPoints>().Show(word.Points);
             await FindAnyObjectByType<Score>().IncreaseBy(word.Points);
             await FindAnyObjectByType<AttemptPanel>().Clear();
             await FindAnyObjectByType<Bank>().PopulateProposedTiles();
-            await FindAnyObjectByType<PlaysBar>().DownByOne();
         }
 
         static Task ShowError()

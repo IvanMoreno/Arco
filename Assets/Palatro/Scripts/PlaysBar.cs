@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
+using DG.Tweening;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Assertions;
@@ -36,13 +37,12 @@ namespace Palatro
 
         Task UpdateBar()
         {
-            var fill = transform.Find("Fill").GetComponent<Image>();
-            fill.fillAmount = ProportionOfAttemptsLeft;
-            
             var text = transform.Find("RemainingPlays").GetComponent<TMP_Text>();
             text.text = attemptsLeft.ToString();
             
-            return Task.CompletedTask;
+            return transform.Find("Fill").GetComponent<Image>().DOFillAmount(ProportionOfAttemptsLeft, 0.5f)
+                .SetEase(Ease.OutCubic)
+                .AsyncWaitForCompletion();
         }
     }
 }
