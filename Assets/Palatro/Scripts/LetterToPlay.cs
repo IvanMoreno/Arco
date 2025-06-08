@@ -15,7 +15,7 @@ namespace Palatro
             Letter = randomLetter.Shape;
             Points = randomLetter.Points;
 
-            transform.Find("Letter").GetComponent<TMP_Text>().text = Letter;
+            transform.Find("Character").GetComponent<TMP_Text>().text = Letter;
             transform.Find("Points").GetComponent<TMP_Text>().text = Points.ToString();
             
             GetComponent<Button>().onClick.AddListener(Play);
