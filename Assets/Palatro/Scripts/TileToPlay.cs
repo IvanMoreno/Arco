@@ -5,9 +5,6 @@ namespace Palatro
 {
     public class TileToPlay : MonoBehaviour
     {
-        public string Letter => ActualLetter.Shape;
-        public int Points => ActualLetter.Points;
-        
         public Letter ActualLetter { get; private set; }
         
         void Awake()
