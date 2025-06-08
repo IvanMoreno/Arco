@@ -20,7 +20,9 @@ namespace Palatro
 
         public void Reorder()
         {
-            
+            var allTiles = FindObjectsByType<TileToPlay>(None).ToList();
+            foreach (var tile in allTiles)
+                tile.transform.SetSiblingIndex(Random.Range(0, allTiles.Count));
         }
 
         void PopulateEmptyTiles()
