@@ -1,5 +1,7 @@
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Assertions;
 using UnityEngine.UI;
@@ -23,9 +25,7 @@ namespace Palatro
             ActualLetter = randomLetter;
 
             GetComponentInChildren<TileWithPoints>().Resemble(randomLetter);
-            
-            GetComponentInChildren<Button>().interactable = true;
-            return Task.CompletedTask;
+            return Appear();
         }
 
         void PlaceInAttempt()
@@ -35,24 +35,35 @@ namespace Palatro
             var attemptPanel = FindAnyObjectByType<AttemptPanel>();
             if (!attemptPanel.ThereIsSpace()) return;
 
-            Task.WhenAll(new List<Task>
-            {
-                Disappear(),
-                attemptPanel.Place(this)
-            });
-        }
-
-        Task Disappear()
-        {
-            GetComponentInChildren<Button>().interactable = false;
-            return Task.CompletedTask;
+            Task.WhenAll(Disappear(), attemptPanel.Place(this));
         }
 
         public Task RemoveFromAttempt()
         {
             FindAnyObjectByType<AttemptPanel>().Remove(this);
+            return Appear();
+        }
+
+        Task Appear()
+        {
             GetComponentInChildren<Button>().interactable = true;
-            return Task.CompletedTask;
+            
+            var allImagesOfTheButton = GetComponentInChildren<Button>().GetComponentsInChildren<Image>();
+            foreach (var image in allImagesOfTheButton)
+                image.CrossFadeAlpha(1, 0.25f, true);
+            GetComponentInChildren<Button>().transform.Find("Points").GetComponent<TMP_Text>().alpha = 1;
+            return Task.Delay(TimeSpan.FromSeconds(.25f));
+        }
+
+        Task Disappear()
+        {
+            GetComponentInChildren<Button>().interactable = false;
+            
+            var allImagesOfTheButton = GetComponentInChildren<Button>().GetComponentsInChildren<Image>();
+            foreach (var image in allImagesOfTheButton)
+                image.CrossFadeAlpha(0, 0.25f, true);
+            GetComponentInChildren<Button>().transform.Find("Points").GetComponent<TMP_Text>().alpha = 0;
+            return Task.Delay(TimeSpan.FromSeconds(.25f));
         }
     }
 }
