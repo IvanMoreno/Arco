@@ -17,7 +17,11 @@ namespace Palatro
             var validWordsText = Resources.Load<TextAsset>("ValidWords");
             Assert.IsNotNull(validWordsText);
         
-            validWordsAllUppercase = validWordsText.text.Split(new[] { '\n' }, StringSplitOptions.RemoveEmptyEntries);
+            validWordsAllUppercase = validWordsText.text
+                .Split(new[] { '\n' }, StringSplitOptions.RemoveEmptyEntries)
+                .Select(x => x.ToUpperInvariant()).ToList();
+            
+            Assert.IsTrue(validWordsAllUppercase.Any());
         }
 
         public bool Whether(Word attempt) => Whether(attempt.Shape);
