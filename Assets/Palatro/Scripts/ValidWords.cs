@@ -7,9 +7,7 @@ using UnityEngine.Assertions;
 namespace Palatro
 {
     public class ValidWords : MonoBehaviour
-    {
-        [SerializeField, Tooltip("Only for QA purposes")] string testSomeWord; 
-        
+    { 
         IReadOnlyList<string> validWordsAllUppercase;
     
         void Start()
@@ -34,14 +32,6 @@ namespace Palatro
             
             var normalizedAttempt = attempt.ToUpperInvariant();
             return validWordsAllUppercase.Contains(normalizedAttempt);
-        }
-
-        void OnValidate()
-        {
-            if (string.IsNullOrEmpty(testSomeWord))
-                return;
-            
-            Debug.Log($"¿La palabra '{testSomeWord}' es válida?: {Whether(testSomeWord)}", this);
         }
     }
 }
