@@ -1,3 +1,4 @@
+using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,18 +11,25 @@ namespace Palatro.UseCases
             GetComponent<Button>().onClick.AddListener(Execute);
         }
 
-        void Execute()
+        async void Execute()
         {
             var word = FindAnyObjectByType<AttemptPanel>().SpeltWord;
             if (!FindAnyObjectByType<ValidWords>().Whether(word))
-            {
-                _ = FindAnyObjectByType<TextualPoints>().ShowError();
-                return;
-            }
+                await ShowError();
+            else
+                await Submit(word);
+        }
 
-            _ = FindAnyObjectByType<TextualPoints>().Show(word.Points);
-            FindAnyObjectByType<AttemptPanel>().Clear();
-            FindAnyObjectByType<Bank>().PopulateProposedTiles();
+        static async Task Submit(Word word)
+        {
+            await FindAnyObjectByType<TextualPoints>().Show(word.Points);
+            await FindAnyObjectByType<AttemptPanel>().Clear();
+            await FindAnyObjectByType<Bank>().PopulateProposedTiles();
+        }
+
+        static Task ShowError()
+        {
+            _ = FindAnyObjectByType<TextualPoints>().ShowError();
         }
     }
 }

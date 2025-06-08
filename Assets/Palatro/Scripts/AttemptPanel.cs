@@ -46,11 +46,11 @@ namespace Palatro
             return AllLetterOfAttempts.Last(IsOccupied).FilledWith;
         }
 
-        public void Clear()
+        public async Task Clear()
         {
             foreach (var tileOfAttempt in PlacedTiles)
             {
-                tileOfAttempt.Clear();
+                await tileOfAttempt.Clear();
             }
         }
     }
