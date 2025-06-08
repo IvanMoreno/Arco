@@ -7,7 +7,7 @@ namespace Palatro
 {
     public class Bank : MonoBehaviour
     {
-        void Awake()
+        void Start()
         {
             PopulateEmptyTiles();
         }
