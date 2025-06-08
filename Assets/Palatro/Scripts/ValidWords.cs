@@ -19,6 +19,7 @@ namespace Palatro
         
             validWordsAllUppercase = validWordsText.text
                 .Split(new[] { '\n' }, StringSplitOptions.RemoveEmptyEntries)
+                .Select(x => x.TrimEnd('\r'))
                 .Select(x => x.ToUpperInvariant()).ToList();
             
             Assert.IsTrue(validWordsAllUppercase.Any());
