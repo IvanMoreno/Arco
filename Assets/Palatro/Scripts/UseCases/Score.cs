@@ -28,8 +28,6 @@ namespace Palatro.UseCases
 
         public async Task IncreaseBy(int points)
         {
-            _ = FindAnyObjectByType<TextualPoints>().Show(points);
-            
             currentPoints += points;
             pointsLabel.text = $"{currentPoints} / {targetPoints}";
             await GetComponentInChildren<ScoreBar>().FillUpTo((float)currentPoints / targetPoints);
