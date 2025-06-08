@@ -42,6 +42,7 @@ namespace Palatro.UseCases
                 targetPoints += TargetPointsIncrementPerRound;
                 
                 UpdateLabels();
+                await GetComponentInChildren<ScoreBar>().FillUpTo(0);
             }
         }
 
