@@ -17,9 +17,8 @@ public class LetterOfAttempt : MonoBehaviour
     {
         Assert.IsTrue(howMany >= 0);
 
-        return; //not working due to null.
         ExtraPoints = howMany;
-        var extraPointsText = transform.Find("ExtraPointsText");
+        var extraPointsText = transform.Find("WhenIsEmpty/ExtraPoints");
         
         extraPointsText.GetComponentInChildren<TMP_Text>().text = howMany > 0 ? "+" + howMany : "";
     }
