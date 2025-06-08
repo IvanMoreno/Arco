@@ -6,6 +6,7 @@ namespace Palatro
     public class LetterToPlay : MonoBehaviour
     {
         public string Letter { get; private set; }
+        public int Points { get; private set; }
         
         void Awake()
         {
