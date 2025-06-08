@@ -12,7 +12,7 @@ namespace Palatro
         {
             foreach (var tile in FindObjectsByType<TileToPlay>(FindObjectsSortMode.None))
             {
-                tile.Resemble(new(".", 1));
+                tile.Resemble(new("X", 1));
             }
             
             for (var i = 0; i < HardcodedValidWords.Length; i++)
