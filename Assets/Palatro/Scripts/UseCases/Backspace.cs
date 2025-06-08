@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Palatro
+namespace Palatro.UseCases
 {
     public class Backspace : MonoBehaviour
     {

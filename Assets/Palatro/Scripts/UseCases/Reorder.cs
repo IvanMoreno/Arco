@@ -1,8 +1,7 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
-namespace Palatro
+namespace Palatro.UseCases
 {
     public class Reorder : MonoBehaviour
     {
