@@ -13,7 +13,7 @@ public class LetterOfAttempt : MonoBehaviour
         ExtraPointsAre(ExtraPointsFromPosition(transform.GetSiblingIndex()));
     }
 
-    public void ExtraPointsAre(int howMany)
+    void ExtraPointsAre(int howMany)
     {
         Assert.IsTrue(howMany >= 0);
 
