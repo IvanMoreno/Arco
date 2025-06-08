@@ -10,7 +10,9 @@ namespace Palatro
     {
         public bool IsEmpty { get; }
 
-        static IEnumerable<TileOfAttempt> AllLetterOfAttempts => FindObjectsByType<TileOfAttempt>(None);
+        static IEnumerable<TileOfAttempt> AllLetterOfAttempts
+            => FindObjectsByType<TileOfAttempt>(None)
+                .OrderBy(tile => tile.transform.GetSiblingIndex());
 
         public void Place(TileToPlay tile)
         {
