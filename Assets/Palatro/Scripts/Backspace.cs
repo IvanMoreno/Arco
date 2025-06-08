@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
+using UnityEngine;
 using UnityEngine.UI;
 
 namespace Palatro
@@ -15,10 +17,13 @@ namespace Palatro
             GetComponent<Button>().interactable = !FindAnyObjectByType<AttemptPanel>().IsEmpty;
         }
 
-        void RemoveLastLetter()
+        static void RemoveLastLetter()
         {
-            FindAnyObjectByType<AttemptPanel>().GetLastLetter().RemoveFromAttempt();
-            FindAnyObjectByType<AttemptPanel>().RemoveLastLetter();
+            Task.WhenAll(new List<Task>
+            {
+                FindAnyObjectByType<AttemptPanel>().GetLastLetter().RemoveFromAttempt(),
+                FindAnyObjectByType<AttemptPanel>().RemoveLastLetter()
+            });
         }
     }
 }

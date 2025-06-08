@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using NUnit.Framework;
 using UnityEngine;
 using static UnityEngine.FindObjectsSortMode;
@@ -29,11 +30,11 @@ namespace Palatro
 
         static bool CanPlace(TileOfAttempt where) => where.IsEmpty;
 
-        public void RemoveLastLetter()
+        public Task RemoveLastLetter()
         {
             Assert.IsFalse(IsEmpty);
 
-            AllLetterOfAttempts.Last(IsOccupied).Clear();
+            return AllLetterOfAttempts.Last(IsOccupied).Clear();
         }
 
         static bool IsOccupied(TileOfAttempt where) => !where.IsEmpty;

@@ -1,4 +1,5 @@
 using System;
+using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.Assertions;
 using UnityEngine.UI;
@@ -38,9 +39,10 @@ namespace Palatro
             GetComponent<Button>().interactable = false;
         }
 
-        public void RemoveFromAttempt()
+        public Task RemoveFromAttempt()
         {
             GetComponent<Button>().interactable = true;
+            return Task.CompletedTask;
         }
     }
 }

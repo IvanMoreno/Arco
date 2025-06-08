@@ -1,3 +1,4 @@
+using System.Threading.Tasks;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Assertions;
@@ -36,21 +37,23 @@ namespace Palatro
             extraPointsText.GetComponentInChildren<TMP_Text>().text = howMany > 0 ? "+" + howMany : "";
         }
 
-        public void Clear()
+        public Task Clear()
         {
             Assert.IsNotNull(FilledWith);
             
             FilledWith = null;
-            ToggleIsEmpty(true);
+            return ToggleIsEmpty(true);
         }
 
-        void ToggleIsEmpty(bool isEmpty)
+        Task ToggleIsEmpty(bool isEmpty)
         {
             transform.Find("WhenIsEmpty").gameObject.SetActive(isEmpty);
             transform.Find("WhenIsFilledWithLetter").gameObject.SetActive(!isEmpty);
 
             if (!isEmpty)
                 GetComponentInChildren<TileWithPoints>().Resemble(FilledWith.ActualLetter);
+
+            return Task.CompletedTask;
         }
     }
 }
