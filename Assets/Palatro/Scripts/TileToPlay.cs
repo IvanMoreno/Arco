@@ -15,6 +15,8 @@ namespace Palatro
             ActualLetter = randomLetter;
 
             GetComponentInChildren<TileWithPoints>().Resemble(randomLetter);
+            
+            GetComponent<Button>().interactable = true;
             GetComponent<Button>().onClick.AddListener(PlaceInAttempt);
         }
 
