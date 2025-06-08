@@ -25,5 +25,10 @@ namespace Palatro
             attemptPanel.Place(this);
             GetComponent<Button>().interactable = false;
         }
+
+        public void RemoveFromAttempt()
+        {
+            GetComponent<Button>().interactable = true;
+        }
     }
 }

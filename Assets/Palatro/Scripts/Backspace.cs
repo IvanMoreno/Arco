@@ -17,6 +17,7 @@ namespace Palatro
 
         void RemoveLastLetter()
         {
+            FindAnyObjectByType<AttemptPanel>().GetLastLetter().RemoveFromAttempt();
             FindAnyObjectByType<AttemptPanel>().RemoveLastLetter();
         }
     }
