@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.Assertions;
 using UnityEngine.UI;
@@ -11,7 +12,12 @@ namespace Palatro
         int maxAttempts;
         
         float ProportionOfAttemptsLeft => (float)attemptsLeft / maxAttempts;
-        
+
+        void Start()
+        {
+            BeginWith(11);
+        }
+
         public void BeginWith(int amountOfAttempts)
         {
             Assert.IsTrue(amountOfAttempts > 0);
