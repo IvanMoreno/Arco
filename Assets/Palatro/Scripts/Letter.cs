@@ -1,9 +1,9 @@
 namespace Palatro
 {
-    public readonly struct Letter
+    public class Letter
     {
-        public readonly string Shape;
-        public readonly int Points;
+        public string Shape { get; }
+        public int Points { get; }
 
         public Letter(string shape, int points)
         {

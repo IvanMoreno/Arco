@@ -7,9 +7,10 @@ namespace Palatro
     {
         public Letter ActualLetter { get; private set; }
         
-        void Awake()
+        public bool IsEmpty => ActualLetter == null;
+
+        public void Resemble(Letter randomLetter)
         {
-            var randomLetter = Alphabet.Random();
             ActualLetter = randomLetter;
 
             GetComponentInChildren<TileWithPoints>().Resemble(randomLetter);

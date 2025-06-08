@@ -5,7 +5,7 @@ namespace Palatro
 {
     public class Bag : MonoBehaviour
     {
-        public IEnumerable<Letter> Pick(int count)
+        public IReadOnlyList<Letter> Pick(int count)
         {
             var letters = new List<Letter>();
             for (var i = 0; i < count; i++)
