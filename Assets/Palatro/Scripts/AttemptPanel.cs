@@ -23,12 +23,18 @@ namespace Palatro
 
         public void RemoveLastLetter()
         {
-            
+            Assert.IsTrue(AllLetterOfAttempts.Any(CannotPlace));
+
+            AllLetterOfAttempts.Last(CannotPlace).Clear();
         }
+
+        static bool CannotPlace(TileOfAttempt where) => !where.IsEmpty;
 
         public TileToPlay GetLastLetter()
         {
-            return null;
+            Assert.IsTrue(AllLetterOfAttempts.Any(CannotPlace));
+            
+            return AllLetterOfAttempts.Last(CannotPlace).FilledWith;
         }
     }
 }

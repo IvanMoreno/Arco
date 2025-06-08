@@ -9,7 +9,7 @@ namespace Palatro
         public int ExtraPoints { get; private set; }
         public bool IsEmpty => transform.Find("WhenIsEmpty").gameObject.activeInHierarchy;
         
-        TileToPlay filledWith;
+        public TileToPlay FilledWith { get; private set; }
         
         void Awake()
         {
@@ -20,9 +20,9 @@ namespace Palatro
         public void Place(TileToPlay tile)
         {
             Assert.IsNotNull(tile);
-            Assert.IsNull(filledWith);
+            Assert.IsNull(FilledWith);
             
-            filledWith = tile;
+            FilledWith = tile;
             ToggleIsEmpty(false);
         }
 
@@ -36,13 +36,21 @@ namespace Palatro
             extraPointsText.GetComponentInChildren<TMP_Text>().text = howMany > 0 ? "+" + howMany : "";
         }
 
+        public void Clear()
+        {
+            Assert.IsNotNull(FilledWith);
+            
+            FilledWith = null;
+            ToggleIsEmpty(true);
+        }
+
         void ToggleIsEmpty(bool isEmpty)
         {
             transform.Find("WhenIsEmpty").gameObject.SetActive(isEmpty);
             transform.Find("WhenIsFilledWithLetter").gameObject.SetActive(!isEmpty);
 
             if (!isEmpty)
-                GetComponentInChildren<TileWithPoints>().Resemble(filledWith.ActualLetter);
+                GetComponentInChildren<TileWithPoints>().Resemble(FilledWith.ActualLetter);
         }
 
         static int ExtraPointsFromPosition(int i)
