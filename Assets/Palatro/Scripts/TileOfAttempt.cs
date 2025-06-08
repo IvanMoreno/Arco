@@ -1,3 +1,4 @@
+using System;
 using System.Threading.Tasks;
 using TMPro;
 using UnityEngine;
@@ -45,14 +46,14 @@ namespace Palatro
             return ToggleIsEmpty(true);
         }
 
-        Task ToggleIsEmpty(bool isEmpty)
+        async Task ToggleIsEmpty(bool isEmpty)
         {
             transform.Find("WhenIsFilledWithLetter").gameObject.SetActive(!isEmpty);
+            if (isEmpty)
+                return;
 
-            if (!isEmpty)
-                GetComponentInChildren<TileWithPoints>().Resemble(FilledWith.ActualLetter);
-
-            return Task.CompletedTask;
+            GetComponentInChildren<TileWithPoints>().Resemble(FilledWith.ActualLetter);
+            await GetComponentInChildren<TileAnimation>().Appear();
         }
     }
 }
