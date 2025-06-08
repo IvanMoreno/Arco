@@ -8,17 +8,9 @@ namespace Palatro
     {
         [SerializeField] float apparitionDuration = 0.5f;
             
-        Vector2 initialPosition;
-
-        void Start()
-        {
-            initialPosition = GetComponent<RectTransform>().anchoredPosition;
-        }
-
         public Task Appear()
         {
-            GetComponent<RectTransform>().anchoredPosition = initialPosition + Vector2.down * 200;
-            return GetComponent<RectTransform>().DOAnchorPosY(initialPosition.y, apparitionDuration).AsyncWaitForCompletion();
+            return GetComponent<RectTransform>().DOAnchorPosY(-200, apparitionDuration).From().AsyncWaitForCompletion();
         }    
     }
 }
