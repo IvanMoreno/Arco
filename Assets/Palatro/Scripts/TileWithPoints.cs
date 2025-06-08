@@ -9,15 +9,13 @@ namespace Palatro
         public string Letter { get; private set; }
         public int Points { get; private set; }
 
-        public void Resemble(Letter letter) => 
-            Resemble(letter.Shape, letter.Points);
-        public void Resemble(string letter, int points)
+        public void Resemble(Letter letter)
         {
-            Assert.IsNotNull(letter);
-            Assert.IsTrue(points > 0);
+            Assert.IsNotNull(letter.Shape);
+            Assert.IsTrue(letter.Points > 0);
         
-            Letter = letter;
-            Points = points;
+            Letter = letter.Shape;
+            Points = letter.Points;
 
             transform.Find("Character").GetComponent<TMP_Text>().text = Letter;
             transform.Find("Points").GetComponent<TMP_Text>().text = Points.ToString();
