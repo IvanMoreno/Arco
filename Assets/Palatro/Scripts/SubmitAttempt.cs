@@ -21,7 +21,7 @@ namespace Palatro
 
             _ = FindAnyObjectByType<TextualPoints>().Show(word.Points);
             FindAnyObjectByType<AttemptPanel>().Clear();
-            FindAnyObjectByType<Bank>().PopulateEmptyTiles();
+            FindAnyObjectByType<Bank>().PopulateProposedTiles();
         }
     }
 }

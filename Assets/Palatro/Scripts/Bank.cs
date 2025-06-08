@@ -1,7 +1,8 @@
-﻿using System;
+﻿using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.Assertions;
+using static UnityEngine.FindObjectsSortMode;
 
 namespace Palatro
 {
@@ -12,14 +13,23 @@ namespace Palatro
             PopulateEmptyTiles();
         }
 
-        public void PopulateEmptyTiles()
+        void PopulateEmptyTiles()
         {
-            var emptyTiles = FindObjectsByType<TileToPlay>(FindObjectsSortMode.None).Where(x => x.IsEmpty).ToList();
-            var letters = FindAnyObjectByType<Bag>().Pick(emptyTiles.Count);
-            Assert.AreEqual(emptyTiles.Count, letters.Count);
-            
-            for (var zip = 0; zip < emptyTiles.Count; zip++)
-                emptyTiles[zip].Resemble(letters[zip]);
+            Populate(FindObjectsByType<TileToPlay>(None).Where(x => x.IsEmpty).ToList());
+        }
+        
+        public void PopulateProposedTiles()
+        {
+            Populate(FindObjectsByType<TileToPlay>(None).Where(x => x.IsProposed).ToList());
+        }
+
+        static void Populate(IReadOnlyList<TileToPlay> tiles)
+        {
+            var letters = FindAnyObjectByType<Bag>().Pick(tiles.Count);
+            Assert.AreEqual(tiles.Count, letters.Count);
+
+            for (var zip = 0; zip < tiles.Count; zip++)
+                tiles[zip].Resemble(letters[zip]);
         }
     }
 }

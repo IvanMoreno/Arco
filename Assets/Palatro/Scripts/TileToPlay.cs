@@ -8,6 +8,7 @@ namespace Palatro
         public Letter ActualLetter { get; private set; }
         
         public bool IsEmpty => ActualLetter == null;
+        public bool IsProposed => !GetComponent<Button>().interactable;
 
         public void Resemble(Letter randomLetter)
         {
