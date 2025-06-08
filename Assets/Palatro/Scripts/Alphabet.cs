@@ -33,7 +33,7 @@ namespace Palatro
             foreach (var kvp in distribution)
             {
                 if (randomValue < kvp.Value) 
-                    return new Letter(kvp.Key.ToString(), points[kvp.Key]);
+                    return new(kvp.Key.ToString(), points[kvp.Key]);
                 randomValue -= kvp.Value;
             }
             throw new InvalidOperationException("Failed to select a letter based on frequency distribution.");
