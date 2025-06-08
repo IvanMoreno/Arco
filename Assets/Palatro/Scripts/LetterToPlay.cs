@@ -6,14 +6,15 @@ namespace Palatro
 {
     public class LetterToPlay : MonoBehaviour
     {
-        public string Letter { get; private set; }
-        public int Points { get; private set; }
+        public string Letter => ActualLetter.Shape;
+        public int Points => ActualLetter.Points;
+        
+        public Letter ActualLetter { get; private set; }
         
         void Awake()
         {
             var randomLetter = Alphabet.Random();
-            Letter = randomLetter.Shape;
-            Points = randomLetter.Points;
+            ActualLetter = randomLetter;
 
             GetComponentInChildren<LetterWithPoints>().Resemble(randomLetter);
             GetComponent<Button>().onClick.AddListener(Play);
