@@ -1,4 +1,6 @@
+using System;
 using UnityEngine;
+using UnityEngine.Assertions;
 using UnityEngine.UI;
 
 namespace Palatro
@@ -10,6 +12,11 @@ namespace Palatro
         public bool IsEmpty => ActualLetter == null;
         public bool IsProposed => !GetComponent<Button>().interactable;
 
+        void Awake()
+        {
+            GetComponent<Button>().onClick.AddListener(PlaceInAttempt);
+        }
+
         public void Resemble(Letter randomLetter)
         {
             ActualLetter = randomLetter;
@@ -17,11 +24,12 @@ namespace Palatro
             GetComponentInChildren<TileWithPoints>().Resemble(randomLetter);
             
             GetComponent<Button>().interactable = true;
-            GetComponent<Button>().onClick.AddListener(PlaceInAttempt);
         }
 
         void PlaceInAttempt()
         {
+            Assert.IsFalse(IsEmpty);
+            
             var attemptPanel = FindAnyObjectByType<AttemptPanel>();
             if (!attemptPanel.ThereIsSpace())
                 return;
