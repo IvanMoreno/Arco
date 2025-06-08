@@ -8,7 +8,7 @@ namespace Palatro
 {
     public class AttemptPanel : MonoBehaviour
     {
-        public bool IsEmpty { get; }
+        public bool IsEmpty => AllLetterOfAttempts.All(CanPlace);
 
         static IEnumerable<TileOfAttempt> AllLetterOfAttempts
             => FindObjectsByType<TileOfAttempt>(None)
@@ -29,7 +29,7 @@ namespace Palatro
 
         public void RemoveLastLetter()
         {
-            Assert.IsTrue(AllLetterOfAttempts.Any(CannotPlace));
+            Assert.IsFalse(IsEmpty);
 
             AllLetterOfAttempts.Last(CannotPlace).Clear();
         }
@@ -38,7 +38,7 @@ namespace Palatro
 
         public TileToPlay GetLastLetter()
         {
-            Assert.IsTrue(AllLetterOfAttempts.Any(CannotPlace));
+            Assert.IsFalse(IsEmpty);
             
             return AllLetterOfAttempts.Last(CannotPlace).FilledWith;
         }
