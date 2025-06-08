@@ -18,6 +18,11 @@ namespace Palatro
             Populate(FindObjectsByType<TileToPlay>(None).ToList());
         }
 
+        public void Reorder()
+        {
+            
+        }
+
         void PopulateEmptyTiles()
         {
             Populate(FindObjectsByType<TileToPlay>(None).Where(x => x.IsEmpty).ToList());
