@@ -48,10 +48,7 @@ namespace Palatro
             transform.Find("WhenIsFilledWithLetter").gameObject.SetActive(!isEmpty);
 
             if (!isEmpty)
-            {
-                transform.Find("WhenIsFilledWithLetter/Character").GetComponent<TMP_Text>().text = filledWith.Letter;
-                transform.Find("WhenIsFilledWithLetter/Points").GetComponent<TMP_Text>().text = filledWith.Points.ToString();
-            }
+                GetComponentInChildren<LetterWithPoints>().Resemble(filledWith.Letter, filledWith.Points);
         }
 
         static int ExtraPointsFromPosition(int i)
