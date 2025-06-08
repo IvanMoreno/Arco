@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Assertions;
 
@@ -15,6 +16,7 @@ namespace Palatro
         void Awake()
         {
             lettersInside = Enumerable.Range(0, AmountToBeginWith).Select(_ => Alphabet.Random()).ToList();
+            GetComponentInChildren<TMP_Text>().text = lettersInside.Count.ToString();
         }
 
         public IReadOnlyList<Letter> Pick(int howMany)
@@ -28,10 +30,16 @@ namespace Palatro
             {
                 var nextLetter = lettersInside.First();
                 letters.Add(nextLetter);
-                lettersInside.Remove(nextLetter);
+                Remove(nextLetter);
             }
             
             return letters;
+        }
+
+        void Remove(Letter nextLetter)
+        {
+            lettersInside.Remove(nextLetter);
+            GetComponentInChildren<TMP_Text>().text = lettersInside.Count.ToString();
         }
     }
 }
