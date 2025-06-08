@@ -13,12 +13,14 @@ namespace Palatro
             ActualLetter = randomLetter;
 
             GetComponentInChildren<TileWithPoints>().Resemble(randomLetter);
-            GetComponent<Button>().onClick.AddListener(Play);
+            GetComponent<Button>().onClick.AddListener(PlaceInAttempt);
         }
 
-        void Play()
+        void PlaceInAttempt()
         {
             GetComponent<Button>().interactable = false;
+            
+            FindAnyObjectByType<AttemptPanel>().Place(this);
         }
     }
 }
