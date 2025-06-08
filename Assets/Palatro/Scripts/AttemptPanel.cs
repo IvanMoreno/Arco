@@ -1,4 +1,5 @@
 using System.Linq;
+using NUnit.Framework;
 using UnityEngine;
 using static UnityEngine.FindObjectsSortMode;
 
@@ -10,6 +11,8 @@ namespace Palatro
 
         public void Place(LetterToPlay letter)
         {
+            Assert.IsTrue(FindObjectsByType<LetterOfAttempt>(None).Any(CanPlace));
+            
             FindObjectsByType<LetterOfAttempt>(None).First(CanPlace).Place(letter);
         }
 
