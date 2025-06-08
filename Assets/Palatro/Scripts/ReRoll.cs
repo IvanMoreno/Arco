@@ -10,6 +10,6 @@ namespace Palatro
             GetComponent<Button>().onClick.AddListener(Execute);
         }
 
-        void Execute() => FindAnyObjectByType<Bank>().ReRoll();
+        async void Execute() => await FindAnyObjectByType<Bank>().ReRoll();
     }
 }
