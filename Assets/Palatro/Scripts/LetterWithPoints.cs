@@ -9,6 +9,8 @@ namespace Palatro
         public string Letter { get; private set; }
         public int Points { get; private set; }
 
+        public void Resemble(Letter letter) => 
+            Resemble(letter.Shape, letter.Points);
         public void Resemble(string letter, int points)
         {
             Assert.IsNotNull(letter);
