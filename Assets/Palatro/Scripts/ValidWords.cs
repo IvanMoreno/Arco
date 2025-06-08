@@ -18,6 +18,8 @@ namespace Palatro
             validWordsAllUppercase = validWordsText.text.Split(new[] { '\n' }, StringSplitOptions.RemoveEmptyEntries);
         }
 
+        public bool Whether(Word attempt) => Whether(attempt.Shape);
+
         public bool Whether(string attempt)
         {
             Assert.IsNotNull(validWordsAllUppercase);
