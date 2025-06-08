@@ -9,11 +9,11 @@ namespace Palatro
     public class TileOfAttempt : MonoBehaviour
     {
         public int ExtraPoints { get; private set; }
-        public bool IsEmpty => !transform.Find("WhenIsFilledWithLetter").gameObject.activeInHierarchy;
+        public bool IsEmpty { get; private set; }
         
         public TileToPlay FilledWith { get; private set; }
         
-        void Awake()
+        void Start()
         {
             ToggleIsEmpty(true);
             ExtraPointsAre(Word.ExtraPointsFromPosition(transform.GetSiblingIndex()));
@@ -48,10 +48,16 @@ namespace Palatro
 
         async Task ToggleIsEmpty(bool isEmpty)
         {
-            transform.Find("WhenIsFilledWithLetter").gameObject.SetActive(!isEmpty);
+            IsEmpty = isEmpty;
+            
             if (isEmpty)
+            {
+                await GetComponentInChildren<TileAnimation>().Disappear();
+                transform.Find("WhenIsFilledWithLetter").gameObject.SetActive(false);
                 return;
-
+            }
+            
+            transform.Find("WhenIsFilledWithLetter").gameObject.SetActive(true);
             GetComponentInChildren<TileWithPoints>().Resemble(FilledWith.ActualLetter);
             await GetComponentInChildren<TileAnimation>().Appear();
         }
