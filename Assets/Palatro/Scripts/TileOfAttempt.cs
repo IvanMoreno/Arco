@@ -14,7 +14,7 @@ namespace Palatro
         void Awake()
         {
             ToggleIsEmpty(true);
-            ExtraPointsAre(ExtraPointsFromPosition(transform.GetSiblingIndex()));
+            ExtraPointsAre(Word.ExtraPointsFromPosition(transform.GetSiblingIndex()));
         }
 
         public void Place(TileToPlay tile)
@@ -51,19 +51,6 @@ namespace Palatro
 
             if (!isEmpty)
                 GetComponentInChildren<TileWithPoints>().Resemble(FilledWith.ActualLetter);
-        }
-
-        static int ExtraPointsFromPosition(int i)
-        {
-            Assert.IsTrue(i is >= 0 and < 10, $"Index {i} is out of range. It should be between 1 and 9.");
-            return i switch
-            {
-                < 4 => 0,
-                5 => 2,
-                6 or 7 or 8 => 5,
-                9 => 10,
-                _ => 0
-            };
         }
     }
 }
