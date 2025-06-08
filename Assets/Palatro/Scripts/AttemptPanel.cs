@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
 using UnityEngine;
@@ -9,11 +10,13 @@ namespace Palatro
     {
         public bool IsEmpty { get; }
 
+        static IEnumerable<LetterOfAttempt> AllLetterOfAttempts => FindObjectsByType<LetterOfAttempt>(None);
+
         public void Place(LetterToPlay letter)
         {
-            Assert.IsTrue(FindObjectsByType<LetterOfAttempt>(None).Any(CanPlace));
+            Assert.IsTrue(AllLetterOfAttempts.Any(CanPlace));
             
-            FindObjectsByType<LetterOfAttempt>(None).First(CanPlace).Place(letter);
+            AllLetterOfAttempts.First(CanPlace).Place(letter);
         }
 
         static bool CanPlace(LetterOfAttempt where) => where.IsEmpty;
