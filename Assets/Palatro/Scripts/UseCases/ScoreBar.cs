@@ -1,4 +1,5 @@
 using System.Threading.Tasks;
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,8 +9,7 @@ namespace Palatro.UseCases
     {
         public Task FillUpTo(float proportion)
         {
-            GetComponent<Image>().fillAmount = proportion;
-            return Task.CompletedTask;
+            return GetComponent<Image>().DOFillAmount(proportion, 0.5f).AsyncWaitForCompletion();
         }
     }
 }
