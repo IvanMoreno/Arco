@@ -18,13 +18,14 @@ namespace Palatro
             GetComponent<Button>().onClick.AddListener(PlaceInAttempt);
         }
 
-        public void Resemble(Letter randomLetter)
+        public Task Resemble(Letter randomLetter)
         {
             ActualLetter = randomLetter;
 
             GetComponentInChildren<TileWithPoints>().Resemble(randomLetter);
             
             GetComponent<Button>().interactable = true;
+            return Task.CompletedTask;
         }
 
         void PlaceInAttempt()

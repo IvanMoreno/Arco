@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.Assertions;
 using static UnityEngine.FindObjectsSortMode;
@@ -13,9 +14,9 @@ namespace Palatro
             PopulateEmptyTiles();
         }
 
-        public void ReRoll()
+        public Task ReRoll()
         {
-            Populate(FindObjectsByType<TileToPlay>(None).ToList());
+            return Populate(FindObjectsByType<TileToPlay>(None).ToList());
         }
 
         public void Reorder()
@@ -27,21 +28,20 @@ namespace Palatro
 
         void PopulateEmptyTiles()
         {
-            Populate(FindObjectsByType<TileToPlay>(None).Where(x => x.IsEmpty).ToList());
+            _ = Populate(FindObjectsByType<TileToPlay>(None).Where(x => x.IsEmpty).ToList());
         }
         
-        public void PopulateProposedTiles()
+        public Task PopulateProposedTiles()
         {
-            Populate(FindObjectsByType<TileToPlay>(None).Where(x => x.IsProposed).ToList());
+            return Populate(FindObjectsByType<TileToPlay>(None).Where(x => x.IsProposed).ToList());
         }
 
-        static void Populate(IReadOnlyList<TileToPlay> tiles)
+        static Task Populate(IReadOnlyList<TileToPlay> tiles)
         {
             var letters = FindAnyObjectByType<Bag>().Pick(tiles.Count);
             Assert.AreEqual(tiles.Count, letters.Count);
 
-            for (var zip = 0; zip < tiles.Count; zip++)
-                tiles[zip].Resemble(letters[zip]);
+            return Task.WhenAll(tiles.Select((tile, i) => tile.Resemble(letters[i])).ToList());
         }
     }
 }
