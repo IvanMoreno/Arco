@@ -1345,10 +1345,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
-    - target: {fileID: 6538045105303320261, guid: a1f052ed9ff4d0d4f905f6b09a1dbde5, type: 3}
-      propertyPath: <IsEnemy>k__BackingField
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
