@@ -43,7 +43,7 @@ internal class HumanPlayer : MonoBehaviour, Brain
     {
         return action switch
         {
-            "move" => Color.blue,
+            "move" => Color.cyan,
             "attack" => Color.red,
             _ => throw new System.ArgumentException($"Unknown action: {action}")
         };
