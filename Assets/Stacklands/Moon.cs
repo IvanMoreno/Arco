@@ -30,8 +30,18 @@ namespace Stacklands
 
         async Task EndCycle()
         {
+            VillagersGetHungry();
             await UntilPlayerWantsToFeedVillagers();
             await FeedVillagers();
+        }
+
+        void VillagersGetHungry()
+        {
+            var villagers = FindObjectsOfType<Villager>(true);
+            foreach (var villager in villagers)
+            {
+                villager.BecomeHungry();
+            }
         }
 
         async Task UntilPlayerWantsToFeedVillagers()
@@ -53,11 +63,25 @@ namespace Stacklands
         {
             var villagers = FindObjectsOfType<Villager>(true);
             foreach (var villager in villagers)
-            {
-                villager.Die();
-            }
+                FeedOrDie(villager);
 
             return Task.CompletedTask;
+        }
+
+        static void FeedOrDie(Villager villager)
+        {
+            var allFood = FindObjectsOfType<Food>();
+            foreach (var food in allFood)
+            {
+                if (!villager.IsHungry)
+                    continue;
+                
+                villager.Eat();
+                food.Consume();
+            }
+            
+            if (villager.IsHungry)
+                villager.Die();
         }
 
         async Task UntilFullMoon()
