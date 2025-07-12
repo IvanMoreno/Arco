@@ -42,7 +42,7 @@ namespace Stacklands
 
         void SpawnStick()
         {
-            FindAnyObjectByType<SpaceTime>().SpawnNearby(stickPrefab, transform.position);
+            FindAnyObjectByType<SpaceTime>().SpawnNearbyCard(stickPrefab, transform.position);
         }
 
         bool CanStartHarvest()

@@ -29,6 +29,7 @@ namespace Stacklands
             Assert.IsNotNull(other);
             Assert.AreNotEqual(this, other);
             Assert.IsFalse(HasSomethingStacked);
+            Assert.AreNotEqual(other.stackedOverMe, this);
 
             stackedOverMe = other;
             

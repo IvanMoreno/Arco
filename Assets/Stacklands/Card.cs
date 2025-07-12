@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Linq;
+using UnityEngine;
 
 namespace Stacklands
 {
@@ -10,6 +11,8 @@ namespace Stacklands
 
         public bool IsStackableOnMe(Card other)
         {
+            if (other.GetComponent<Stackable>().StackableOverMe.Contains(this.GetComponent<Stackable>()))
+                return false;
             if (other.gameObject == gameObject)
                 return false;
             if (GetComponent<Stackable>().HasSomethingStacked)
