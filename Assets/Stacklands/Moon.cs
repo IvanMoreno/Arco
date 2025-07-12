@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
@@ -10,6 +9,9 @@ namespace Stacklands
 {
     public class Moon : MonoBehaviour
     {
+        static IEnumerable<Villager> AllVillagers => FindObjectsOfType<Villager>();
+        static IEnumerable<Villager> HungryVillagers => AllVillagers.Where(x => x.IsHungry);
+        
         void Awake()
         {
             GetComponent<Image>().fillAmount = 0;
@@ -62,29 +64,21 @@ namespace Stacklands
 
         async Task FeedVillagers()
         {
-            var villagers = FindObjectsOfType<Villager>(true);
-            foreach (var villager in villagers)
-                await FeedOrDie(villager);
-        }
-
-        static async Task FeedOrDie(Villager villager)
-        {
-            var allFood = FindObjectsOfType<Food>();
-            foreach (var food in allFood)
+            foreach (var food in FindObjectsOfType<Food>())
             {
-                if (!villager.IsHungry)
-                    continue;
-                
-                if (food.WasConsumed)
-                    continue;
-                
                 food.GetComponent<Stackable>().RemoveFromStack();
-                await villager.Eat();
+
+                if (!HungryVillagers.Any())
+                    break;
+
+                await HungryVillagers.First().Eat();
                 food.Consume();
             }
-            
-            if (villager.IsHungry)
-                await villager.Die();
+
+            foreach (var hungryVillager in HungryVillagers)
+            {
+                await hungryVillager.Die();
+            }
         }
 
         async Task UntilFullMoon()
