@@ -1,28 +1,46 @@
-using System.Collections;
 using UnityEngine;
 
 namespace Stacklands
 {
     public class DragDropCard : MonoBehaviour
     {
-        bool isDragging;
-        Card onTopOf;
-
+        [SerializeField] float stackDetectionRadius = 2;
+        
         public void OnMouseDown()
         {
-            isDragging = true;
             GetComponent<Stackable>().RemoveFromStack();
         }
 
         public void OnMouseUp()
         {
-            isDragging = false;
-
-            if (onTopOf != null) 
-                StackOnCard();
+            StackOnNearestCard();
         }
 
-        void StackOnCard() => GetComponent<Stackable>().StackOver(onTopOf.GetComponent<Stackable>());
+        void StackOnNearestCard()
+        {
+            var stackableCandidates = Physics2D.OverlapCircleAll(transform.position, stackDetectionRadius);
+            foreach (var stackableCandidate in stackableCandidates)
+            {
+                if (!CanStackOn(stackableCandidate.gameObject))
+                    continue;
+                
+                stackableCandidate.GetComponent<Stackable>().StackOnMe(GetComponent<Stackable>());
+            }
+        }
+
+        bool CanStackOn(GameObject otherCard)
+        {
+            if (otherCard.GetComponent<Stackable>().HasSomethingStacked)
+                return false;
+            
+            if (otherCard == gameObject)
+                return false;
+
+            if(!otherCard.GetComponent<Card>().IsStackableOnMe(GetComponent<Card>()))
+                return false;
+
+            return true;
+        }
 
         public void OnMouseDrag()
         {
@@ -30,31 +48,9 @@ namespace Stacklands
             transform.Translate(mousePosition);
         }
 
-        void OnTriggerEnter2D(Collider2D other)
+        void OnDrawGizmosSelected()
         {
-            if (!other.TryGetComponent<Card>(out var card))
-                return;
-
-            StackOnTopOfIfPossible(card);
-        }
-
-        void StackOnTopOfIfPossible(Card otherCard)
-        {
-            if (otherCard.GetComponent<Stackable>().HasSomethingStacked)
-                return;
-
-            if(!otherCard.IsStackableOnMe(this.GetComponent<Card>()))
-                return;
-            
-            onTopOf = otherCard;
-        }
-
-        void OnTriggerExit2D(Collider2D other)
-        {
-            if (!other.TryGetComponent<Card>(out var card) || card != onTopOf)
-                return;
-
-            onTopOf = null;
+            Gizmos.DrawWireSphere(transform.position, stackDetectionRadius);
         }
     }
 }
