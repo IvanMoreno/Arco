@@ -5,16 +5,30 @@ namespace Stacklands
 {
     public class BerryBush : MonoBehaviour
     {
+        const float harvestDurationInSeconds = 2;
+        
         [SerializeField] GameObject berry;
+
+        float harvestProgressInSeconds;
         
         async void Start()
         {
-            while (!CanStartHarvest())
+            while (!destroyCancellationToken.IsCancellationRequested)
             {
                 await Task.Yield();
-            }
+                if (!CanStartHarvest())
+                {
+                    harvestProgressInSeconds = 0;
+                    continue;
+                }
 
-            GenerateBerry();
+                harvestProgressInSeconds += Time.deltaTime;
+                if (harvestProgressInSeconds < harvestDurationInSeconds) 
+                    continue;
+                
+                GenerateBerry();
+                harvestProgressInSeconds = 0;
+            }
         }
 
         void GenerateBerry()
