@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
@@ -74,6 +75,10 @@ namespace Stacklands
                 if (!villager.IsHungry)
                     continue;
                 
+                if (food.WasConsumed)
+                    continue;
+                
+                food.GetComponent<Stackable>().RemoveFromStack();
                 await villager.Eat();
                 food.Consume();
             }
