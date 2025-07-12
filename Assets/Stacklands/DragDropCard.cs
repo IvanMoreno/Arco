@@ -4,8 +4,12 @@ namespace Stacklands
 {
     public class DragDropCard : MonoBehaviour
     {
+        [SerializeField] AudioClip onPicked;
+        [SerializeField] AudioClip onDropped;
+        
         public void OnMouseDown()
         {
+            GetComponent<AudioSource>().PlayOneShot(onPicked);
             GetComponent<Stackable>().RemoveFromStack();
         }
 
