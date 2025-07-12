@@ -302,7 +302,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 9
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -405,7 +405,7 @@ Transform:
   m_GameObject: {fileID: 358272407}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.495, y: 2.5, z: 0}
+  m_LocalPosition: {x: -5.495, y: 6.97, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -426,6 +426,8 @@ MonoBehaviour:
   cardsToSpawn:
   - {fileID: 5134164604334403771, guid: 46280924f4dd42f42889506524db9d30, type: 3}
   - {fileID: 2796370161985288257, guid: c2d06c81cf4419b46a24598fed3a1c38, type: 3}
+  - {fileID: 5134164604334403771, guid: 46280924f4dd42f42889506524db9d30, type: 3}
+  - {fileID: 5134164604334403771, guid: 46280924f4dd42f42889506524db9d30, type: 3}
   - {fileID: 5134164604334403771, guid: 46280924f4dd42f42889506524db9d30, type: 3}
 --- !u!212 &358272410
 SpriteRenderer:
