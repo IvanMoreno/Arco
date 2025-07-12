@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 namespace Stacklands
@@ -34,6 +35,8 @@ namespace Stacklands
             if (!other.TryGetComponent<Card>(out var card))
                 return;
 
+            if (card.GetComponent<Stackable>().HasSomethingStacked)
+                return;
             onTopOf = card;
         }
 
