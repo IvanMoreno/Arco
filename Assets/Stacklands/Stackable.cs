@@ -11,16 +11,16 @@ namespace Stacklands
         
         public bool HasSomethingStacked => stackedOverMe != null;
 
-        public IEnumerable<Stackable> TheWholeStackOverMe
+        public StackOfCards TheWholeStackOverMe
         {
             get
             {
                 if (stackedOverMe == null) 
-                    return Enumerable.Empty<Stackable>();
+                    return StackOfCards.Empty();
                 
                 var result = new List<Stackable> { stackedOverMe };
                 result.AddRange(stackedOverMe.TheWholeStackOverMe);
-                return result;
+                return new(result);
             }
         }
         
