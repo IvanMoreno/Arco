@@ -20,5 +20,7 @@ namespace Stacklands
             other.transform.position = transform.position + Vector3.down * 0.25f;
             other.transform.SetParent(transform);
         }
+
+        public void StackOver(Stackable other) => other.StackOnMe(this);
     }
 }
