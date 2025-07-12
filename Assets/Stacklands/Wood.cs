@@ -47,7 +47,7 @@ namespace Stacklands
 
         bool CanStartHarvest()
         {
-            return GetComponent<Stackable>().StackableOverMe.FirstOrDefault()?.TryGetComponent<Villager>(out _) ?? false;
+            return GetComponent<Stackable>().TheWholeStackOverMe.FirstOrDefault()?.TryGetComponent<Villager>(out _) ?? false;
         }
 
         void DestroyItself()

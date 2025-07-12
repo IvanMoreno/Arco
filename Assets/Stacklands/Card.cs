@@ -12,7 +12,7 @@ namespace Stacklands
 
         public bool IsStackableOnMe(Card other)
         {
-            if (other.GetComponent<Stackable>().StackableOverMe.Contains(this.GetComponent<Stackable>()))
+            if (other.GetComponent<Stackable>().TheWholeStackOverMe.Contains(this.GetComponent<Stackable>()))
                 return false;
             if (other.gameObject == gameObject)
                 return false;

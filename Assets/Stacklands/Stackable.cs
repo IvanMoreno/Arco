@@ -11,7 +11,7 @@ namespace Stacklands
         
         public bool HasSomethingStacked => stackedOverMe != null;
 
-        public IEnumerable<Stackable> StackableOverMe
+        public IEnumerable<Stackable> TheWholeStackOverMe
         {
             get
             {
@@ -19,7 +19,7 @@ namespace Stacklands
                     return Enumerable.Empty<Stackable>();
                 
                 var result = new List<Stackable> { stackedOverMe };
-                result.AddRange(stackedOverMe.StackableOverMe);
+                result.AddRange(stackedOverMe.TheWholeStackOverMe);
                 return result;
             }
         }
