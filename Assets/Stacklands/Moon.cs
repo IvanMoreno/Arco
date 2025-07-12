@@ -1,8 +1,11 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
+using NUnit.Framework;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 namespace Stacklands
@@ -51,20 +54,24 @@ namespace Stacklands
         {
             var button = FindObjectsOfType<Button>(true).Single(x => x.name == "FeedVillagers");
             button.gameObject.SetActive(true);
-            var tcs = new TaskCompletionSource<bool>();
-            if(!GetComponentInChildren<Toggle>().isOn)
-                button.onClick.AddListener(() => { GoToNextCycle(button, tcs); });
-            else
-                GoToNextCycle(button, tcs);
-            await tcs.Task;
-        }
+            
+            await ToBePressed(button);
 
-        void GoToNextCycle(Button button, TaskCompletionSource<bool> tcs)
-        {
             GetComponent<Image>().fillAmount = 0;
             button.gameObject.SetActive(false);
-            button.onClick.RemoveAllListeners();
-            tcs.SetResult(true);
+        }
+
+        async Task ToBePressed(Button button)
+        {
+            if (GetComponentInChildren<Toggle>().isOn)
+                return;
+            
+            var tcs = new TaskCompletionSource<bool>();
+            
+            UnityAction unlockTask = () => tcs.TrySetResult(true);
+            button.onClick.AddListener(unlockTask);
+            await tcs.Task;
+            button.onClick.RemoveListener(unlockTask);
         }
 
         static async Task FeedVillagers()
