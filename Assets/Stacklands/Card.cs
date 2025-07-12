@@ -11,7 +11,7 @@ namespace Stacklands
             if (category == "structure")
                 return other.category == "person";
             if (category == "person")
-                return false;
+                return other.category == "structure";
             return true;
         }
     }
