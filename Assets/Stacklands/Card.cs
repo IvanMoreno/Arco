@@ -8,6 +8,8 @@ namespace Stacklands
 
         public bool IsStackableOnMe(Card other)
         {
+            if (category == "structure")
+                return other.category == "person";
             if (category == "person")
                 return false;
             return true;
