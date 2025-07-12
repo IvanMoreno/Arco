@@ -228,6 +228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2166a6b2f4f49a482c1a42d2794ab00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onStacked: {fileID: 8300000, guid: 328aa9249e2eed944ac78366033238c1, type: 3}
 --- !u!114 &5717628111164435861
 MonoBehaviour:
   m_ObjectHideFlags: 0

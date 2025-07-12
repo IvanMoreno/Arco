@@ -7,6 +7,8 @@ namespace Stacklands
 {
     public class Stackable : MonoBehaviour
     {
+        [SerializeField] AudioClip onStacked;
+        
         Stackable stackedOverMe;
         
         public bool HasSomethingStacked => stackedOverMe != null;
@@ -35,6 +37,8 @@ namespace Stacklands
             
             other.transform.position = transform.position + Vector3.down * Card.AssumedSizeAprox.y / 3f;
             other.transform.SetParent(transform);
+            
+            GetComponent<AudioSource>().PlayTweakingPitch(onStacked);
         }
 
         public void RemoveFromStack()

@@ -15,15 +15,16 @@ namespace Stacklands
 
         public void OnMouseUp()
         {
-            GetComponent<AudioSource>().PlayTweakingPitch(onDropped);
             StackOnNearestCard();
         }
 
         void StackOnNearestCard()
         {
-            FindFirstObjectByType<SpaceTime>()
-                .ClosestToBeStackedOn(GetComponent<Card>())?
-                .StackOnMe(GetComponent<Stackable>());
+            var cardToBeStackedOn = FindFirstObjectByType<SpaceTime>().ClosestToBeStackedOn(GetComponent<Card>());
+            cardToBeStackedOn?.StackOnMe(GetComponent<Stackable>());
+            
+            if(cardToBeStackedOn == null)
+                GetComponent<AudioSource>().PlayTweakingPitch(onDropped);
         }
 
         public void OnMouseDrag()
