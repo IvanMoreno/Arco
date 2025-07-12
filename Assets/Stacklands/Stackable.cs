@@ -17,7 +17,7 @@ namespace Stacklands
 
             stackedOverMe = other;
             
-            other.transform.position = transform.position + Vector3.down * 0.25f;
+            other.transform.position = transform.position + Vector3.down * Card.AssumedSizeAprox.y / 3f;
             other.transform.SetParent(transform);
         }
 

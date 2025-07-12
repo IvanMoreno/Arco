@@ -26,13 +26,18 @@ namespace Stacklands
             for (var i = 0; i < cardsToSpawn.Length; i++)
             {
                 var card = cardsToSpawn[i];
-                Instantiate(card, transform.position + Vector3.down * 3 * (i+1), Quaternion.identity);
+                Instantiate(card, BelowMe(nTimes: i), Quaternion.identity);
                 
                 await Task.Delay(100);
             }
 
             Destroy(gameObject);
 
+        }
+
+        Vector3 BelowMe(int nTimes)
+        {
+            return transform.position + Vector3.down * Card.AssumedSizeAprox.y * (nTimes+1);
         }
     }
 }

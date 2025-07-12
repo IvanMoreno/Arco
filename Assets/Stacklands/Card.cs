@@ -4,6 +4,8 @@ namespace Stacklands
 {
     public class Card : MonoBehaviour
     {
+        public static readonly Vector2 AssumedSizeAprox = new(2, 2.25f);
+        
         [SerializeField] string category;
 
         public bool IsStackableOnMe(Card other)
