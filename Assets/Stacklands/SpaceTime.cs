@@ -62,5 +62,10 @@ namespace Stacklands
             
             return instance;
         }
+
+        public void SpawnNearbyCounterClockwise(GameObject[] toSpawn, Vector2 center)
+        {
+            throw new System.NotImplementedException("También podríamos pasarle un círculo para que considere anchura");
+        }
     }
 }
