@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using TMPro;
 using UnityEngine;
 
 namespace Stacklands
@@ -16,10 +17,11 @@ namespace Stacklands
 
         async void Start()
         {
+            UpdateRemainingCardsBadge(cardsToSpawn.Length);
             await untilClicked.Task;
             await OpenPack();
         }
-        
+
         void OnMouseDown()
         {
             untilClicked.TrySetResult(true);
@@ -33,10 +35,16 @@ namespace Stacklands
             for (var i = 0; i < whereToSpawnEachCard.Count; i++)
             {
                 FindAnyObjectByType<SpaceTime>().SpawnNearbyCard(cardsToSpawn[i], whereToSpawnEachCard[i]);
+                UpdateRemainingCardsBadge(cardsToSpawn.Length - i - 1);
                 await Task.Delay(100);
             }
 
             Destroy(gameObject);
+        }
+
+        void UpdateRemainingCardsBadge(int howMany)
+        {
+            GetComponentInChildren<TMP_Text>().text = howMany.ToString();
         }
 
         static IEnumerable<Vector2> RadiusSpawning(int howManyToSpawn, Vector2 center)
