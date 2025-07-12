@@ -12,6 +12,10 @@ namespace Stacklands
             throw new NotImplementedException();
         }
 
+        public void SpawnAt(GameObject what, Vector2 whereExactly)
+        {
+            Instantiate(what, whereExactly, Quaternion.identity);
+        }
         public void SpawnNearby(GameObject what, Vector2 whereabouts)
         {
             Instantiate(what, whereabouts + Vector2.down * Card.AssumedSizeAprox.y, Quaternion.identity);
