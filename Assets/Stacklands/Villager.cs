@@ -6,13 +6,16 @@ namespace Stacklands
 {
     public class Villager : MonoBehaviour
     {
+        [SerializeField] GameObject corpsePrefab;
         int foodNeeded = 0;
         
         public bool IsHungry => foodNeeded > 0;
         
-        public void Die()
+        public async Task Die()
         {
-            GetComponentInChildren<SpriteRenderer>().color = Color.gray;
+            Instantiate(corpsePrefab, transform.position + Vector3.one * 0.34f, Quaternion.identity);
+            await Task.Delay(312);
+            Destroy(gameObject);
         }
 
         public void BecomeHungry()

@@ -79,7 +79,7 @@ namespace Stacklands
             }
             
             if (villager.IsHungry)
-                villager.Die();
+                await villager.Die();
         }
 
         async Task UntilFullMoon()
