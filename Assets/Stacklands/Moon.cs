@@ -111,8 +111,8 @@ namespace Stacklands
         void Update()
         {
             var cycleSeconds = 60f;
-            if (Input.GetKey(KeyCode.Space))
-                cycleSeconds /= 50;
+            if (Input.GetKeyDown(KeyCode.Space))
+                GetComponent<Image>().fillAmount = 0.99f;
             GetComponent<Image>().fillAmount += Time.deltaTime / cycleSeconds;
         }
     }
