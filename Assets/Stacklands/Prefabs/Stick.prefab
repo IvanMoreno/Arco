@@ -10,12 +10,12 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1785285062287186026, guid: 04d7f9209d2a6204a8d4035bccb067a4, type: 3}
       propertyPath: m_Name
-      value: Wood
+      value: Stick
       objectReference: {fileID: 0}
     - target: {fileID: 3235788217486406185, guid: 04d7f9209d2a6204a8d4035bccb067a4, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -2067898546876541913, guid: 8b65ec4a68048e14794f50f8c3c12842, type: 3}
+      objectReference: {fileID: -7907951331658488048, guid: 75dff9a1fedb02b448407b9c7dccdf6e, type: 3}
     - target: {fileID: 3235788217486406185, guid: 04d7f9209d2a6204a8d4035bccb067a4, type: 3}
       propertyPath: m_Color.b
       value: 0.5058824
@@ -111,26 +111,5 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1785285062287186026, guid: 04d7f9209d2a6204a8d4035bccb067a4, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 5634670864293924153}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04d7f9209d2a6204a8d4035bccb067a4, type: 3}
---- !u!1 &8163254050198475101 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1785285062287186026, guid: 04d7f9209d2a6204a8d4035bccb067a4, type: 3}
-  m_PrefabInstance: {fileID: 7606349976878778679}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &5634670864293924153
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8163254050198475101}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64f15ad855b34c07962615aaac051b93, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  stickPrefab: {fileID: 8163254050198475101, guid: 0c7ec204fc819be48911f1a509e7ddbd, type: 3}
