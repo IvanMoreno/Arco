@@ -10,6 +10,10 @@ namespace Stacklands
 
         public bool IsStackableOnMe(Card other)
         {
+            if (other == this)
+                return false;
+            if (GetComponent<Stackable>().HasSomethingStacked)
+                return false;
             if (category == "structure")
                 return other.category == "person";
             if (category == "person")
