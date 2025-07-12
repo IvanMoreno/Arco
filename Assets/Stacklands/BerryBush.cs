@@ -1,3 +1,4 @@
+using System.Linq;
 using System.Threading.Tasks;
 using UnityEngine;
 
@@ -47,7 +48,7 @@ namespace Stacklands
 
         bool CanStartHarvest()
         {
-            return GetComponent<Stackable>().HasSomethingStacked;
+            return GetComponent<Stackable>().StackableOverMe.FirstOrDefault()?.TryGetComponent<Villager>(out _) ?? false;
         }
 
         void DestroyItself()

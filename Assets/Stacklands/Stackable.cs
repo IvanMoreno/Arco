@@ -1,4 +1,6 @@
-﻿using NUnit.Framework;
+﻿using System.Collections.Generic;
+using System.Linq;
+using NUnit.Framework;
 using UnityEngine;
 
 namespace Stacklands
@@ -8,6 +10,19 @@ namespace Stacklands
         Stackable stackedOverMe;
         
         public bool HasSomethingStacked => stackedOverMe != null;
+
+        public IEnumerable<Stackable> StackableOverMe
+        {
+            get
+            {
+                if (stackedOverMe == null) 
+                    return Enumerable.Empty<Stackable>();
+                
+                var result = new List<Stackable> { stackedOverMe };
+                result.AddRange(stackedOverMe.StackableOverMe);
+                return result;
+            }
+        }
         
         public void StackOnMe(Stackable other)
         {
