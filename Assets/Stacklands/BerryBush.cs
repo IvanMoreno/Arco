@@ -10,25 +10,34 @@ namespace Stacklands
         [SerializeField] GameObject berry;
 
         float harvestProgressInSeconds;
+        int numberOfHarvests = 2;
         
         async void Start()
         {
-            while (!destroyCancellationToken.IsCancellationRequested)
+            while (!destroyCancellationToken.IsCancellationRequested && numberOfHarvests > 0)
             {
-                await Task.Yield();
-                if (!CanStartHarvest())
-                {
-                    harvestProgressInSeconds = 0;
-                    continue;
-                }
-
-                harvestProgressInSeconds += Time.deltaTime;
-                if (harvestProgressInSeconds < harvestDurationInSeconds) 
-                    continue;
-                
-                GenerateBerry();
-                harvestProgressInSeconds = 0;
+                await HarvestLoop();
             }
+
+            DestroyItself();
+        }
+
+        async Task HarvestLoop()
+        {
+            await Task.Yield();
+            if (!CanStartHarvest())
+            {
+                harvestProgressInSeconds = 0;
+                return;
+            }
+
+            harvestProgressInSeconds += Time.deltaTime;
+            if (harvestProgressInSeconds < harvestDurationInSeconds)
+                return;
+
+            GenerateBerry();
+            harvestProgressInSeconds = 0;
+            numberOfHarvests--;
         }
 
         void GenerateBerry()
@@ -39,6 +48,12 @@ namespace Stacklands
         bool CanStartHarvest()
         {
             return GetComponent<Stackable>().HasSomethingStacked;
+        }
+
+        void DestroyItself()
+        {
+            GetComponentInChildren<Villager>().GetComponent<Stackable>().RemoveFromStack();
+            Destroy(gameObject);
         }
     }
 }
