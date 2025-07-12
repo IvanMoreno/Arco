@@ -36,14 +36,15 @@ namespace Stacklands
             if (harvestProgressInSeconds < harvestDurationInSeconds)
                 return;
 
-            GenerateBerry();
+            SpawnBerry();
             harvestProgressInSeconds = 0;
             numberOfHarvests--;
         }
 
-        void GenerateBerry()
+        void SpawnBerry()
         {
             Instantiate(berry, transform.position + Vector3.down, Quaternion.identity);
+            FindAnyObjectByType<SpaceTime>().SpawnNearby(berry, transform.position);
         }
 
         bool CanStartHarvest()

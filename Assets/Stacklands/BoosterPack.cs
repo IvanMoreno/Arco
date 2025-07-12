@@ -27,6 +27,7 @@ namespace Stacklands
             {
                 var card = cardsToSpawn[i];
                 Instantiate(card, BelowMe(nTimes: i), Quaternion.identity);
+                FindAnyObjectByType<SpaceTime>().SpawnNearby(card, BelowMe(nTimes: i));
                 
                 await Task.Delay(100);
             }

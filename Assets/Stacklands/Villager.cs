@@ -14,6 +14,7 @@ namespace Stacklands
         public async Task Die()
         {
             Instantiate(corpsePrefab, transform.position + Vector3.one * 0.34f, Quaternion.identity);
+            FindAnyObjectByType<SpaceTime>().SpawnNearby(corpsePrefab, transform.position);
             await Task.Delay(312);
             Destroy(gameObject);
         }
