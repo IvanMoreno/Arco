@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HornedHelmet_0: -3491452738787455011
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

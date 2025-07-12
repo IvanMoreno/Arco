@@ -259,7 +259,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GoldenShestPlate_0: -2957682521965266838
+      GoldenShestPlate_1: 7830035464371421196
+      GoldenShestPlate_2: 7472512561801820212
+      GoldenShestPlate_3: 8987897584400848356
+      GoldenShestPlate_4: -2799885164921464494
+      GoldenShestPlate_5: 3870779628264596519
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

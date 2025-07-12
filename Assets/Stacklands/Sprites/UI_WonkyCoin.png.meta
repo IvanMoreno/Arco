@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      UI_WonkyCoin_0: -4233544055801217041
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

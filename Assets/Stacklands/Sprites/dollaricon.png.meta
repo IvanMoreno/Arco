@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      dollaricon_0: -5142411741947258975
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

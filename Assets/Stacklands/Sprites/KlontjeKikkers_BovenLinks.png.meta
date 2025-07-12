@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      KlontjeKikkers_BovenLinks_0: 8836964271989716880
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

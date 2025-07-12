@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MeerGrasjes_0: -2808770060160963828
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

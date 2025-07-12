@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BosjesBinnen_3_0: 7388060263514881934
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

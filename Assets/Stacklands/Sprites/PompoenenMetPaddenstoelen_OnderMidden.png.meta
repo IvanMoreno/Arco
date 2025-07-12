@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PompoenenMetPaddenstoelen_OnderMidden_0: 1446522718372631281
+      PompoenenMetPaddenstoelen_OnderMidden_1: -3163948981360694085
+      PompoenenMetPaddenstoelen_OnderMidden_2: 5765796180449806946
+      PompoenenMetPaddenstoelen_OnderMidden_3: 1053522160023110937
+      PompoenenMetPaddenstoelen_OnderMidden_4: -5493353373587857912
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

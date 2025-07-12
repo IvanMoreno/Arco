@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SteenMetPaddenstoelen_OnderRechts_0: -2036731793727173529
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

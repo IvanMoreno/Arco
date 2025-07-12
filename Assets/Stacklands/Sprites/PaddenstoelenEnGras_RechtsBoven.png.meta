@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PaddenstoelenEnGras_RechtsBoven_0: 7825169290061540553
+      PaddenstoelenEnGras_RechtsBoven_1: -7458599599169114396
+      PaddenstoelenEnGras_RechtsBoven_2: -2810003811669855809
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

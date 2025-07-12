@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      OldLady_0: 8130709951252340872
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

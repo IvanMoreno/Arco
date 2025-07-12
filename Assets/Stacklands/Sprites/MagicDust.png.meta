@@ -834,7 +834,36 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MagicDust_0: -724043764553558153
+      MagicDust_1: 8024194214032706944
+      MagicDust_10: -1153616951435277671
+      MagicDust_11: 1236441256970606043
+      MagicDust_12: -776406916785084617
+      MagicDust_13: -5707639500204121928
+      MagicDust_14: -7224069904381820768
+      MagicDust_15: 3984672436499663290
+      MagicDust_16: 5983609604062938661
+      MagicDust_17: 9058993450018607253
+      MagicDust_18: -299972727772307494
+      MagicDust_19: 3757353378932219988
+      MagicDust_2: -2156032299336356162
+      MagicDust_20: 6730261727077491639
+      MagicDust_21: 4003315029812901498
+      MagicDust_22: 8338723934784251234
+      MagicDust_23: -1053859773867100542
+      MagicDust_24: -4336003948675554475
+      MagicDust_25: 3765618730125864431
+      MagicDust_26: 6636431074410547901
+      MagicDust_27: 8746320737410275613
+      MagicDust_28: -6950639857515159313
+      MagicDust_3: 5819317104183829774
+      MagicDust_4: -1155515112140653066
+      MagicDust_5: -6728159752244949820
+      MagicDust_6: -5937866498702217432
+      MagicDust_7: -2944245638435721799
+      MagicDust_8: 3535100558070593803
+      MagicDust_9: 369563194148440674
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

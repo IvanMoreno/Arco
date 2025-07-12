@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Pompoen2_0: -450589931279572869
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

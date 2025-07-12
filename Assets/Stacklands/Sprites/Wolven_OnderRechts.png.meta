@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Wolven_OnderRechts_0: -5010255503476882796
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

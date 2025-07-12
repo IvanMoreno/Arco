@@ -259,7 +259,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Flint_0: 1446969376974077186
+      Flint_1: -971350119989297187
+      Flint_2: 1949514202763970463
+      Flint_3: 3660339006208783158
+      Flint_4: -2541434585238517843
+      Flint_5: -5582606795892607386
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

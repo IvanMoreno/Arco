@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FriendlyPirate_0: 8849941765832419865
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

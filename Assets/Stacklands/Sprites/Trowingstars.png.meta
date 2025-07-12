@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Trowingstars_0: 2809899550010044450
+      Trowingstars_1: -2180515873278094781
+      Trowingstars_2: -7031963248803957503
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

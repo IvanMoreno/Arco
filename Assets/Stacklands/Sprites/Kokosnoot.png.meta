@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Kokosnoot_0: -8293363460579285114
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

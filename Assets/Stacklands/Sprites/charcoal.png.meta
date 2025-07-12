@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      charcoal_0: 2910426783829766218
+      charcoal_1: 1756158537734846535
+      charcoal_2: 2674394271748743542
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

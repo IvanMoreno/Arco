@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BreedingPen_0: -58102307987079830
+      BreedingPen_1: -5902264402608200404
+      BreedingPen_2: -119059754944843994
+      BreedingPen_3: -7691090476378630728
+      BreedingPen_4: 5665470502966360134
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

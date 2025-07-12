@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      anxious_status_icon_0: -2134783509049909009
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

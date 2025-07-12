@@ -384,7 +384,18 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MagicTome_0: -1535999079426378756
+      MagicTome_1: 1212261208188669309
+      MagicTome_10: 7712106245436400373
+      MagicTome_2: 5541480802691492400
+      MagicTome_3: 6509332991777992142
+      MagicTome_4: -7701751625857418287
+      MagicTome_5: 2770363195351212345
+      MagicTome_6: 1026948720933089310
+      MagicTome_7: -2388091589712221268
+      MagicTome_8: 1964805438470839071
+      MagicTome_9: 6358057790355139228
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SandQuarry_0: -4284116077361070492
+      SandQuarry_1: -616678542033033195
+      SandQuarry_2: -7134597522404733676
+      SandQuarry_3: -1238217463480858390
+      SandQuarry_4: 6077813790703519056
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GrasTwinkel_0: 911700114395943922
+      GrasTwinkel_1: 3242141525620925536
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

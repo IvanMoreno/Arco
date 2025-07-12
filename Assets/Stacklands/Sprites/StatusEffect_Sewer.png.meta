@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      StatusEffect_Sewer_0: 1202372674272799121
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      IronDeposit_0: -927147186875378037
+      IronDeposit_1: 9137387843920736373
+      IronDeposit_2: -8755899242235701010
+      IronDeposit_3: 7353616908933403885
+      IronDeposit_4: 3225293035049778352
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

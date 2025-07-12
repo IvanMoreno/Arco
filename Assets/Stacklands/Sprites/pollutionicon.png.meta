@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pollutionicon_0: -8007166701399669173
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ChilliPepper_0: 6817284465427818248
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

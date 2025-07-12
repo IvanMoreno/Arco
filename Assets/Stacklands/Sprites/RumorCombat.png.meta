@@ -434,7 +434,20 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      RumorCombat_0: -8028587164016271093
+      RumorCombat_1: 4711114136224113615
+      RumorCombat_10: -1023146134458751481
+      RumorCombat_11: 8573679300755048606
+      RumorCombat_12: 3941397186190031992
+      RumorCombat_2: 8504729911311948805
+      RumorCombat_3: 930481814292159423
+      RumorCombat_4: -5228277963204516515
+      RumorCombat_5: 5460910230153167684
+      RumorCombat_6: 56588338388251657
+      RumorCombat_7: 4624039106664054538
+      RumorCombat_8: -4355161816682027450
+      RumorCombat_9: -1006204781486977738
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

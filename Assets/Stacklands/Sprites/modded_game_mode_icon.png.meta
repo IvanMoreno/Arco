@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      modded_game_mode_icon_0: 6606901817410540026
+      modded_game_mode_icon_1: -504186833213455722
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      undiscovered_inverse_icon_0: 5481289501938994231
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

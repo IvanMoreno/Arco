@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      EngeBoom_BovenLinks_0: 108822368068744696
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

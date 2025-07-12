@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DarkAmulet_0: 1767525203239313602
+      DarkAmulet_1: -5947109195078615864
+      DarkAmulet_2: -6807239701822773865
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MagicGlue_0: 828878579560342273
+      MagicGlue_1: 835780033017440659
+      MagicGlue_2: 8490839197557861900
+      MagicGlue_3: 2189555255977500418
+      MagicGlue_4: -967258600004050677
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Leathertunic_0: -7188847044327530826
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

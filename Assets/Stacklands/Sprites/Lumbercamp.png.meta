@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Lumbercamp_0: -3399683164705173947
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -309,7 +309,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      IslandIdea_0: 2400995345733465421
+      IslandIdea_1: -6119106727858689997
+      IslandIdea_2: -2271099120469249285
+      IslandIdea_3: -3688506068244357675
+      IslandIdea_4: 7590279060390555688
+      IslandIdea_5: -1377286385834283610
+      IslandIdea_6: 1104973407090736273
+      IslandIdea_7: -114858062776992601
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

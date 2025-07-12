@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PalmBoomMetBarrel_0: 9164334315390695930
+      PalmBoomMetBarrel_1: -3027873329268823712
+      PalmBoomMetBarrel_2: 2342002778415209971
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

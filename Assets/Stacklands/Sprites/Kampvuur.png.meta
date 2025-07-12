@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Kampvuur_0: 7531543731046618192
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

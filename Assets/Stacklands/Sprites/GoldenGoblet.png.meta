@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GoldenGoblet_0: 4031956967151687923
+      GoldenGoblet_1: 6537211874634455146
+      GoldenGoblet_2: 3168351151321758511
+      GoldenGoblet_3: -2445003165452514254
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      calamityicon_0: 6502212576313478466
+      calamityicon_1: 2876663142062283975
+      calamityicon_2: 8042035649349977119
+      calamityicon_3: -777677823109527438
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

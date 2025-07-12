@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      transporticon_0: 6911524254661151431
+      transporticon_1: 6366688165087538753
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

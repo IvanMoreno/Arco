@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TamagoSushi_0: -7219245347993872649
+      TamagoSushi_1: -6026439285844267838
+      TamagoSushi_2: 8061582210195597653
+      TamagoSushi_3: -5761043188950451121
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

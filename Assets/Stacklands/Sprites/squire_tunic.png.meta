@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      squire_tunic_0: 2573080825134451916
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      hvicon_0: 4582469748962440903
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

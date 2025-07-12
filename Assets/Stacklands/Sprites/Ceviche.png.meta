@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ceviche_0: 6408332493099555672
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      StaffOfFear_0: 4207567519582696599
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

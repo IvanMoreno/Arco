@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      statuseffect_no_energy_v2_0: 6060618820932862775
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

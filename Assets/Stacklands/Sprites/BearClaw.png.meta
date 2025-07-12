@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BearClaw_0: 2582407526547332764
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

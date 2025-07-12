@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Krabbetje_0: 4279412944435679491
+      Krabbetje_1: 3979376553004994475
+      Krabbetje_2: -5815197241938477647
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

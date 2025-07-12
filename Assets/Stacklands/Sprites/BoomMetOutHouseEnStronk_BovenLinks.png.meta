@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BoomMetOutHouseEnStronk_BovenLinks_0: -3434302685535540419
+      BoomMetOutHouseEnStronk_BovenLinks_1: -8203703176178831266
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

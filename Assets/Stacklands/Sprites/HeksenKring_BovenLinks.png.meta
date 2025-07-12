@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HeksenKring_BovenLinks_0: 4791086164920321964
+      HeksenKring_BovenLinks_1: 4424923277077591273
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

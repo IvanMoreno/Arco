@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HitIcon_Bleed_0: -628269775334166206
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

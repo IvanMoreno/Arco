@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      VoetMetSteenEnBoom_OnderRechts_0: 8656699378765751459
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

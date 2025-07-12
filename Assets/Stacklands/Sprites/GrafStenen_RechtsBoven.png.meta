@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GrafStenen_RechtsBoven_0: -2233582843453777522
+      GrafStenen_RechtsBoven_1: 7431790541830746133
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

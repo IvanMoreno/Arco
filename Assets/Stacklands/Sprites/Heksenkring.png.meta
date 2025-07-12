@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Heksenkring_0: -3675542994717930652
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

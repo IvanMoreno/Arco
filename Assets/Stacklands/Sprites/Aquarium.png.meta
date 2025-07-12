@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Aquarium_0: -8629952008453166426
+      Aquarium_1: -3772777589952860173
+      Aquarium_2: -2251871253311931489
+      Aquarium_3: -4635280360598190585
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

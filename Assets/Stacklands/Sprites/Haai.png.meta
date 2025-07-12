@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Haai_0: -8200785621631662679
+      Haai_1: -2010346360302910959
+      Haai_2: 5721632154448384344
+      Haai_3: -2522281397965178915
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

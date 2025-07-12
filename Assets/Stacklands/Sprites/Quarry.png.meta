@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Quarry_0: 6957840113194601433
+      Quarry_1: -8969568103430119970
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      RotsMetVlag_0: -2494143792285639066
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

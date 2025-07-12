@@ -359,7 +359,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Goldore_0: -5706234821814076024
+      Goldore_1: 4669656690150468026
+      Goldore_2: 6597153396604414408
+      Goldore_3: 8275505337390685594
+      Goldore_4: -4276922520793842109
+      Goldore_5: -1695042749876298341
+      Goldore_6: 7496861898002291951
+      Goldore_7: 7308663181870136786
+      Goldore_8: 9203693501385557831
+      Goldore_9: -5994417109271722327
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

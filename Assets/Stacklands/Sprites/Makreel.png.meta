@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Makreel_0: -8853723803761484091
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

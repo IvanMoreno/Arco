@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SeaUrchin_0: 4595128323505659952
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

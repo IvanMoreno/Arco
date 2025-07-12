@@ -309,7 +309,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      IslandRelic_0: 8009523178076486297
+      IslandRelic_1: -3441816188808827684
+      IslandRelic_2: -4175954146955535141
+      IslandRelic_3: 2438856103527886085
+      IslandRelic_4: 1168727866288188208
+      IslandRelic_5: 4369719282278669241
+      IslandRelic_6: -1201529362013949863
+      IslandRelic_7: -3539425458021808593
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

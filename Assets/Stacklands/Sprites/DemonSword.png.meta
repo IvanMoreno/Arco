@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DemonSword_0: 4394529528116231237
+      DemonSword_1: -5784215642347767527
+      DemonSword_2: -3731169712076701630
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

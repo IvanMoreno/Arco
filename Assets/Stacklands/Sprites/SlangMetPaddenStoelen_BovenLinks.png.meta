@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SlangMetPaddenStoelen_BovenLinks_0: 3565619963622681028
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

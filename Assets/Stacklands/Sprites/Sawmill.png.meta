@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sawmill_0: 8333008143902834016
+      Sawmill_1: 3279212555865662862
+      Sawmill_2: 6468348035256863810
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

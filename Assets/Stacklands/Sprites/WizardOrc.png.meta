@@ -284,7 +284,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      WizardOrc_0: -5166697527401526232
+      WizardOrc_1: -3449802271750925115
+      WizardOrc_2: -949182513442948067
+      WizardOrc_3: -3919192218201137465
+      WizardOrc_4: 1101729325018395168
+      WizardOrc_5: -214668098375373181
+      WizardOrc_6: 1490103637875774519
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

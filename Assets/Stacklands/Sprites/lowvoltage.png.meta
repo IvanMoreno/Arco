@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      lowvoltage_0: -2540268802170116671
+      lowvoltage_1: -4857051455453506335
+      lowvoltage_2: 6464654190735118735
+      lowvoltage_3: 6671454066247917344
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

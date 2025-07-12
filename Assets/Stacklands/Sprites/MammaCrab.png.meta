@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MammaCrab_0: 2286553463159997290
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

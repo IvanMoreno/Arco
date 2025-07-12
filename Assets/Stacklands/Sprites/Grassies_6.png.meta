@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Grassies_6_0: -1771509575087661854
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

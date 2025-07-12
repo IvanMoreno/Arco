@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FeralCat_0: 3145406046273960421
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BoomMetSpinnenweb_RechtsOnder_0: -5533322691386749283
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      WishingWell_0: 4812079547226683347
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

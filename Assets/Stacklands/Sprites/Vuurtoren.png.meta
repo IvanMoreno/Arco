@@ -409,7 +409,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Vuurtoren_0: 1765133120736760023
+      Vuurtoren_1: -8100130334757167560
+      Vuurtoren_10: -5505486389662553867
+      Vuurtoren_11: 3539749280518588945
+      Vuurtoren_2: 6403631772463778139
+      Vuurtoren_3: -1321754445452904714
+      Vuurtoren_4: 3848320873167706067
+      Vuurtoren_5: -2643894524499907317
+      Vuurtoren_6: 3570526250234824845
+      Vuurtoren_7: 251378585901611913
+      Vuurtoren_8: -6605729771152208641
+      Vuurtoren_9: -5477927386896401823
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

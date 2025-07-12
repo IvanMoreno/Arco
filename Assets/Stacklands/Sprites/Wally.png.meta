@@ -284,7 +284,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Wally_0: -5636676358109555375
+      Wally_1: 5652227778409245937
+      Wally_2: 7076120540655765946
+      Wally_3: -1409659446469844981
+      Wally_4: -8283439218140197903
+      Wally_5: 1407153962420815737
+      Wally_6: 7480663623864995935
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

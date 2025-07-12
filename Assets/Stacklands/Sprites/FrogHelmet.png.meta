@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FrogHelmet_0: 5280267748066145816
+      FrogHelmet_1: -3055816499618716405
+      FrogHelmet_2: 1759132263485698582
+      FrogHelmet_3: -5064490853921875959
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

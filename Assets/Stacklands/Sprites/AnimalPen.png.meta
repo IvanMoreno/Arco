@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      AnimalPen_0: -6977548761252890369
+      AnimalPen_1: -4027518711900390818
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

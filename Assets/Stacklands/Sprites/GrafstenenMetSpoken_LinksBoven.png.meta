@@ -334,7 +334,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GrafstenenMetSpoken_LinksBoven_0: -5660805313231939438
+      GrafstenenMetSpoken_LinksBoven_1: -1600048086524922315
+      GrafstenenMetSpoken_LinksBoven_2: -4499520456680631257
+      GrafstenenMetSpoken_LinksBoven_3: -2845869562399825904
+      GrafstenenMetSpoken_LinksBoven_4: 6914687470887518215
+      GrafstenenMetSpoken_LinksBoven_5: -74190927105509964
+      GrafstenenMetSpoken_LinksBoven_6: 6761228506999146442
+      GrafstenenMetSpoken_LinksBoven_7: 6407897069652664397
+      GrafstenenMetSpoken_LinksBoven_8: -8951285804160104776
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

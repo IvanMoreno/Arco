@@ -35,9 +35,18 @@ namespace Stacklands
             if (!other.TryGetComponent<Card>(out var card))
                 return;
 
-            if (card.GetComponent<Stackable>().HasSomethingStacked)
+            StackOnTopOfIfPossible(card);
+        }
+
+        void StackOnTopOfIfPossible(Card otherCard)
+        {
+            if (otherCard.GetComponent<Stackable>().HasSomethingStacked)
                 return;
-            onTopOf = card;
+
+            if(!otherCard.IsStackableOnMe(this.GetComponent<Card>()))
+                return;
+            
+            onTopOf = otherCard;
         }
 
         void OnTriggerExit2D(Collider2D other)

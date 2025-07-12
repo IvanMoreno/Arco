@@ -359,7 +359,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TakMetGras_RechtsBoven_0: 711246241532379079
+      TakMetGras_RechtsBoven_1: -5355283821107729309
+      TakMetGras_RechtsBoven_2: 300481093531983083
+      TakMetGras_RechtsBoven_3: 81938830872375954
+      TakMetGras_RechtsBoven_4: -7240132927171178410
+      TakMetGras_RechtsBoven_5: -722588468509921163
+      TakMetGras_RechtsBoven_6: -6010010548045323776
+      TakMetGras_RechtsBoven_7: -3690211157957774717
+      TakMetGras_RechtsBoven_8: 8921376398763890748
+      TakMetGras_RechtsBoven_9: -3453968288446844630
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

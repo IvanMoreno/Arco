@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      healthicon_0: 2357983816835882149
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

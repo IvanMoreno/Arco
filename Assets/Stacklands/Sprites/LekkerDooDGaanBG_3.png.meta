@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      LekkerDooDGaanBG_3_0: 4009105647050978197
+      LekkerDooDGaanBG_3_1: -6710291082720121777
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

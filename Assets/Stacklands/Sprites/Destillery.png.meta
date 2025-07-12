@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Destillery_0: -2576776726223793298
+      Destillery_1: -4368892933712331064
+      Destillery_2: 5660400639559702958
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

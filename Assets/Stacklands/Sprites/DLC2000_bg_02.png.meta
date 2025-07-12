@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DLC2000_bg_02_0: -3705139121214398981
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CaneSugar_0: 2374729367817273386
+      CaneSugar_1: 6403878975631746198
+      CaneSugar_2: 4118878023734466636
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

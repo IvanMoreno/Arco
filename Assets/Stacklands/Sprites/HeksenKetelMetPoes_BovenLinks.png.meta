@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HeksenKetelMetPoes_BovenLinks_0: -9136274987989430415
+      HeksenKetelMetPoes_BovenLinks_1: 2055312612970358287
+      HeksenKetelMetPoes_BovenLinks_2: -8527125473297628080
+      HeksenKetelMetPoes_BovenLinks_3: -6916710979673277839
+      HeksenKetelMetPoes_BovenLinks_4: 1667017019994575739
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

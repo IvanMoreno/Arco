@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CookedCrabMeat_0: 6345908630185844184
+      CookedCrabMeat_1: 6230412906047846850
+      CookedCrabMeat_2: 1925017116900318992
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

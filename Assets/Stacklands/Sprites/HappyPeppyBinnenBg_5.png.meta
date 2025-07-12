@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HappyPeppyBinnenBg_5_0: 5439918889458049835
+      HappyPeppyBinnenBg_5_1: -4608253116315694532
+      HappyPeppyBinnenBg_5_2: -83459619688420769
+      HappyPeppyBinnenBg_5_3: -4086731746146152595
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

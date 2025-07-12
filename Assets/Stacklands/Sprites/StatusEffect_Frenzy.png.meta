@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      StatusEffect_Frenzy_0: 6425507331719573970
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

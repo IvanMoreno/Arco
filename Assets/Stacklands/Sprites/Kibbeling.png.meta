@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Kibbeling_0: 10589917853686419
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

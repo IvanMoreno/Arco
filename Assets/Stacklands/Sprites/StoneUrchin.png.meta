@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      StoneUrchin_0: -2753173019061395938
+      StoneUrchin_1: -5580433000795916138
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

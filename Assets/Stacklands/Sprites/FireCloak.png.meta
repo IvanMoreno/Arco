@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FireCloak_0: -8930993350057765107
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

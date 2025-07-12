@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      KikkerEnGras_0: -7314571010653819212
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

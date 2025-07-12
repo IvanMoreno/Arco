@@ -459,7 +459,21 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Treasure-Chest_0: -7168985364053632450
+      Treasure-Chest_1: -2544301760900644018
+      Treasure-Chest_10: -4469564990181620901
+      Treasure-Chest_11: -3358766640034741800
+      Treasure-Chest_12: -4571724705889804336
+      Treasure-Chest_13: -5373007558117281321
+      Treasure-Chest_2: 3550448103319173643
+      Treasure-Chest_3: 7337806618548428094
+      Treasure-Chest_4: 7707377238908180771
+      Treasure-Chest_5: -3775186780727958436
+      Treasure-Chest_6: 8385945599927685936
+      Treasure-Chest_7: -1459007370472073735
+      Treasure-Chest_8: -6245944080541676901
+      Treasure-Chest_9: 5577440933174851185
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

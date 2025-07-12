@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      WickedWitch_0: 3113063020149368318
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

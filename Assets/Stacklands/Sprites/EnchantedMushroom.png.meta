@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      EnchantedMushroom_0: 6006747034641310954
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

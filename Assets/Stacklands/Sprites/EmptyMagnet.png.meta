@@ -334,7 +334,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      EmptyMagnet_0: 2285092937822758827
+      EmptyMagnet_1: 4836871367914114333
+      EmptyMagnet_2: 4275687815387740333
+      EmptyMagnet_3: 5871624675515233408
+      EmptyMagnet_4: -4464282269718793875
+      EmptyMagnet_5: 3396376449842709813
+      EmptyMagnet_6: -6942356480313722417
+      EmptyMagnet_7: -5413347748429092762
+      EmptyMagnet_8: 3739384820624840243
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

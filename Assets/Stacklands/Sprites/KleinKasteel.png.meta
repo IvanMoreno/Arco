@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      KleinKasteel_0: -2858794469566288034
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

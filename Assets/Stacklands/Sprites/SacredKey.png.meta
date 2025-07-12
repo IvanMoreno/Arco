@@ -259,7 +259,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SacredKey_0: 1561163754910905987
+      SacredKey_1: 9150246793151414870
+      SacredKey_2: -6552320927225997007
+      SacredKey_3: 9003160713031993721
+      SacredKey_4: -3776444241368709676
+      SacredKey_5: -1095769692576732540
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

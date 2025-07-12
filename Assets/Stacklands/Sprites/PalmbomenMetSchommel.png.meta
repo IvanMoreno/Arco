@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PalmbomenMetSchommel_0: -5416756445720730372
+      PalmbomenMetSchommel_1: -3773974972431607629
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

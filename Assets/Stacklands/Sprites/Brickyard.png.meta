@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Brickyard_0: -7557423245948789850
+      Brickyard_1: -1671531295356323893
+      Brickyard_2: -831306549206609692
+      Brickyard_3: 8729784596949146549
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

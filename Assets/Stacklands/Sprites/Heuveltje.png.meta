@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Heuveltje_0: -3691786224107880164
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

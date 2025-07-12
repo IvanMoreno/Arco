@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      filtered_crossroad_0: 6343852008290772041
+      filtered_crossroad_1: -5351218324570509558
+      filtered_crossroad_2: 6941456566620414049
+      filtered_crossroad_3: -8158771457509369183
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

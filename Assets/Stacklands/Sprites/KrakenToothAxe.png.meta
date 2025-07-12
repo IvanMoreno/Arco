@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      KrakenToothAxe_0: -7386973745049277048
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

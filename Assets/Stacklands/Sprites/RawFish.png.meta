@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      RawFish_0: 3902876601667844611
+      RawFish_1: 5685075090861564444
+      RawFish_2: 2194938830249052518
+      RawFish_3: 261444897651970151
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

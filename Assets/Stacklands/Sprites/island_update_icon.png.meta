@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      island_update_icon_0: 8477385894027504102
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

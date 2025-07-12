@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      UI_MeleeFight_0: -353766120165936482
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

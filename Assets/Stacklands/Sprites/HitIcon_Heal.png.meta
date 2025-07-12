@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HitIcon_Heal_0: 2272636813671168745
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PirateSabre_0: 7132351282523563084
+      PirateSabre_1: -4800316700415910929
+      PirateSabre_2: -4150952558202000848
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

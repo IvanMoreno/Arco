@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Fritatta_0: -4094176887996347255
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

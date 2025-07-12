@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SteenMetPompoen_BovenLinks_0: 203525390971167319
+      SteenMetPompoen_BovenLinks_1: 4550839011319264237
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

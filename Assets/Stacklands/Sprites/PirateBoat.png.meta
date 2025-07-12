@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PirateBoat_0: 1288934771920868850
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

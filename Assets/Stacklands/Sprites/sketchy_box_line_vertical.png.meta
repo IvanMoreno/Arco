@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sketchy_box_line_vertical_0: -372400968322212341
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

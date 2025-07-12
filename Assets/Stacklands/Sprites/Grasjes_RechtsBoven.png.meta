@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Grasjes_RechtsBoven_0: -8338756122414822589
+      Grasjes_RechtsBoven_1: 4988499659611671199
+      Grasjes_RechtsBoven_2: 7586015739865103353
+      Grasjes_RechtsBoven_3: -811143996211550339
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

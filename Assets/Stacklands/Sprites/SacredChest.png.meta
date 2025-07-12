@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SacredChest_0: -4986513297104367197
+      SacredChest_1: -138328879941296924
+      SacredChest_2: -7380416665120102628
+      SacredChest_3: 3883574965350803636
+      SacredChest_4: -5936831569518096495
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

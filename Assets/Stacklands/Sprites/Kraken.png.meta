@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Kraken_0: -2663931023770825618
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

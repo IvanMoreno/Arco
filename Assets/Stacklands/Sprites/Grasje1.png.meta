@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Grasje1_0: -8204543027969556076
+      Grasje1_1: -786387352565028211
+      Grasje1_2: -8280676222976624432
+      Grasje1_3: -5982263409222715141
+      Grasje1_4: 7125130683240861655
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

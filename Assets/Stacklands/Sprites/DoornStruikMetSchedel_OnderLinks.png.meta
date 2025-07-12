@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DoornStruikMetSchedel_OnderLinks_0: -1956920479978373050
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

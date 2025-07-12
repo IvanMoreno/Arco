@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Catacomben_0: 7140990786812639036
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

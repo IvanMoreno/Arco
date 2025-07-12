@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      shellicon_0: -3900210969147324790
+      shellicon_1: 1054246576072073661
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

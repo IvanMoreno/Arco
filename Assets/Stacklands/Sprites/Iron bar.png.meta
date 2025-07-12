@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Iron bar_0: -807996079819453447
+      Iron bar_1: -2199347700491046348
+      Iron bar_2: 5096278718105785595
+      Iron bar_3: -9084206262115352350
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

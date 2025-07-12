@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SpokenBijGraf_BovenLinks_0: -9031337447278010764
+      SpokenBijGraf_BovenLinks_1: -9009548363205692195
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

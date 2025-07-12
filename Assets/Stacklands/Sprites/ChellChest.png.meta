@@ -284,7 +284,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ChellChest_0: 3113080222739140570
+      ChellChest_1: -968374055989875242
+      ChellChest_2: 2466046276501366946
+      ChellChest_3: 1833042324843791262
+      ChellChest_4: -478534672452390623
+      ChellChest_5: -5670710597983324148
+      ChellChest_6: 4230222552514419539
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

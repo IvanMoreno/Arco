@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sick_status_icon_0: 9180927774639109947
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

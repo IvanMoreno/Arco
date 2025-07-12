@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BoomMetSpinnenweb_BovenMidden_0: 2809272429742209754
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

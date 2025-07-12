@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      WaterMetFlesje_1_0: 6423423475223878107
+      WaterMetFlesje_1_1: -4934080415834571123
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

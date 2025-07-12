@@ -359,7 +359,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Goldbar_0: 4917477865461855328
+      Goldbar_1: -5047907492419160322
+      Goldbar_2: -1191434868688656003
+      Goldbar_3: -2066149563985331982
+      Goldbar_4: 9001512481885205550
+      Goldbar_5: 3234059587274856117
+      Goldbar_6: 7390213136246189497
+      Goldbar_7: -1982836385895889094
+      Goldbar_8: 1728446920018385625
+      Goldbar_9: -447318688302094100
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

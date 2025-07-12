@@ -309,7 +309,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SlenderManBomen_OnderLinks_0: -7189555180102225412
+      SlenderManBomen_OnderLinks_1: -2556250427893044905
+      SlenderManBomen_OnderLinks_2: -3495978573361833996
+      SlenderManBomen_OnderLinks_3: 2456121873904197381
+      SlenderManBomen_OnderLinks_4: 3357489914602784967
+      SlenderManBomen_OnderLinks_5: -3406753981625555334
+      SlenderManBomen_OnderLinks_6: 378282870430225097
+      SlenderManBomen_OnderLinks_7: -7603165912757553206
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

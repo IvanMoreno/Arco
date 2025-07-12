@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Quiver_0: -1225711145029171742
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SadBoom_BovenLlinks_0: 5773531318520165532
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

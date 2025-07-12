@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DarkElf_0: -4397440104506894357
+      DarkElf_1: 7370218582638210857
+      DarkElf_2: -4595495632313637462
+      DarkElf_3: 946712188365509296
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Twinkels2 #4388_0: -5855690785807999640
+      Twinkels2 #4388_1: 834089611615383725
+      Twinkels2 #4388_2: -2076383334495714588
+      Twinkels2 #4388_3: -4514658070405034464
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

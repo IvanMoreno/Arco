@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      RotsMetMeeuw_0: 6923457528729755832
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

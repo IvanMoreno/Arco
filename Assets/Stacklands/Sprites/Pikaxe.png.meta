@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Pikaxe_0: -5299942729718331183
+      Pikaxe_1: 1469932372611380793
+      Pikaxe_2: -5738746244104313421
+      Pikaxe_3: -6153185180440529496
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

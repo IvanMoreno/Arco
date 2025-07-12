@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      statuseffect_no_workers_v2_0: 6078288740684345842
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

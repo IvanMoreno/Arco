@@ -359,7 +359,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MountainAmulet_0: 8908920792036240981
+      MountainAmulet_1: -4324708600917511553
+      MountainAmulet_2: 5856750663402235309
+      MountainAmulet_3: -1631279698994060560
+      MountainAmulet_4: 3875331901980117773
+      MountainAmulet_5: -604298780544054173
+      MountainAmulet_6: -1461779808107451253
+      MountainAmulet_7: -4583241283957759984
+      MountainAmulet_8: 3204104821667741653
+      MountainAmulet_9: 1726030867858115898
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

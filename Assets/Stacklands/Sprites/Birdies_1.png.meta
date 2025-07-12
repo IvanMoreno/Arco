@@ -334,7 +334,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Birdies_1_0: 4454980966521142666
+      Birdies_1_1: -156152685014072250
+      Birdies_1_2: 1788508119688096322
+      Birdies_1_3: -5230110325134526771
+      Birdies_1_4: 5669524773377274869
+      Birdies_1_5: -395433835045533297
+      Birdies_1_6: 9010448906156170046
+      Birdies_1_7: -3444331143364565063
+      Birdies_1_8: 2419513500545430395
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

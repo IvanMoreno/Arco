@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      StenenMetOogbalEnStronk_BovenRechts_0: -3850765299115397392
+      StenenMetOogbalEnStronk_BovenRechts_1: 7039769541544097236
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

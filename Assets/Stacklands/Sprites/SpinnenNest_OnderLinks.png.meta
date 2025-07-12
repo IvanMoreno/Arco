@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SpinnenNest_OnderLinks_0: -6637894094669856093
+      SpinnenNest_OnderLinks_1: 3579244200576502513
+      SpinnenNest_OnderLinks_2: -8310859528554438778
+      SpinnenNest_OnderLinks_3: 5158652479922182653
+      SpinnenNest_OnderLinks_4: 7219373310593720582
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

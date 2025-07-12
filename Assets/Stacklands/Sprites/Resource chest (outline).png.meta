@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Resource chest (outline)_0: 4707575007928931711
+      Resource chest (outline)_1: 3433973742065577441
+      Resource chest (outline)_2: 841267705368746992
+      Resource chest (outline)_3: -3077226525278274150
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

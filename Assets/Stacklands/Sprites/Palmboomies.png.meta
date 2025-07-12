@@ -259,7 +259,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Palmboomies_0: -1228623418651340051
+      Palmboomies_1: -940334787410573516
+      Palmboomies_2: -2395486143157166240
+      Palmboomies_3: -2316390549926311925
+      Palmboomies_4: 6253212426751093330
+      Palmboomies_5: 6413620734368017592
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BigBootyDelisousAssetsBuiten_5_0: -4381421302275883344
+      BigBootyDelisousAssetsBuiten_5_1: 4654757772963136565
+      BigBootyDelisousAssetsBuiten_5_2: 4660095332576189524
+      BigBootyDelisousAssetsBuiten_5_3: -825647382358154820
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

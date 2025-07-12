@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      StatusEffect_Bleeding_0: -3121111204553238597
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

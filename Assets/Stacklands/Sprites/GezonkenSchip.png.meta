@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GezonkenSchip_0: -61251159620106802
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

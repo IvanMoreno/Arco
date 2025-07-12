@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BuigVoorDeKoningBinnenBG_2_0: 23059771348443673
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

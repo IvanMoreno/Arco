@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      KrommePalm_0: -275905825561193636
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

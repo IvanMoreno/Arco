@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BrokenBottle_0: 4366617683041740711
+      BrokenBottle_1: 2356950289860397694
+      BrokenBottle_2: -4012187730914384171
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

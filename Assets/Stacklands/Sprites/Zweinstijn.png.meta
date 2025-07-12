@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Zweinstijn_0: 4682253639755331238
+      Zweinstijn_1: -5701421861941435712
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

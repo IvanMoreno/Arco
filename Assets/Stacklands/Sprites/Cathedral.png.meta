@@ -309,7 +309,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cathedral_0: -7680836128817844159
+      Cathedral_1: 8893851301893437662
+      Cathedral_2: 8350009099532083474
+      Cathedral_3: -2668193981429110412
+      Cathedral_4: -2428533619157188573
+      Cathedral_5: -1803880126452074571
+      Cathedral_6: 3157181449076318410
+      Cathedral_7: -8013784106889416874
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

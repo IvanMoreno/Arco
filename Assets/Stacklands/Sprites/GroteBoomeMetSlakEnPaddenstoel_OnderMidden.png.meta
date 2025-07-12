@@ -284,7 +284,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GroteBoomeMetSlakEnPaddenstoel_OnderMidden_0: -8263470744845767985
+      GroteBoomeMetSlakEnPaddenstoel_OnderMidden_1: 4415858851847159434
+      GroteBoomeMetSlakEnPaddenstoel_OnderMidden_2: 4637072078607930706
+      GroteBoomeMetSlakEnPaddenstoel_OnderMidden_3: 3491800011317518941
+      GroteBoomeMetSlakEnPaddenstoel_OnderMidden_4: -7718197567546248686
+      GroteBoomeMetSlakEnPaddenstoel_OnderMidden_5: 7372060645429596279
+      GroteBoomeMetSlakEnPaddenstoel_OnderMidden_6: -6352885888547614672
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

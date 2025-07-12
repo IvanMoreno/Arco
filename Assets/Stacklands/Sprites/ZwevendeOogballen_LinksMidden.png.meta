@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ZwevendeOogballen_LinksMidden_0: 3324067916721444208
+      ZwevendeOogballen_LinksMidden_1: 3266663945607027702
+      ZwevendeOogballen_LinksMidden_2: -8876860430647451945
+      ZwevendeOogballen_LinksMidden_3: 2161990801589178497
+      ZwevendeOogballen_LinksMidden_4: -440011572331835783
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

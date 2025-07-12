@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ZeeEgel_0: -2483975427047186869
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
