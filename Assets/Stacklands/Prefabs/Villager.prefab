@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 858151395630527613, guid: 04d7f9209d2a6204a8d4035bccb067a4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1785285062287186026, guid: 04d7f9209d2a6204a8d4035bccb067a4, type: 3}
       propertyPath: m_Name
       value: Villager
