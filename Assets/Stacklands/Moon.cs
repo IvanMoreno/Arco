@@ -74,7 +74,8 @@ namespace Stacklands
             await tcs.Task;
             button.onClick.RemoveListener(unlockTask);
 
-            button.GetComponent<AudioSource>().Play();
+            //Chapuza para que se reproduzca el sonido del botón porque si se reproduce directamente en el botón, como se desactiva no suena.
+            GetComponent<AudioSource>().PlayOneShot(button.GetComponent<AudioSource>().clip);
         }
 
         static async Task FeedVillagers()
