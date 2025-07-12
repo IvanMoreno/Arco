@@ -59,16 +59,14 @@ namespace Stacklands
             await tcs.Task;
         }
 
-        Task FeedVillagers()
+        async Task FeedVillagers()
         {
             var villagers = FindObjectsOfType<Villager>(true);
             foreach (var villager in villagers)
-                FeedOrDie(villager);
-
-            return Task.CompletedTask;
+                await FeedOrDie(villager);
         }
 
-        static void FeedOrDie(Villager villager)
+        static async Task FeedOrDie(Villager villager)
         {
             var allFood = FindObjectsOfType<Food>();
             foreach (var food in allFood)
@@ -76,7 +74,7 @@ namespace Stacklands
                 if (!villager.IsHungry)
                     continue;
                 
-                villager.Eat();
+                await villager.Eat();
                 food.Consume();
             }
             

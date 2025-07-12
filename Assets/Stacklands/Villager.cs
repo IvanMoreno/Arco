@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Threading.Tasks;
+using UnityEngine;
 using UnityEngine.Assertions;
 
 namespace Stacklands
@@ -20,10 +21,11 @@ namespace Stacklands
             foodNeeded++;
         }
 
-        public void Eat()
+        public Task Eat()
         {
             Assert.IsTrue(IsHungry);
             foodNeeded--;
+            return Task.Delay(234);
         }
     }
 }
