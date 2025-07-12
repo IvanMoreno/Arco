@@ -10,7 +10,7 @@ namespace Stacklands
         public void BringForward()
         {
             var higherOrderInLayer = HighestOrderInLayer();
-            foreach (var renderers in GetComponentsInChildren<SpriteRenderer>())
+            foreach (var renderers in GetComponentsInChildren<Renderer>())
             {
                 renderers.sortingOrder = ++higherOrderInLayer;
             }
