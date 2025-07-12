@@ -43,7 +43,7 @@ namespace Stacklands
 
         void SpawnBerry()
         {
-            FindAnyObjectByType<SpaceTime>().SpawnNearby(berry, transform.position);
+            FindAnyObjectByType<SpaceTime>().SpawnNearbyCard(berry, transform.position);
         }
 
         bool CanStartHarvest()

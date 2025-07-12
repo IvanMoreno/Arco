@@ -37,12 +37,12 @@ namespace Stacklands
             Instantiate(what, whereExactly, Quaternion.identity);
         }
         
-        public void SpawnNearby(GameObject what, Vector2 whereabouts)
+        public void SpawnNearbyCard(GameObject what, Vector2 whereabouts)
         {
-            var asd = Instantiate(what, whereabouts + Vector2.down * Card.AssumedSizeAprox.y, Quaternion.identity);
+            var newCard = Instantiate(what, whereabouts + Vector2.down * Card.AssumedSizeAprox.y, Quaternion.identity);
 
-            var closest = ClosestToBeStackedOnOfSameType(asd.GetComponent<Card>());
-            closest?.StackOnMe(asd.GetComponent<Stackable>());
+            var closest = ClosestToBeStackedOnOfSameType(newCard.GetComponent<Card>());
+            closest?.StackOnMe(newCard.GetComponent<Stackable>());
         }
     }
 }
