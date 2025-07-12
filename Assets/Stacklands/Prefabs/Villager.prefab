@@ -57,6 +57,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5919339208809340824, guid: 04d7f9209d2a6204a8d4035bccb067a4, type: 3}
+      propertyPath: name
+      value: villager
+      objectReference: {fileID: 0}
+    - target: {fileID: 5919339208809340824, guid: 04d7f9209d2a6204a8d4035bccb067a4, type: 3}
       propertyPath: category
       value: person
       objectReference: {fileID: 0}

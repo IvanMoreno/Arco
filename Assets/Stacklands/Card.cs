@@ -8,6 +8,7 @@ namespace Stacklands
         public static readonly Vector2 AssumedSizeAprox = new(2, 2.25f);
         
         [SerializeField] string category;
+        [SerializeField] string name;
 
         public bool IsStackableOnMe(Card other)
         {
