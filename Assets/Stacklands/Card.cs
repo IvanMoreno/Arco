@@ -20,5 +20,10 @@ namespace Stacklands
                 return other.category == "structure";
             return true;
         }
+
+        public bool BelongsToSameCategory(Card card)
+        {
+            return category == card.category;
+        }
     }
 }
