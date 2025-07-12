@@ -1,3 +1,4 @@
+using System.Linq;
 using UnityEngine;
 
 namespace Stacklands
@@ -19,20 +20,10 @@ namespace Stacklands
 
         static int HigherOrderInLayer()
         {
-            var allSprites = FindObjectsByType<SpriteRenderer>(FindObjectsSortMode.None);
-            var higherOrderInLayer = 0;
-
             // Cuidado, esto funciona de casualidad. Si se cambia el orden de jerarquía en prefab Card, falla.
             // Ejemplo: poner "Header" como primer hijo. 
-            foreach (var sprite in allSprites)
-            {
-                if (sprite.sortingOrder <= higherOrderInLayer)
-                    continue;
-
-                higherOrderInLayer = sprite.sortingOrder;
-            }
-
-            return higherOrderInLayer;
+            var allSprites = FindObjectsByType<SpriteRenderer>(FindObjectsSortMode.None);
+            return allSprites.Max(sprite => sprite.sortingOrder);
         }
     }
 }
