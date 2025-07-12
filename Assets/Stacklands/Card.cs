@@ -10,7 +10,7 @@ namespace Stacklands
 
         public bool IsStackableOnMe(Card other)
         {
-            if (other == this)
+            if (other.gameObject == gameObject)
                 return false;
             if (GetComponent<Stackable>().HasSomethingStacked)
                 return false;
