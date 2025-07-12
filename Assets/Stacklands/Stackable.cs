@@ -25,11 +25,12 @@ namespace Stacklands
 
         public void RemoveFromStack()
         {
+            transform.SetParent(null);
+            
             if (transform.parent == null || !transform.parent.TryGetComponent<Stackable>(out var parent))
                 return;
 
             parent.stackedOverMe = null;
-            transform.SetParent(null);
         }
     }
 }
