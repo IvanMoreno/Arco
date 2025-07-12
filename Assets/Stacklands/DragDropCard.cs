@@ -9,12 +9,13 @@ namespace Stacklands
         
         public void OnMouseDown()
         {
-            GetComponent<AudioSource>().PlayOneShot(onPicked);
+            GetComponent<AudioSource>().PlayTweakingPitch(onPicked);
             GetComponent<Stackable>().RemoveFromStack();
         }
 
         public void OnMouseUp()
         {
+            GetComponent<AudioSource>().PlayTweakingPitch(onDropped);
             StackOnNearestCard();
         }
 

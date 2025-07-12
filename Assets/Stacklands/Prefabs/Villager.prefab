@@ -60,6 +60,10 @@ PrefabInstance:
       propertyPath: onPicked
       value: 
       objectReference: {fileID: 8300000, guid: ea07168ef0d460547819b923fb9e4931, type: 3}
+    - target: {fileID: 5717628111164435861, guid: 04d7f9209d2a6204a8d4035bccb067a4, type: 3}
+      propertyPath: onDropped
+      value: 
+      objectReference: {fileID: 8300000, guid: ea07168ef0d460547819b923fb9e4931, type: 3}
     - target: {fileID: 5919339208809340824, guid: 04d7f9209d2a6204a8d4035bccb067a4, type: 3}
       propertyPath: name
       value: villager
