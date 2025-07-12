@@ -12,8 +12,7 @@ namespace Stacklands
 {
     public class Moon : MonoBehaviour
     {
-        static IEnumerable<Villager> AllVillagers => FindObjectsOfType<Villager>();
-        static IEnumerable<Villager> HungryVillagers => AllVillagers.Where(x => x.IsHungry);
+        static IEnumerable<Villager> HungryVillagers => FindObjectsOfType<Villager>().Where(x => x.IsHungry);
         
         void Awake()
         {
@@ -37,6 +36,8 @@ namespace Stacklands
         async Task EndCycle()
         {
             VillagersGetHungry();
+            GetComponent<AudioSource>().Play();
+            
             await UntilPlayerWantsToFeedVillagers();
             await FeedVillagers();
         }
