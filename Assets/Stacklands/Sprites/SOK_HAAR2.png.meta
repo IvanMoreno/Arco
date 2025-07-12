@@ -1,0 +1,1167 @@
+fileFormatVersion: 2
+guid: c1940eb5e4a1c814484c844f79ddad9b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7003066011500684585
+    second: SOK_HAAR2_0
+  - first:
+      213: -4982620785664040169
+    second: SOK_HAAR2_1
+  - first:
+      213: 1402563950888750424
+    second: SOK_HAAR2_2
+  - first:
+      213: -2660190133368170144
+    second: SOK_HAAR2_3
+  - first:
+      213: 8249338053514986072
+    second: SOK_HAAR2_4
+  - first:
+      213: 4838305463474027810
+    second: SOK_HAAR2_5
+  - first:
+      213: -1292605851148613025
+    second: SOK_HAAR2_6
+  - first:
+      213: -1505595443498093069
+    second: SOK_HAAR2_7
+  - first:
+      213: -6113322651184583427
+    second: SOK_HAAR2_8
+  - first:
+      213: -716725473096770743
+    second: SOK_HAAR2_9
+  - first:
+      213: -7562768437039529894
+    second: SOK_HAAR2_10
+  - first:
+      213: 356949378669910694
+    second: SOK_HAAR2_11
+  - first:
+      213: 8969319752793464795
+    second: SOK_HAAR2_12
+  - first:
+      213: -7725921088464861332
+    second: SOK_HAAR2_13
+  - first:
+      213: 2156805343642934603
+    second: SOK_HAAR2_14
+  - first:
+      213: -5120515995012618035
+    second: SOK_HAAR2_15
+  - first:
+      213: -4297006725066070880
+    second: SOK_HAAR2_16
+  - first:
+      213: -7423479723565544935
+    second: SOK_HAAR2_17
+  - first:
+      213: 6050858978261615265
+    second: SOK_HAAR2_18
+  - first:
+      213: 3830637645424465865
+    second: SOK_HAAR2_19
+  - first:
+      213: 4030967161201942154
+    second: SOK_HAAR2_20
+  - first:
+      213: -5092360782602133978
+    second: SOK_HAAR2_21
+  - first:
+      213: 9201322980294676351
+    second: SOK_HAAR2_22
+  - first:
+      213: -7967813395518489932
+    second: SOK_HAAR2_23
+  - first:
+      213: 3952427642185886827
+    second: SOK_HAAR2_24
+  - first:
+      213: 5002307651875627372
+    second: SOK_HAAR2_25
+  - first:
+      213: 2621962773490234852
+    second: SOK_HAAR2_26
+  - first:
+      213: -448194063702408629
+    second: SOK_HAAR2_27
+  - first:
+      213: 8642176252200176542
+    second: SOK_HAAR2_28
+  - first:
+      213: 1984970890184190607
+    second: SOK_HAAR2_29
+  - first:
+      213: 904559493371451033
+    second: SOK_HAAR2_30
+  - first:
+      213: 7464987297442878243
+    second: SOK_HAAR2_31
+  - first:
+      213: -1975198921120110210
+    second: SOK_HAAR2_32
+  - first:
+      213: -840680157815887440
+    second: SOK_HAAR2_33
+  - first:
+      213: -2463098251612038793
+    second: SOK_HAAR2_34
+  - first:
+      213: 8797119796034395144
+    second: SOK_HAAR2_35
+  - first:
+      213: 4345114284795808707
+    second: SOK_HAAR2_36
+  - first:
+      213: 2824568348531969138
+    second: SOK_HAAR2_37
+  - first:
+      213: 4788175696997828435
+    second: SOK_HAAR2_38
+  - first:
+      213: -5836960650334815137
+    second: SOK_HAAR2_39
+  - first:
+      213: 9161534427910288904
+    second: SOK_HAAR2_40
+  - first:
+      213: -6060941713255856846
+    second: SOK_HAAR2_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SOK_HAAR2_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 217
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9252c120f63ef2160800000000000000
+      internalID: 7003066011500684585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOK_HAAR2_1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 224
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71364046bcc2adab0800000000000000
+      internalID: -4982620785664040169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOK_HAAR2_2
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 221
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85d0e737b78e67310800000000000000
+      internalID: 1402563950888750424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOK_HAAR2_3
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 196
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06957910b2b151bd0800000000000000
+      internalID: -2660190133368170144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOK_HAAR2_4
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 204
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8528fd7b0498b7270800000000000000
+      internalID: 8249338053514986072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOK_HAAR2_5
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 188
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d73314f2d152340800000000000000
+      internalID: 4838305463474027810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOK_HAAR2_6
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 194
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5a02bfa3ddbf0ee0800000000000000
+      internalID: -1292605851148613025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOK_HAAR2_7
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 184
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f579decbec0b1be0800000000000000
+      internalID: -1505595443498093069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOK_HAAR2_8
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 173
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc2bc2407d192ba0800000000000000
+      internalID: -6113322651184583427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOK_HAAR2_9
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 180
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94bd796cafdad06f0800000000000000
+      internalID: -716725473096770743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOK_HAAR2_10
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 169
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5009bffc26ab0790800000000000000
+      internalID: -7562768437039529894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOK_HAAR2_11
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 150
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aa9a66919324f400800000000000000
+      internalID: 356949378669910694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOK_HAAR2_12
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 159
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf162e2bcc697c70800000000000000
+      internalID: 8969319752793464795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOK_HAAR2_13
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 167
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c674a5724b308c490800000000000000
+      internalID: -7725921088464861332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOK_HAAR2_14
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 137
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d508568038eed10800000000000000
+      internalID: 2156805343642934603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOK_HAAR2_15
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 139
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc8219a05d540f8b0800000000000000
+      internalID: -5120515995012618035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOK_HAAR2_16
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 140
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a4e8fa6627fd54c0800000000000000
+      internalID: -4297006725066070880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOK_HAAR2_17
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 109
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91a8f8fc5808af890800000000000000
+      internalID: -7423479723565544935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOK_HAAR2_18
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 111
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a244419e28f8f350800000000000000
+      internalID: 6050858978261615265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOK_HAAR2_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 109
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c793c694a8292530800000000000000
+      internalID: 3830637645424465865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOK_HAAR2_20
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 106
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8ed4b0b64fd0f730800000000000000
+      internalID: 4030967161201942154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOK_HAAR2_21
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 82
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e9ed449dc4459b0800000000000000
+      internalID: -5092360782602133978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOK_HAAR2_22
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 84
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7f4a18ff7aa1bf70800000000000000
+      internalID: 9201322980294676351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOK_HAAR2_23
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 82
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba758b9ee3ac6190800000000000000
+      internalID: -7967813395518489932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOK_HAAR2_24
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 92
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6caceceff7d9d630800000000000000
+      internalID: 3952427642185886827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOK_HAAR2_25
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 82
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c61e3475e44cb6540800000000000000
+      internalID: 5002307651875627372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOK_HAAR2_26
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 68
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e5fe203045136420800000000000000
+      internalID: 2621962773490234852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOK_HAAR2_27
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 70
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b42449aafd1b7c9f0800000000000000
+      internalID: -448194063702408629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOK_HAAR2_28
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 60
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9b45be538d2fe770800000000000000
+      internalID: 8642176252200176542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOK_HAAR2_29
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 71
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8a6beef1880c8b10800000000000000
+      internalID: 1984970890184190607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOK_HAAR2_30
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 57
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 996dc901114ad8c00800000000000000
+      internalID: 904559493371451033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOK_HAAR2_31
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 46
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 323d2e45566f89760800000000000000
+      internalID: 7464987297442878243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOK_HAAR2_32
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 53
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e79a6e9db0fa694e0800000000000000
+      internalID: -1975198921120110210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOK_HAAR2_33
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 55
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b92aafb9dd4554f0800000000000000
+      internalID: -840680157815887440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOK_HAAR2_34
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 26
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77957c1b03151ddd0800000000000000
+      internalID: -2463098251612038793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOK_HAAR2_35
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 37
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80cdf2968d5a51a70800000000000000
+      internalID: 8797119796034395144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOK_HAAR2_36
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 29
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cbcabdab62fc4c30800000000000000
+      internalID: 4345114284795808707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOK_HAAR2_37
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 31
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c4f02a2f1e23720800000000000000
+      internalID: 2824568348531969138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOK_HAAR2_38
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 21
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 357c6b57d64037240800000000000000
+      internalID: 4788175696997828435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOK_HAAR2_39
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 13
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5c3cdcc633fefea0800000000000000
+      internalID: -5836960650334815137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOK_HAAR2_40
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 806ba15b50f442f70800000000000000
+      internalID: 9161534427910288904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOK_HAAR2_41
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 3
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2358901cf9533eba0800000000000000
+      internalID: -6060941713255856846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
