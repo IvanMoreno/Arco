@@ -38,7 +38,7 @@ namespace Stacklands
             other.transform.position = transform.position + Vector3.down * Card.AssumedSizeAprox.y / 3f;
             other.transform.SetParent(transform);
             
-            GetComponent<AudioSource>().PlayTweakingPitch(onStacked);
+            GetComponent<AudioSource>().PlayWithPitch(onStacked);
         }
 
         public void RemoveFromStack()

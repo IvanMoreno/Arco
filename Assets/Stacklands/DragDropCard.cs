@@ -1,4 +1,5 @@
 using UnityEngine;
+using static Stacklands.Sound.PitchModification;
 
 namespace Stacklands
 {
@@ -9,7 +10,7 @@ namespace Stacklands
         
         public void OnMouseDown()
         {
-            GetComponent<AudioSource>().PlayTweakingPitch(onPicked);
+            GetComponent<AudioSource>().PlayWithPitch(onPicked, SlightlyRaised);
             GetComponent<Stackable>().RemoveFromStack();
         }
 
@@ -24,7 +25,7 @@ namespace Stacklands
             cardToBeStackedOn?.StackOnMe(GetComponent<Stackable>());
             
             if(cardToBeStackedOn == null)
-                GetComponent<AudioSource>().PlayTweakingPitch(onDropped);
+                GetComponent<AudioSource>().PlayWithPitch(onDropped, SlightlyLowered);
         }
 
         public void OnMouseDrag()
