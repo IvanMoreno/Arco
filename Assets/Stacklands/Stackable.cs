@@ -22,5 +22,14 @@ namespace Stacklands
         }
 
         public void StackOver(Stackable other) => other.StackOnMe(this);
+
+        public void RemoveFromStack()
+        {
+            if (transform.parent == null || !transform.parent.TryGetComponent<Stackable>(out var parent))
+                return;
+
+            parent.stackedOverMe = null;
+            transform.SetParent(null);
+        }
     }
 }

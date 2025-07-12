@@ -10,6 +10,7 @@ namespace Stacklands
         public void OnMouseDown()
         {
             isDragging = true;
+            GetComponent<Stackable>().RemoveFromStack();
         }
 
         public void OnMouseUp()
