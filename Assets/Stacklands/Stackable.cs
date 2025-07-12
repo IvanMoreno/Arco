@@ -1,12 +1,24 @@
-﻿using UnityEngine;
+﻿using NUnit.Framework;
+using UnityEngine;
 
 namespace Stacklands
 {
     public class Stackable : MonoBehaviour
     {
-        public void StackOver(Stackable other)
+        Stackable stackedOverMe;
+        
+        public bool HasSomethingStacked => stackedOverMe != null;
+        
+        public void StackOnMe(Stackable other)
         {
+            Assert.IsNotNull(other);
+            Assert.AreNotEqual(this, other);
+            Assert.IsFalse(HasSomethingStacked);
+
+            stackedOverMe = other;
+            
             other.transform.position = transform.position + Vector3.down * 0.25f;
+            other.transform.SetParent(transform);
         }
     }
 }
