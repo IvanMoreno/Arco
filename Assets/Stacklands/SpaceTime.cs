@@ -5,13 +5,13 @@ namespace Stacklands
 {
     public class SpaceTime : MonoBehaviour
     {
-        [SerializeField] float stackDetectionRadius = 2;
+        static readonly float StackDetectionRadius = Card.AssumedSizeAprox.y / 2f;
 
         //aquí van a ir las cosas también del tiempo que ahora mismo están en la luna. :)
 
         public Stackable ClosestToBeStackedOn(Card card)
         {
-            var nearbyElements = Physics2D.OverlapCircleAll(card.transform.position, stackDetectionRadius);
+            var nearbyElements = Physics2D.OverlapCircleAll(card.transform.position, StackDetectionRadius);
             
             var eligibleStackable = from stackableCandidate in nearbyElements 
                                     where stackableCandidate.GetComponent<Card>().IsStackableOnMe(card) 
