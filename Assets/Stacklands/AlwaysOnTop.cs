@@ -7,21 +7,19 @@ namespace Stacklands
     {
         public void OnMouseDown()
         {
-            IncreaseSortingOrderStartingFrom(HigherOrderInLayer());
+            IncreaseSortingOrderStartingFrom(HighestOrderInLayer());
         }
 
         void IncreaseSortingOrderStartingFrom(int higherOrderInLayer)
         {
             foreach (var renderers in GetComponentsInChildren<SpriteRenderer>())
             {
-                renderers.sortingOrder = ++higherOrderInLayer;
+                renderers.sortingOrder += higherOrderInLayer;
             }
         }
 
-        static int HigherOrderInLayer()
+        static int HighestOrderInLayer()
         {
-            // Cuidado, esto funciona de casualidad. Si se cambia el orden de jerarquía en prefab Card, falla.
-            // Ejemplo: poner "Header" como primer hijo. 
             var allSprites = FindObjectsByType<SpriteRenderer>(FindObjectsSortMode.None);
             return allSprites.Max(sprite => sprite.sortingOrder);
         }
