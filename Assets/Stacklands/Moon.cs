@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.UI;
@@ -15,14 +16,27 @@ namespace Stacklands
         
         async void Start()
         {
-            await UntilFullMoon();
-            
+            await Cycle(destroyCancellationToken);
+        }
+
+        async Task Cycle(CancellationToken cancellationToken)
+        {
+            while( !cancellationToken.IsCancellationRequested)
+            {
+                await UntilFullMoon();
+                EndCycle();
+            }
+        }
+
+        void EndCycle()
+        {
             var button = FindObjectsOfType<Button>(true).Single(x => x.name == "NextCycle");
             button.gameObject.SetActive(true);
             button.onClick.AddListener(() =>
             {
                 GetComponent<Image>().fillAmount = 0;
                 button.gameObject.SetActive(false);
+                button.onClick.RemoveAllListeners();
             });
         }
 
