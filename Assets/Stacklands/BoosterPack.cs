@@ -41,7 +41,9 @@ namespace Stacklands
             for (var i = 0; i < whereToSpawnEachCard.Count; i++)
             {
                 FindAnyObjectByType<SpaceTime>().SpawnNearbyCard(cardsToSpawn[i], whereToSpawnEachCard[i]);
+                
                 UpdateRemainingCardsBadge(cardsToSpawn.Length - i - 1);
+                GetComponent<AudioSource>().Play();
                 
                 if (i < whereToSpawnEachCard.Count - 1)
                     await UntilClickedAgain();
