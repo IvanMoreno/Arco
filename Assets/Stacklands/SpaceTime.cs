@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 namespace Stacklands
@@ -11,25 +12,22 @@ namespace Stacklands
 
         public Stackable ClosestToBeStackedOn(Card card)
         {
-            var nearbyElements = Physics2D.OverlapCircleAll(card.transform.position, StackDetectionRadius);
-            
-            var eligibleStackable = from stackableCandidate in nearbyElements 
-                                    where stackableCandidate.GetComponent<Card>().IsStackableOnMe(card) 
-                                    select stackableCandidate.GetComponent<Stackable>();
-            
-            return eligibleStackable.FirstOrDefault();
+            return EligibleStackable(card).FirstOrDefault();
         }
-        
+
         Stackable ClosestToBeStackedOnOfSameType(Card card)
         {
+            return EligibleStackable(card)
+                .FirstOrDefault(x => x.GetComponent<Card>().BelongsToSameCategory(card));
+        }
+
+        static IEnumerable<Stackable> EligibleStackable(Card card)
+        {
             var nearbyElements = Physics2D.OverlapCircleAll(card.transform.position, StackDetectionRadius);
-            
-            var eligibleStackable = from stackableCandidate in nearbyElements 
-                where stackableCandidate.GetComponent<Card>().IsStackableOnMe(card) 
-                where stackableCandidate.GetComponent<Card>().BelongsToSameCategory(card)
+
+            return from stackableCandidate in nearbyElements
+                where stackableCandidate.GetComponent<Card>().IsStackableOnMe(card)
                 select stackableCandidate.GetComponent<Stackable>();
-            
-            return eligibleStackable.FirstOrDefault();
         }
 
         public void SpawnAt(GameObject what, Vector2 whereExactly)
