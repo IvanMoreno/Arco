@@ -18,8 +18,14 @@ namespace Stacklands
         async void Start()
         {
             UpdateRemainingCardsBadge(cardsToSpawn.Length);
-            await untilClicked.Task;
+            await UntilClickedAgain();
             await OpenPack();
+        }
+
+        async Task UntilClickedAgain()
+        {
+            untilClicked = new();
+            await untilClicked.Task;
         }
 
         void OnMouseDown()
@@ -36,7 +42,9 @@ namespace Stacklands
             {
                 FindAnyObjectByType<SpaceTime>().SpawnNearbyCard(cardsToSpawn[i], whereToSpawnEachCard[i]);
                 UpdateRemainingCardsBadge(cardsToSpawn.Length - i - 1);
-                await Task.Delay(100);
+                
+                if (i < whereToSpawnEachCard.Count - 1)
+                    await UntilClickedAgain();
             }
 
             Destroy(gameObject);
