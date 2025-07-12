@@ -101,4 +101,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 866838f8b0b149bf82903fbf0481a826, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  eatingSound: {fileID: 8300000, guid: f7c3f93c89038d04eac428afbc732f1c, type: 3}
   corpsePrefab: {fileID: 6756000412384352158, guid: f62d9a14007eaf642b947b55ef241c6c, type: 3}
