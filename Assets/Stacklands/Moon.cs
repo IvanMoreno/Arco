@@ -73,6 +73,8 @@ namespace Stacklands
             button.onClick.AddListener(unlockTask);
             await tcs.Task;
             button.onClick.RemoveListener(unlockTask);
+
+            button.GetComponent<AudioSource>().Play();
         }
 
         static async Task FeedVillagers()
