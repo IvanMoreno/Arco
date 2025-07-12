@@ -2,6 +2,7 @@
 using System.Linq;
 using NUnit.Framework;
 using UnityEngine;
+using static Stacklands.Sound.PitchModification;
 
 namespace Stacklands
 {
@@ -38,7 +39,7 @@ namespace Stacklands
             other.transform.position = transform.position + Vector3.down * Card.AssumedSizeAprox.y / 3f;
             other.transform.SetParent(transform);
             
-            GetComponent<AudioSource>().PlayWithPitch(onStacked);
+            GetComponent<AudioSource>().PlayWithPitch(onStacked, SlightlyModified);
         }
 
         public void RemoveFromStack()

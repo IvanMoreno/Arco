@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using TMPro;
 using UnityEngine;
+using static Stacklands.Sound.PitchModification;
 
 namespace Stacklands
 {
@@ -43,7 +44,7 @@ namespace Stacklands
                 FindAnyObjectByType<SpaceTime>().SpawnNearbyCard(cardsToSpawn[i], whereToSpawnEachCard[i]);
                 
                 UpdateRemainingCardsBadge(cardsToSpawn.Length - i - 1);
-                GetComponent<AudioSource>().Play();
+                GetComponent<AudioSource>().PlayWithPitch(SlightlyModified);
                 
                 if (i < whereToSpawnEachCard.Count - 1)
                     await UntilClickedAgain();
