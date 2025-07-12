@@ -14,7 +14,7 @@ namespace Stacklands
 
         public void SpawnNearby(GameObject what, Vector2 whereabouts)
         {
-            
+            Instantiate(what, whereabouts + Vector2.down * Card.AssumedSizeAprox.y, Quaternion.identity);
         }
     }
 }

@@ -43,7 +43,6 @@ namespace Stacklands
 
         void SpawnBerry()
         {
-            Instantiate(berry, transform.position + Vector3.down, Quaternion.identity);
             FindAnyObjectByType<SpaceTime>().SpawnNearby(berry, transform.position);
         }
 
