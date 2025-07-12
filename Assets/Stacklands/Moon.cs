@@ -52,14 +52,19 @@ namespace Stacklands
             var button = FindObjectsOfType<Button>(true).Single(x => x.name == "FeedVillagers");
             button.gameObject.SetActive(true);
             var tcs = new TaskCompletionSource<bool>();
-            button.onClick.AddListener(() =>
-            {
-                GetComponent<Image>().fillAmount = 0;
-                button.gameObject.SetActive(false);
-                button.onClick.RemoveAllListeners();
-                tcs.SetResult(true);
-            });
+            if(!GetComponentInChildren<Toggle>().isOn)
+                button.onClick.AddListener(() => { GoToNextCycle(button, tcs); });
+            else
+                GoToNextCycle(button, tcs);
             await tcs.Task;
+        }
+
+        void GoToNextCycle(Button button, TaskCompletionSource<bool> tcs)
+        {
+            GetComponent<Image>().fillAmount = 0;
+            button.gameObject.SetActive(false);
+            button.onClick.RemoveAllListeners();
+            tcs.SetResult(true);
         }
 
         static async Task FeedVillagers()
