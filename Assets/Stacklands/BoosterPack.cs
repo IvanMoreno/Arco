@@ -19,7 +19,6 @@ namespace Stacklands
         void OnMouseDown()
         {
             untilClicked.TrySetResult(true);
-            Debug.Log("aksdfj");
         }
 
         async Task OpenPack()
