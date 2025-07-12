@@ -27,8 +27,16 @@ namespace Stacklands
             var nearbyElements = Physics2D.OverlapCircleAll(card.transform.position, StackDetectionRadius);
 
             return from stackableCandidate in nearbyElements
-                where stackableCandidate.GetComponent<Card>().IsStackableOnMe(card)
+                where IsStackableOn(stackableCandidate, card)
                 select stackableCandidate.GetComponent<Stackable>();
+        }
+
+        static bool IsStackableOn(Collider2D root, Card card)
+        {
+            if (!root.TryGetComponent<Card>(out var rootCard))
+                return false;
+            
+            return rootCard.IsStackableOnMe(card);
         }
 
         public void SpawnAt(GameObject what, Vector2 whereExactly)
