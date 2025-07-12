@@ -5,13 +5,11 @@ namespace Stacklands
 {
     public class AlwaysOnTop : MonoBehaviour
     {
-        public void OnMouseDown()
-        {
-            IncreaseSortingOrderStartingFrom(HighestOrderInLayer());
-        }
+        public void OnMouseDown() => BringForward();
 
-        void IncreaseSortingOrderStartingFrom(int higherOrderInLayer)
+        public void BringForward()
         {
+            var higherOrderInLayer = HighestOrderInLayer();
             foreach (var renderers in GetComponentsInChildren<SpriteRenderer>())
             {
                 renderers.sortingOrder += higherOrderInLayer;

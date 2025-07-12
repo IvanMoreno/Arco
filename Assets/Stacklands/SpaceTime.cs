@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using NUnit.Framework;
 using UnityEngine;
 
 namespace Stacklands
@@ -32,15 +33,26 @@ namespace Stacklands
 
         public void SpawnAt(GameObject what, Vector2 whereExactly)
         {
-            Instantiate(what, whereExactly, Quaternion.identity);
+            Spawn(what, whereExactly);
         }
-        
+
         public void SpawnNearbyCard(GameObject what, Vector2 whereabouts)
         {
-            var newCard = Instantiate(what, whereabouts + Vector2.down * Card.AssumedSizeAprox.y, Quaternion.identity);
+            var newCard = Spawn(what, whereabouts + Vector2.down * Card.AssumedSizeAprox.y);
 
             var closest = ClosestToBeStackedOnOfSameType(newCard.GetComponent<Card>());
             closest?.StackOnMe(newCard.GetComponent<Stackable>());
+        }
+
+        GameObject Spawn(GameObject what, Vector2 whereExactly)
+        {
+            var instance = Instantiate(what, whereExactly, Quaternion.identity, transform);
+            
+            var alwaysOnTop = instance.GetComponent<AlwaysOnTop>();
+            Assert.NotNull(alwaysOnTop, "Spawned object must have a Card component.");
+            alwaysOnTop.BringForward();
+            
+            return instance;
         }
     }
 }
