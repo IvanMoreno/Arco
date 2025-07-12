@@ -189,6 +189,7 @@ GameObject:
   - component: {fileID: 8151423421604085468}
   - component: {fileID: 5462797224406824832}
   - component: {fileID: 2842530510838427417}
+  - component: {fileID: 7300386333465094897}
   m_Layer: 0
   m_Name: Berry
   m_TagString: Untagged
@@ -335,3 +336,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!114 &7300386333465094897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5556764578522472505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12ac71508a93423d8ee51c787624231e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
