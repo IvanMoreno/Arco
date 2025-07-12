@@ -36,8 +36,6 @@ namespace Stacklands
             other.transform.SetParent(transform);
         }
 
-        public void StackOver(Stackable other) => other.StackOnMe(this);
-
         public void RemoveFromStack()
         {
             if (transform.parent == null || !transform.parent.TryGetComponent<Stackable>(out var parent))
