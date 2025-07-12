@@ -48,7 +48,8 @@ namespace Stacklands
                 if (i < whereToSpawnEachCard.Count - 1)
                     await UntilClickedAgain();
             }
-
+            
+            await Task.Delay(150); //finge la animación, porque si no no se llega a escuchar el sonido.
             Destroy(gameObject);
         }
 
