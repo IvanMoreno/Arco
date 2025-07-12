@@ -62,22 +62,43 @@ namespace Stacklands
             await tcs.Task;
         }
 
-        async Task FeedVillagers()
+        static async Task FeedVillagers()
+        {
+            BreakFoodStacks();
+            await FeedAllVillagers();
+            await KillHungryVillagers();
+        }
+
+        static async Task KillHungryVillagers()
+        {
+            foreach (var hungryVillager in HungryVillagers)
+            {
+                await hungryVillager.Die();
+            }
+        }
+
+        static async Task FeedAllVillagers()
+        {
+            foreach (var food in FindObjectsOfType<Food>())
+            {
+                await FeedFirstHungryVillager(food);
+            }
+        }
+
+        static async Task FeedFirstHungryVillager(Food food)
+        {
+            if (!HungryVillagers.Any()) 
+                return;
+
+            await HungryVillagers.First().Eat();
+            food.Consume();
+        }
+
+        static void BreakFoodStacks()
         {
             foreach (var food in FindObjectsOfType<Food>())
             {
                 food.GetComponent<Stackable>().RemoveFromStack();
-
-                if (!HungryVillagers.Any())
-                    break;
-
-                await HungryVillagers.First().Eat();
-                food.Consume();
-            }
-
-            foreach (var hungryVillager in HungryVillagers)
-            {
-                await hungryVillager.Die();
             }
         }
 
