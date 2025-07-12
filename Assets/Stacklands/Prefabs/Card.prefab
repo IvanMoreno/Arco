@@ -241,8 +241,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fd385636973468ab987cfb3d87b9d0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onPicked: {fileID: 0}
-  onDropped: {fileID: 0}
+  onPicked: {fileID: 8300000, guid: 8fb92669a32b6ba4e8d23650768d699e, type: 3}
+  onDropped: {fileID: 8300000, guid: 6fa57b7797f829142a10add3bb676986, type: 3}
 --- !u!114 &6276201049493187567
 MonoBehaviour:
   m_ObjectHideFlags: 0

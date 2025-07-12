@@ -80,6 +80,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5717628111164435861, guid: 04d7f9209d2a6204a8d4035bccb067a4, type: 3}
+      propertyPath: onPicked
+      value: 
+      objectReference: {fileID: 8300000, guid: c3e9f2cf3dfd4d244b6215b01073c245, type: 3}
+    - target: {fileID: 5717628111164435861, guid: 04d7f9209d2a6204a8d4035bccb067a4, type: 3}
+      propertyPath: onDropped
+      value: 
+      objectReference: {fileID: 8300000, guid: 1386e3ea89c7c8e4286502a952fbbde6, type: 3}
     - target: {fileID: 5919339208809340824, guid: 04d7f9209d2a6204a8d4035bccb067a4, type: 3}
       propertyPath: name
       value: wood
