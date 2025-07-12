@@ -12,7 +12,7 @@ namespace Stacklands
             var higherOrderInLayer = HighestOrderInLayer();
             foreach (var renderers in GetComponentsInChildren<SpriteRenderer>())
             {
-                renderers.sortingOrder += higherOrderInLayer;
+                renderers.sortingOrder = ++higherOrderInLayer;
             }
         }
 
