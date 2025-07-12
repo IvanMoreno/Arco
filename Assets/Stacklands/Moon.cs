@@ -64,7 +64,7 @@ namespace Stacklands
 
         static async Task FeedVillagers()
         {
-            BreakFoodStacks();
+            BreakStacks();
             await FeedAllVillagers();
             await KillHungryVillagers();
         }
@@ -94,11 +94,11 @@ namespace Stacklands
             food.Consume();
         }
 
-        static void BreakFoodStacks()
+        static void BreakStacks()
         {
-            foreach (var food in FindObjectsOfType<Food>())
+            foreach (var stackables in FindObjectsOfType<Stackable>())
             {
-                food.GetComponent<Stackable>().RemoveFromStack();
+                stackables.RemoveFromStack();
             }
         }
 
