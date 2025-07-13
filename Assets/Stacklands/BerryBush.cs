@@ -28,15 +28,18 @@ namespace Stacklands
             await Task.Yield();
             if (!CanStartHarvest())
             {
+                GetComponentInChildren<ProgressBar>().Hide();
                 harvestProgressInSeconds = 0;
                 return;
             }
 
-            harvestProgressInSeconds += Time.deltaTime;
+            harvestProgressInSeconds = Mathf.Clamp(harvestProgressInSeconds + Time.deltaTime, 0, harvestDurationInSeconds);
+            GetComponentInChildren<ProgressBar>().ShowProgress(harvestProgressInSeconds / harvestDurationInSeconds);
             if (harvestProgressInSeconds < harvestDurationInSeconds)
                 return;
 
             SpawnBerry();
+            GetComponentInChildren<ProgressBar>().Hide();
             harvestProgressInSeconds = 0;
             numberOfHarvests--;
         }
