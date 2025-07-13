@@ -1,5 +1,4 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 using System.Threading.Tasks;
 using UnityEngine;
 
@@ -17,35 +16,49 @@ namespace Stacklands
         async void Start()
         {
             while (!destroyCancellationToken.IsCancellationRequested && numberOfHarvests > 0)
-                await HarvestLoop();
+            {
+                HarvestLoop();
+                await Task.Yield();
+            }
 
             DestroyItself();
         }
 
-        async Task HarvestLoop()
+        void HarvestLoop()
         {
-            await Task.Yield();
-            if (!CanStartHarvest())
-            {
-                harvestProgressInSeconds = 0;
-                return;
-            }
-
-            harvestProgressInSeconds += Time.deltaTime;
+            UpdateProgress();
             if (harvestProgressInSeconds < harvestDurationInSeconds)
                 return;
 
-            SpawnStick();
-            harvestProgressInSeconds = 0;
+            SpawnBerry();
+            ResetProgress();
             numberOfHarvests--;
         }
 
-        void SpawnStick()
+        void UpdateProgress()
+        {
+            if (!IsHarvestInProgress())
+            {
+                ResetProgress();
+                return;
+            }
+            
+            harvestProgressInSeconds = Mathf.Clamp(harvestProgressInSeconds + Time.deltaTime, 0, harvestDurationInSeconds);
+            GetComponentInChildren<ProgressBar>().ShowProgress(harvestProgressInSeconds / harvestDurationInSeconds);
+        }
+
+        void ResetProgress()
+        {
+            GetComponentInChildren<ProgressBar>().Hide();
+            harvestProgressInSeconds = 0;
+        }
+
+        void SpawnBerry()
         {
             FindAnyObjectByType<SpaceTime>().SpawnNearbyCard(stickPrefab, transform.position);
         }
 
-        bool CanStartHarvest()
+        bool IsHarvestInProgress()
         {
             return GetComponent<Stackable>().TheWholeStackOverMe.FirstOrDefault()?.TryGetComponent<Villager>(out _) ?? false;
         }
