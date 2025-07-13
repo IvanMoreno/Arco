@@ -10,8 +10,7 @@ namespace Stacklands
         [SerializeField] float decelerationFactor = 2;
         
         readonly HashSet<Stackable> overlappingCards = new();
-        bool IsOverlappingWithAnyCard => overlappingCards.Any();
-        
+
         void FixedUpdate()
         {
             RepelOverlappingCards();
@@ -26,7 +25,7 @@ namespace Stacklands
 
         void Decelerate()
         {
-            if (IsOverlappingWithAnyCard) return;
+            if (overlappingCards.Any()) return;
 
             var rigidbody = GetComponent<Rigidbody2D>();
             rigidbody.linearVelocity = new(Mathf.Lerp(rigidbody.linearVelocity.x, 0, Time.deltaTime * decelerationFactor),
