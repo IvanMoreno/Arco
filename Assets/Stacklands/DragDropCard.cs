@@ -12,11 +12,13 @@ namespace Stacklands
         {
             GetComponent<AudioSource>().PlayWithPitch(onPicked, SlightlyRaised);
             GetComponent<Stackable>().RemoveFromStack();
+            SetCollidersEnable(false);
         }
 
         public void OnMouseUp()
         {
             StackOnNearestCard();
+            SetCollidersEnable(true);
         }
 
         void StackOnNearestCard()
@@ -43,6 +45,14 @@ namespace Stacklands
             Gizmos.color = Color.blue;
             Gizmos.DrawLine(transform.position, toBeStackedOn.transform.position);
             Gizmos.DrawWireSphere(toBeStackedOn.transform.position, 1);
+        }
+
+        void SetCollidersEnable(bool areEnabled)
+        {
+            foreach (var collider in GetComponentsInChildren<Collider2D>())
+            {
+                collider.enabled = areEnabled;
+            }
         }
     }
 }

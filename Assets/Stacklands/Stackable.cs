@@ -44,11 +44,17 @@ namespace Stacklands
 
         public void RemoveFromStack()
         {
-            if (transform.parent == null || !transform.parent.TryGetComponent<Stackable>(out var parent))
+            if (!IsStackedOverOtherCard(out var parent))
                 return;
 
             transform.SetParent(null);
             parent.stackedOverMe = null;
+        }
+
+        public bool IsStackedOverOtherCard(out Stackable parent)
+        {
+            parent = null;
+            return transform.parent != null && transform.parent.TryGetComponent(out parent);
         }
     }
 }

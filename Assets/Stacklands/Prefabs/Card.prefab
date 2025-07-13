@@ -279,6 +279,7 @@ GameObject:
   - component: {fileID: 5717628111164435861}
   - component: {fileID: 6276201049493187567}
   - component: {fileID: 4122006516562251595}
+  - component: {fileID: 3793305384017062084}
   m_Layer: 0
   m_Name: Card
   m_TagString: Untagged
@@ -378,7 +379,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Constraints: 4
 --- !u!114 &5919339208809340824
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -529,6 +530,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &3793305384017062084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785285062287186026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e95090ffa854619b7f448ff031728e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  repelForce: 10
+  decelerationFactor: 30
 --- !u!1 &3070742922571000855
 GameObject:
   m_ObjectHideFlags: 0
