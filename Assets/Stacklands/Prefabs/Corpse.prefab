@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Corpse
       objectReference: {fileID: 0}
+    - target: {fileID: 2559863652361592367, guid: 04d7f9209d2a6204a8d4035bccb067a4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3235788217486406185, guid: 04d7f9209d2a6204a8d4035bccb067a4, type: 3}
       propertyPath: m_Sprite
       value: 
