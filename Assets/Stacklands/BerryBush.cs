@@ -17,31 +17,40 @@ namespace Stacklands
         {
             while (!destroyCancellationToken.IsCancellationRequested && numberOfHarvests > 0)
             {
-                await HarvestLoop();
+                HarvestLoop();
+                await Task.Yield();
             }
 
             DestroyItself();
         }
 
-        async Task HarvestLoop()
+        void HarvestLoop()
         {
-            await Task.Yield();
-            if (!CanStartHarvest())
-            {
-                GetComponentInChildren<ProgressBar>().Hide();
-                harvestProgressInSeconds = 0;
-                return;
-            }
-
-            harvestProgressInSeconds = Mathf.Clamp(harvestProgressInSeconds + Time.deltaTime, 0, harvestDurationInSeconds);
-            GetComponentInChildren<ProgressBar>().ShowProgress(harvestProgressInSeconds / harvestDurationInSeconds);
+            UpdateProgress();
             if (harvestProgressInSeconds < harvestDurationInSeconds)
                 return;
 
             SpawnBerry();
+            ResetProgress();
+            numberOfHarvests--;
+        }
+
+        void UpdateProgress()
+        {
+            if (!IsHarvestInProgress())
+            {
+                ResetProgress();
+                return;
+            }
+            
+            harvestProgressInSeconds = Mathf.Clamp(harvestProgressInSeconds + Time.deltaTime, 0, harvestDurationInSeconds);
+            GetComponentInChildren<ProgressBar>().ShowProgress(harvestProgressInSeconds / harvestDurationInSeconds);
+        }
+
+        void ResetProgress()
+        {
             GetComponentInChildren<ProgressBar>().Hide();
             harvestProgressInSeconds = 0;
-            numberOfHarvests--;
         }
 
         void SpawnBerry()
@@ -49,7 +58,7 @@ namespace Stacklands
             FindAnyObjectByType<SpaceTime>().SpawnNearbyCard(berry, transform.position);
         }
 
-        bool CanStartHarvest()
+        bool IsHarvestInProgress()
         {
             return GetComponent<Stackable>().TheWholeStackOverMe.FirstOrDefault()?.TryGetComponent<Villager>(out _) ?? false;
         }
