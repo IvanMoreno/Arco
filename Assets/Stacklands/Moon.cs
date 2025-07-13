@@ -26,15 +26,18 @@ namespace Stacklands
 
         async Task Cycle(CancellationToken cancellationToken)
         {
-            while( !cancellationToken.IsCancellationRequested)
+            while(!cancellationToken.IsCancellationRequested)
             {
-                await UntilFullMoon();
-                await EndCycle();
+                await UntilFullMoon(cancellationToken);
+                await EndCycle(cancellationToken);
             }
         }
 
-        async Task EndCycle()
+        async Task EndCycle(CancellationToken cancellationToken)
         {
+            if (cancellationToken.IsCancellationRequested)
+                return;
+            
             VillagersGetHungry();
             GetComponent<AudioSource>().Play();
             
@@ -118,9 +121,9 @@ namespace Stacklands
             }
         }
 
-        async Task UntilFullMoon()
+        async Task UntilFullMoon(CancellationToken cancellationToken)
         {
-            while (GetComponent<Image>().fillAmount < 1f)
+            while (!cancellationToken.IsCancellationRequested && GetComponent<Image>().fillAmount < 1f)
                 await Task.Yield();
         }
 

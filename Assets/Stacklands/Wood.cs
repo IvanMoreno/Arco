@@ -13,7 +13,7 @@ namespace Stacklands
         float harvestProgressInSeconds;
         int numberOfHarvests = 1;
         
-        async void Start()
+        async Task Start()
         {
             while (!destroyCancellationToken.IsCancellationRequested && numberOfHarvests > 0)
             {
